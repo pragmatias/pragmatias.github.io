@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Pragmatias Docs</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Pragmatias Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Life</title>
+      <link>/categories/life/</link>
+      <pubDate>Thu, 04 Apr 2019 20:53:54 +0200</pubDate>
+      
+      <guid>/categories/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Releases</title>
+      <link>/categories/releases/</link>
+      <pubDate>Wed, 04 Apr 2018 20:53:54 +0200</pubDate>
+      
+      <guid>/categories/releases/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

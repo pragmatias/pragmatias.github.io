@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pragmatias Documentation on Pragmatias Docs</title>
+    <link>/docs/</link>
+    <description>Recent content in Pragmatias Documentation on Pragmatias Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OpenSUSE Tumbleweed</title>
+      <link>/docs/linux/opensuse_tumbleweed/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/linux/opensuse_tumbleweed/</guid>
+      <description>You could find all the scripts and configuration to install OpenSUSE Tumbleweed in the Github repository.
+Summary test
+ Install Customization Tips  Links  blog.microlinux.fr (OpenSUSE) www.volted.net (ZSH/VIM) KDE Tips  Things to do manually after install  Firefox Config (bookmarks) Thunderbird Config (account) NFS Config (NAS) KeepassXC Config (file) Add &amp;ldquo;Redshift Widget&amp;rdquo; in Latte-Dock (before System Tray)  Install Requirement  Install OpenSUSE Tumbleweed with the KDE/Plasma Desktop Install GIT : sudo zypper in --no-recommend git Get this git repository : git clone https://github.</description>
+    </item>
+    
+    <item>
+      <title>Cluster Hadoop</title>
+      <link>/docs/hadoop/hadoop/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/hadoop/hadoop/</guid>
+      <description>Hadoop</description>
+    </item>
+    
+    <item>
+      <title>Todo</title>
+      <link>/docs/general/todolist/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/general/todolist/</guid>
+      <description> OpenSuse Find a way to move windows with more position than &amp;ldquo;Quick Tile&amp;rdquo; Install &amp;amp; Use KDE Connect Learn how to use &amp;ldquo;KDE Activities&amp;rdquo;  </description>
+    </item>
+    
+    <item>
+      <title>hmmmm</title>
+      <link>/docs/teradata/teradata/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/teradata/teradata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/docs/general/projects/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/general/projects/</guid>
+      <description>under redaction</description>
+    </item>
+    
+  </channel>
+</rss>

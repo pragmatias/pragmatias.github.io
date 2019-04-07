@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life on Pragmatias Docs</title>
+    <link>/categories/life/</link>
+    <description>Recent content in Life on Pragmatias Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2019 20:53:54 +0200</lastBuildDate>
+    
+	<atom:link href="/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hello posts</title>
+      <link>/blog/posts/20180101_hello_posts/</link>
+      <pubDate>Thu, 04 Apr 2019 20:53:54 +0200</pubDate>
+      
+      <guid>/blog/posts/20180101_hello_posts/</guid>
+      <description>Ceci est le premier post et c&amp;rsquo;est uniquement un hello world</description>
+    </item>
+    
+  </channel>
+</rss>
