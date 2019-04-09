@@ -14,39 +14,42 @@
       <copyright>This work is licensed under a WTFPL license</copyright>
     
     
-    <lastBuildDate>Thu, 04 Apr 2019 20:53:54 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jan 2019 20:00:54 +0200</lastBuildDate>
     
     
         <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>hello posts</title>
-      <link>/blog/posts/201801/20180101_hello_posts/</link>
+      <title>Example of a 2019 article</title>
+      <link>/blog/posts/201901/20190101_example_2019/</link>
       <pubDate>
-          Thu, 04 Apr 2019
+          Tue, 01 Jan 2019
       </pubDate>
       <lastModDate>
-          Tue, 04 Apr 2017
+          Wed, 02 Jan 2019
       </lastModDate>
-      <guid>/blog/posts/201801/20180101_hello_posts/</guid>
-      <description>Ceci est le premier post et c&amp;rsquo;est uniquement un hello world</description>
+      <guid>/blog/posts/201901/20190101_example_2019/</guid>
+      <description>Intro Nothing to say
+Really nothing &amp;hellip;
+Step 1 dunno why i put this Step !
+title level 2 ok !
+Try again And more and more</description>
     </item>
     
     <item>
-      <title>Hugo Christmas Edition</title>
-      <link>/blog/posts/201901/release_53/</link>
+      <title>hello posts</title>
+      <link>/blog/posts/201801/20180101_hello_posts/</link>
       <pubDate>
-          Wed, 04 Apr 2018
+          Mon, 01 Jan 2018
       </pubDate>
       <lastModDate>
-          Wed, 04 Apr 2018
+          Wed, 31 Jan 2018
       </lastModDate>
-      <guid>/blog/posts/201901/release_53/</guid>
-      <description>Start How to use image ???
-From all of us to all of you, a very Merry Christmas &amp;ndash; and Hugo 0.53!
-The main new features in this release are:
-Config Dir: You can now split your configuration sections into directories per environment. Hugo did support multiple configuration files before this release, but it was hard to manage for bigger sites, especially those with multiple languages. With this we have also formalized the concept of an environment; the defaults are production (when running hugo) or development (when running hugo server) but you can create any environment you like.</description>
+      <guid>/blog/posts/201801/20180101_hello_posts/</guid>
+      <description>Hello (1) Hi !
+Hello (2) Yeah !
+Hello (3) OK stop now !</description>
     </item>
     
   </channel>

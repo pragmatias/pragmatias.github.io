@@ -9,7 +9,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
      
-    <title>Pragmatias Documentation | Pragmatias</title>
+    <title>OpenSUSE Tips | Pragmatias</title>
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
      <meta name="generator" content="Hugo 0.54.0" />
@@ -18,7 +18,6 @@
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
       
 
-    <link rel="alternate" type="application/rss&#43;xml" href="/docs/index.xml">
     
     
       <link rel="stylesheet" href="/output/css/app.min.bafd9f31af33b759e67c21adcf239f521733055a7eb07d331cf1a248041797b2.css" integrity="sha256-uv2fMa8zt1nmfCGtzyOfUhczBVp&#43;sH0zHPGiSAQXl7I=" crossorigin="anonymous"> 
@@ -49,9 +48,18 @@
       
 
 
-<meta itemprop="name" content="Pragmatias Documentation">
-<meta itemprop="description" content="Pragmatias Documentations">
+<meta itemprop="name" content="OpenSUSE Tips">
+<meta itemprop="description" content="Vous trouverez l&rsquo;ensemble des scripts et configuration pour installer OpenSUSE Tumbleweed dans ce Dépôt Github.
+Zypper  Installation d&rsquo;un package : sudo zypper in --no-recommend package Suppression d&rsquo;un package : sudo zypper rm --clean-deps package Mise à jour des dépôts : sudo zypper ref ou sudo zypper ref -f Mise à jour des packages : sudo zypper up Mise à niveau de la distribution : sudo zypper dup Recherche d&rsquo;un package : sudo zypper se package ou sudo zypper se -is package   Note: remplacer package par le nom du package">
 
+
+<meta itemprop="datePublished" content="2019-04-01T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-04-02T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="703">
+
+
+
+<meta itemprop="keywords" content="" />
 
 
       
@@ -106,19 +114,7 @@
 
     <div class="fl pl3">
 
-         <link rel="alternate" type="application/rss+xml" href="/docs/index.xml" title="Pragmatias" />
-          <a href="/docs/index.xml" title="Pragmatias" class="link-transition pragmatias_svg link dib z-999 pt3 pt0-l mr2">
-            <svg height="24px" id="Layer_1" style="enable-background:new 0 0 508.52 508.52;" version="1.1" viewBox="0 0 508.52 508.52" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path style="fill-rule:evenodd;clip-rule:evenodd;fill:;" d="M254.26,0C113.845,0,0,113.845,0,254.26s113.845,254.26,254.26,254.26
-	s254.26-113.845,254.26-254.26C508.52,113.813,394.675,0,254.26,0z M137.141,412.441c-22.852,0-41.413-18.434-41.413-41.285
-	c0-22.693,18.561-41.349,41.413-41.349c22.915,0,41.444,18.656,41.476,41.349C178.618,393.976,160.088,412.441,137.141,412.441z
-	 M241.197,412.791c0-39.029-15.16-75.674-42.62-103.071c-27.46-27.524-63.978-42.716-102.785-42.716v-59.624
-	c113.177,0,205.315,92.137,205.315,205.41H241.197z M347.001,412.727c0-138.603-112.669-251.399-251.145-251.399v-59.624
-	c171.435,0,310.96,139.589,310.96,311.023H347.001z"/>
-</svg>
-
-          </a>
-        <a href="" title="Mail" class="link-transition pragmatias_svg link dib z-999 pt3 pt0-l mr2">
+         <a href="" title="Mail" class="link-transition pragmatias_svg link dib z-999 pt3 pt0-l mr2">
           <svg height="24px" id="Layer_1" style="enable-background:new 0 0 299.997 299.997;" version="1.1" viewBox="0 0 299.997 299.997" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <path style="fill-rule:evenodd;clip-rule:evenodd;fill:;" d="M149.996,0C67.157,0,0.001,67.158,0.001,149.997c0,82.837,67.156,150,149.995,150s150-67.163,150-150
 	C299.996,67.158,232.835,0,149.996,0z M149.999,52.686l88.763,55.35H61.236L149.999,52.686z M239.868,196.423h-0.009
@@ -190,8 +186,8 @@
 
      
         
-          <a href="/fr/docs/" class="nav-list link-transition pragmatias_svg link dib z-999 pt3 pt0-l mr2" >         
-            <img src="/images/Flag_of_fr.svg" alt="Français"> </a>
+          <a href="/docs/linux/opensuse_tips/" class="nav-list link-transition pragmatias_svg link dib z-999 pt3 pt0-l mr2" >         
+            <img src="/images/Flag_of_en.svg" alt="English"> </a>
          
       
 
@@ -204,13 +200,265 @@
     
     <main role="main" class="content-with-sidebar min-vh-80 pb7 pb0-ns">
       
-  
-  
-  
-  <div class="w-100 ph4 pb5 pb6-ns pt1 mt4 pt3-ns">
+  <article class="w-100 ph4 pb5 pb6-ns pt1 pt5-ns">
+    <div class="flex-l">
 
-  <div class="flex">
-    <div class="dn db-l w-20">
+      <div class="order-2 w-100 w-20-l ph5-m ph0-l mb4 sticky">
+<aside class="fixed-lTK mw5-l right-0 f6 bl-l b--moon-gray pv4 pv0-ns ph4-l nested-list-reset nested-links nested-copy-line-height">
+	
+		<p class="b">What's on this Page</p>
+		<nav id="TableOfContents">
+<ul>
+<li><a href="#zypper">Zypper</a></li>
+<li><a href="#système-de-fichier-btrfs">Système de fichier btrfs</a></li>
+<li><a href="#service-son-pulseaudio">Service son (Pulseaudio)</a></li>
+<li><a href="#service-réseau">Service réseau</a></li>
+<li><a href="#configuration-fstab-with-ntfs-drive">Configuration Fstab (with ntfs drive)</a></li>
+<li><a href="#configuration-the-nfs-client">Configuration the NFS client</a></li>
+<li><a href="#configure-bind-to-switch-desktop-and-quick-tile-window">Configure Bind to Switch Desktop and Quick tile Window</a></li>
+<li><a href="#autostart-kde">Autostart (KDE)</a></li>
+<li><a href="#reset-kde-session">Reset KDE Session</a></li>
+<li><a href="#konsole-configuration">Konsole configuration</a></li>
+<li><a href="#firefox-configuration">Firefox configuration</a></li>
+<li><a href="#latte-dock">Latte Dock</a></li>
+<li><a href="#wmware-tips">WMware tips</a></li>
+<li><a href="#virtualbox-tips">VirtualBox tips</a></li>
+</ul>
+</nav>
+  	
+	
+	</aside>
+</div>
+
+      <div class="order-1 w-80-l mw8 ph0 ph5-ns mid-gray nested-copy-line-height no-underline nested-links nested-img nested-copy-seperator nested-blockquote mt0-ns" style="flex-grow:1;">
+        <div class="documentation-copy center measure-wide-2">
+          <div id="readout" class="fixed right-0 bottom-0">
+          </div>
+          <header class="flex-none w-100">
+  
+  <h1 class="lh-title mb3 mv0 pt3 primary-color-dark">OpenSUSE Tips</h1>
+</header>
+
+<aside class="bt bw1 pt3 mt2 mid-gray b--mid-gray fn w-100">
+  <div class="tr f6 fw6 lh-solid">
+  last update: April 2, 2019
+  </div>
+
+
+
+  
+</aside>
+
+
+
+<div class="prose" id="prose">
+
+
+
+<p>Vous trouverez l&rsquo;ensemble des scripts et configuration pour installer <a href="https://www.opensuse.org/#Tumbleweed">OpenSUSE Tumbleweed</a> dans ce <a href="https://github.com/pragmatias/opensuse">Dépôt Github</a>.</p>
+
+<h1 id="zypper">Zypper</h1>
+
+<ol>
+<li>Installation d&rsquo;un package : <code>sudo zypper in --no-recommend package</code></li>
+<li>Suppression d&rsquo;un package : <code>sudo zypper rm --clean-deps package</code></li>
+<li>Mise à jour des dépôts : <code>sudo zypper ref</code> ou <code>sudo zypper ref -f</code></li>
+<li>Mise à jour des packages : <code>sudo zypper up</code></li>
+<li>Mise à niveau de la distribution : <code>sudo zypper dup</code></li>
+<li>Recherche d&rsquo;un package : <code>sudo zypper se package</code> ou <code>sudo zypper se -is package</code></li>
+</ol>
+
+<blockquote>
+<p>Note: remplacer <strong>package</strong> par le nom du package</p>
+</blockquote>
+
+<h1 id="système-de-fichier-btrfs">Système de fichier btrfs</h1>
+
+<p>Si btrfs-cleaner utilise 100% du CPU and bloque votre pc, vous pouvez l&rsquo;arrêter avec la commande suivante : <code>sudo btrfs quota disable /</code></p>
+
+<h1 id="service-son-pulseaudio">Service son (Pulseaudio)</h1>
+
+<p>Pour redémarrer pulseaudio, utilisez : <code>pulseaudio -k</code></p>
+
+<h1 id="service-réseau">Service réseau</h1>
+
+<p>Pour redémarrer le service réseau, utilisez :<code>sudo rcnetwork restart network_interface</code></p>
+
+<blockquote>
+<p>Note: remplacer <strong>network_interface</strong> par votre nom d&rsquo;interface (utilisez <code>ifconfig</code>)</p>
+</blockquote>
+
+<h1 id="configuration-fstab-with-ntfs-drive">Configuration Fstab (with ntfs drive)</h1>
+
+<p>For each drive :</p>
+
+<ol>
+<li>Create the following folder : <code>mkdir /mnt/&lt;name&gt;</code></li>
+<li>change the folder owner : <code>chown anybody:wheel /mnt/&lt;name&gt;</code></li>
+<li>update the fstab file <code>sudo vi /etc/fstab</code> with the following line : <code>/dev/&lt;drive&gt;          /mnt/&lt;name&gt;          ntfs     rw,nosuid,nodev,relatime   0  0</code></li>
+</ol>
+
+<p>Tips :
+ - list partitions : <code>sudo fdisk -l</code>
+ - list block devices : <code>lsblk</code>
+ - list uuid : <code>sudo blkid</code></p>
+
+<h1 id="configuration-the-nfs-client">Configuration the NFS client</h1>
+
+<ul>
+<li>Discover the shared volumes on the NFS server : <code>showmount -e &lt;ip&gt;</code></li>
+<li>Mount a shared volume from the NFS server (manually) : <code>sudo mount -t nfs &lt;ip&gt;:&lt;repnfs&gt; &lt;replocal&gt;</code></li>
+<li>Mount a shared volume from the NFS server (automatically) : <code>sudo vi /etc/fstab</code> and add the line <code>&lt;ip&gt;:&lt;repnfs&gt; &lt;replocal&gt; nfs rw,noauto,_netdev 0 0</code></li>
+<li>Mount all the fstab (reload) : <code>mount -a</code></li>
+</ul>
+
+<blockquote>
+<ul>
+<li><strong>ip</strong> of the NFS server</li>
+<li><strong>repnfs</strong> : path/folder on the NFS server</li>
+<li><strong>replocal</strong> : path/folder on the NFS client</li>
+</ul>
+</blockquote>
+
+<h1 id="configure-bind-to-switch-desktop-and-quick-tile-window">Configure Bind to Switch Desktop and Quick tile Window</h1>
+
+<ol>
+<li>Go to System Settings &gt; Shortcuts &gt; Global Shortcuts &gt; System Settings or Kwin</li>
+</ol>
+
+<blockquote>
+<p>| Action | Global |
+|&ndash;|&ndash;|
+| Quick Tile Window to the Bottom | Meta+Num+2 |
+| Quick Tile Window to the Bottom Left | Meta+Num+1 |
+| Quick Tile Window to the Bottom Right | Meta+Num+3 |
+| Quick Tile Window to the Left | Meta+Num+4 |
+| Quick Tile Window to the Right | Meta+Num+6 |
+| Quick Tile Window to the Top | Meta+Num+8 |
+| Quick Tile Window to the Top Left | Meta+Num+7 |
+| Quick Tile Window to the Top Right | Meta+Num+9 |
+| Switch One Desktop Down | Meta+Down |
+| Switch One Desktop to the Left | Meta+Left |
+| Switch One Desktop to the Right | Meta+Right |
+| Switch One Desktop Up | Meta+Up |
+| Full screen Window | Meta+f |</p>
+</blockquote>
+
+<ol>
+<li>Right Click on the desktop wallpaper &gt; Configure Desktop &gt; Mouse Actions &gt; Remove action &ldquo;Switch Desktop&rdquo; for &ldquo;Vertical-Scroll&rdquo;</li>
+</ol>
+
+<h1 id="autostart-kde">Autostart (KDE)</h1>
+
+<p>Copy a file <strong>org.kde.*.desktop</strong> in the folder <strong>~/.config/autostart</strong></p>
+
+<blockquote>
+<p>You could find them in the folder <em>/usr/share/applications</em></p>
+</blockquote>
+
+<p>Or use System Settings &gt; Startup and Shutdown &gt; Autostart</p>
+
+<h1 id="reset-kde-session">Reset KDE Session</h1>
+
+<p>Reset the current KDE session (kill all process &amp; logout) : <code>pkill -kill -u username</code></p>
+
+<blockquote>
+<p>Note : replace <strong>username</strong> by the name of the choosen one</p>
+</blockquote>
+
+<h1 id="konsole-configuration">Konsole configuration</h1>
+
+<p>In Settings &gt; Edit Current Profile</p>
+
+<ol>
+<li>General &gt; Profile name &gt; Users</li>
+<li>General &gt; Command &gt; /bin/bash</li>
+<li>Appearance &gt; Color Scheme &amp; Background &gt; Monokai-Flat</li>
+<li>Keyboard &gt; Linux console</li>
+</ol>
+
+<h1 id="firefox-configuration">Firefox configuration</h1>
+
+<p>The file <strong>places.sqlite</strong> in <strong>$HOME/.mozilla/firefox/%.default</strong> contains bookmarks and history</p>
+
+<p>List of interesting addons :</p>
+
+<ul>
+<li>Ublock Origin</li>
+<li>HTTPS Everywhere</li>
+<li>Canvasblocker</li>
+<li>Cookie autodelete</li>
+<li>Css exfil protection</li>
+<li>DecentralEyes</li>
+<li>Redirector</li>
+<li>Select context search</li>
+<li>Awesome RSS</li>
+<li>Privacy Badger</li>
+<li>No Coin</li>
+</ul>
+
+<h1 id="latte-dock">Latte Dock</h1>
+
+<p>List of widgets :</p>
+
+<ul>
+<li>Application Menu</li>
+<li>Pager</li>
+<li>Justify Splitter</li>
+<li>Latte plasmoid</li>
+<li>Justify Splitter</li>
+<li>System Tray</li>
+<li>Digital Clock</li>
+<li>Lock/Logout</li>
+</ul>
+
+<blockquote>
+<p>You need to download and add manually the widget &ldquo;redshift&rdquo;</p>
+</blockquote>
+
+<p>To restore plasma config (panel) :</p>
+
+<ol>
+<li><code>kquitapp plasmashell</code></li>
+<li><code>sleep 10s</code></li>
+<li><code>cp &lt;plasma_files_backup&gt; $HOME/.config/.</code></li>
+<li><code>plasmashell &amp;</code></li>
+</ol>
+
+<h1 id="wmware-tips">WMware tips</h1>
+
+<p><a href="https://en.opensuse.org/SDB:VMware_Tools">Shared Folder</a> :</p>
+
+<ul>
+<li>Listing of shared folder : <code>vmware-hgfsclient</code></li>
+<li>Mount a shared folder : <code>vmhgfs-fuse -o allow_other .host: /mnt/</code></li>
+<li>Unmount a shared folder : <code>fusermount -uz /mnt/</code>or <code>umount -f /mnt/</code></li>
+</ul>
+
+<h1 id="virtualbox-tips">VirtualBox tips</h1>
+
+<p>Install VBoxGuestAdditions :</p>
+
+<ol>
+<li>insert file VBoxGuestAdditions*.iso in the cdrom</li>
+<li><code>sudo mkdir -p /media/cdrom</code></li>
+<li><code>sudo mount -t iso9660 /dev/cdrom /media/cdrom</code></li>
+<li><code>cd /media/cdrom</code></li>
+<li><code>sudo ./VBoxLinuxAdditions.run</code></li>
+</ol>
+
+<p>Install VirtualBox package :</p>
+
+<ol>
+<li><code>sudo zypper in virtualbox-guest-tools virtualbox-guest-x11</code></li>
+</ol>
+
+</div>
+
+
+        </div>
+      </div>
+      <div class="order-0 w-20 dn db-l">
         
 <nav role="navigation">
   <ul class="list pa0 nl2">
@@ -220,24 +468,24 @@
         <span class="dib w-100 link mid-gray pl2 pr2 pv2 " data-target=".general">General</span>
         <ul class="general desktopmenu animated fadeIn list pl0 db">
           <li class="f6 fw4">
-            <a href="/docs/general/todolist/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
-              Todo List
+            <a href="/fr/docs/general/todolist/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Liste des tâches
             </a>
           </li>
         </ul>
       </li>
       
       <li class="f5 w-100 hover-accent-color-light fw8">
-        <span class="dib w-100 link mid-gray pl2 pr2 pv2 " data-target=".linux">Linux</span>
+        <span class="dib w-100 link mid-gray pl2 pr2 pv2  primary-color" data-target=".linux">Linux</span>
         <ul class="linux desktopmenu animated fadeIn list pl0 db">
           <li class="f6 fw4">
-            <a href="/docs/linux/opensuse_tw/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+            <a href="/fr/docs/linux/opensuse_tw/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
               OpenSUSE (TW)
             </a>
           </li>
           <li class="f6 fw4">
-            <a href="/docs/linux/opensuse_tips/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
-              OpenSUSE (Tips)
+            <a href="/fr/docs/linux/opensuse_tips/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 primary-color ">
+              OpenSUSE (Astuces)
             </a>
           </li>
         </ul>
@@ -245,29 +493,11 @@
   </ul>
 </nav>
 
-    </div>
-
-    <div class="w-100 w-80-l ph0 ph4-l">
-      <article class="w-100 nested-copy-line-height nested-links nested-img">
-        <h1 class="primary-color-dark f2">
-          Pragmatias Documentation
-        </h1>
-        <div class=" mid-gray f5 f4-l">
-          <p>Below you will find some of the most common and helpful pages from our documentation.</p>
-
-        </div>
-      </article>
-
-
-
-      
-
+      </div>
 
     </div>
+  </article>
 
-  </div>
-
-</div>
 
 
     </main>
@@ -326,8 +556,8 @@
         </span>
     <ul class="general list dib ph0 pv0 ma0 scrolling-touch tc">
       <li class="tl dib ph0 pv0 ma0 hover-bg-black w-100">
-        <a href="/docs/general/todolist/" class="f6 link  hover-white-80 db brand-font mb1 ma0 w-100 pv2 ph4 pl5-ns primary-color-light">
-          Todo List
+        <a href="/fr/docs/general/todolist/" class="f6 link  hover-white-80 db brand-font mb1 ma0 w-100 pv2 ph4 pl5-ns primary-color-light">
+          Liste des tâches
         </a>
       </li>
     </ul>       
@@ -342,13 +572,13 @@
         </span>
     <ul class="linux list dib ph0 pv0 ma0 scrolling-touch tc">
       <li class="tl dib ph0 pv0 ma0 hover-bg-black w-100">
-        <a href="/docs/linux/opensuse_tw/" class="f6 link  hover-white-80 db brand-font mb1 ma0 w-100 pv2 ph4 pl5-ns primary-color-light">
+        <a href="/fr/docs/linux/opensuse_tw/" class="f6 link  hover-white-80 db brand-font mb1 ma0 w-100 pv2 ph4 pl5-ns primary-color-light">
           OpenSUSE (TW)
         </a>
       </li>
       <li class="tl dib ph0 pv0 ma0 hover-bg-black w-100">
-        <a href="/docs/linux/opensuse_tips/" class="f6 link  hover-white-80 db brand-font mb1 ma0 w-100 pv2 ph4 pl5-ns primary-color-light">
-          OpenSUSE (Tips)
+        <a href="/fr/docs/linux/opensuse_tips/" class="f6 link  hover-white-80 db brand-font mb1 ma0 w-100 pv2 ph4 pl5-ns primary-color-light">
+          OpenSUSE (Astuces)
         </a>
       </li>
     </ul>       

@@ -9,7 +9,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
      
-    <title>Pragmatias Documentation | Pragmatias</title>
+    <title>OpenSUSE Tumbleweed | Pragmatias</title>
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
      <meta name="generator" content="Hugo 0.54.0" />
@@ -18,7 +18,6 @@
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
       
 
-    <link rel="alternate" type="application/rss&#43;xml" href="/docs/index.xml">
     
     
       <link rel="stylesheet" href="/output/css/app.min.bafd9f31af33b759e67c21adcf239f521733055a7eb07d331cf1a248041797b2.css" integrity="sha256-uv2fMa8zt1nmfCGtzyOfUhczBVp&#43;sH0zHPGiSAQXl7I=" crossorigin="anonymous"> 
@@ -49,9 +48,18 @@
       
 
 
-<meta itemprop="name" content="Pragmatias Documentation">
-<meta itemprop="description" content="Pragmatias Documentations">
+<meta itemprop="name" content="OpenSUSE Tumbleweed">
+<meta itemprop="description" content="You could find all the scripts and configuration to install OpenSUSE Tumbleweed in the Github repository.
+Install Summary  Requirement Steps Things to do manually after install  Requirement  Install OpenSUSE Tumbleweed with the KDE/Plasma Desktop Install GIT : sudo zypper in --no-recommend git Get this git repository : git clone https://github.com/pragmatias/OpenSUSE.git ~/tmp_install Go to the scripts folder : cd ~/tmp_install/scripts   Proxy : somes information if you want to install OpenSUSE Tumbleweed behind a proxy">
 
+
+<meta itemprop="datePublished" content="2019-04-01T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-04-02T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="469">
+
+
+
+<meta itemprop="keywords" content="" />
 
 
       
@@ -106,19 +114,7 @@
 
     <div class="fl pl3">
 
-         <link rel="alternate" type="application/rss+xml" href="/docs/index.xml" title="Pragmatias" />
-          <a href="/docs/index.xml" title="Pragmatias" class="link-transition pragmatias_svg link dib z-999 pt3 pt0-l mr2">
-            <svg height="24px" id="Layer_1" style="enable-background:new 0 0 508.52 508.52;" version="1.1" viewBox="0 0 508.52 508.52" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path style="fill-rule:evenodd;clip-rule:evenodd;fill:;" d="M254.26,0C113.845,0,0,113.845,0,254.26s113.845,254.26,254.26,254.26
-	s254.26-113.845,254.26-254.26C508.52,113.813,394.675,0,254.26,0z M137.141,412.441c-22.852,0-41.413-18.434-41.413-41.285
-	c0-22.693,18.561-41.349,41.413-41.349c22.915,0,41.444,18.656,41.476,41.349C178.618,393.976,160.088,412.441,137.141,412.441z
-	 M241.197,412.791c0-39.029-15.16-75.674-42.62-103.071c-27.46-27.524-63.978-42.716-102.785-42.716v-59.624
-	c113.177,0,205.315,92.137,205.315,205.41H241.197z M347.001,412.727c0-138.603-112.669-251.399-251.145-251.399v-59.624
-	c171.435,0,310.96,139.589,310.96,311.023H347.001z"/>
-</svg>
-
-          </a>
-        <a href="" title="Mail" class="link-transition pragmatias_svg link dib z-999 pt3 pt0-l mr2">
+         <a href="" title="Mail" class="link-transition pragmatias_svg link dib z-999 pt3 pt0-l mr2">
           <svg height="24px" id="Layer_1" style="enable-background:new 0 0 299.997 299.997;" version="1.1" viewBox="0 0 299.997 299.997" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <path style="fill-rule:evenodd;clip-rule:evenodd;fill:;" d="M149.996,0C67.157,0,0.001,67.158,0.001,149.997c0,82.837,67.156,150,149.995,150s150-67.163,150-150
 	C299.996,67.158,232.835,0,149.996,0z M149.999,52.686l88.763,55.35H61.236L149.999,52.686z M239.868,196.423h-0.009
@@ -190,7 +186,7 @@
 
      
         
-          <a href="/fr/docs/" class="nav-list link-transition pragmatias_svg link dib z-999 pt3 pt0-l mr2" >         
+          <a href="/fr/docs/linux/opensuse_tw/" class="nav-list link-transition pragmatias_svg link dib z-999 pt3 pt0-l mr2" >         
             <img src="/images/Flag_of_fr.svg" alt="Français"> </a>
          
       
@@ -204,13 +200,187 @@
     
     <main role="main" class="content-with-sidebar min-vh-80 pb7 pb0-ns">
       
-  
-  
-  
-  <div class="w-100 ph4 pb5 pb6-ns pt1 mt4 pt3-ns">
+  <article class="w-100 ph4 pb5 pb6-ns pt1 pt5-ns">
+    <div class="flex-l">
 
-  <div class="flex">
-    <div class="dn db-l w-20">
+      <div class="order-2 w-100 w-20-l ph5-m ph0-l mb4 sticky">
+<aside class="fixed-lTK mw5-l right-0 f6 bl-l b--moon-gray pv4 pv0-ns ph4-l nested-list-reset nested-links nested-copy-line-height">
+	
+		<p class="b">What's on this Page</p>
+		<nav id="TableOfContents">
+<ul>
+<li><a href="#install">Install</a>
+<ul>
+<li>
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#requirement">Requirement</a>
+<ul>
+<li>
+<ul>
+<li><a href="#with-yast">With Yast</a></li>
+<li><a href="#with-bashrc">With Bashrc</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#steps">Steps</a></li>
+<li><a href="#things-to-do-manually-after-install">Things to do manually after install</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#customization-kde-plasma-desktop">Customization (KDE/Plasma Desktop)</a></li>
+<li><a href="#ressources">Ressources</a></li>
+</ul>
+</nav>
+  	
+	
+	</aside>
+</div>
+
+      <div class="order-1 w-80-l mw8 ph0 ph5-ns mid-gray nested-copy-line-height no-underline nested-links nested-img nested-copy-seperator nested-blockquote mt0-ns" style="flex-grow:1;">
+        <div class="documentation-copy center measure-wide-2">
+          <div id="readout" class="fixed right-0 bottom-0">
+          </div>
+          <header class="flex-none w-100">
+  
+  <h1 class="lh-title mb3 mv0 pt3 primary-color-dark">OpenSUSE Tumbleweed</h1>
+</header>
+
+<aside class="bt bw1 pt3 mt2 mid-gray b--mid-gray fn w-100">
+  <div class="tr f6 fw6 lh-solid">
+  last update: April 2, 2019
+  </div>
+
+
+
+  
+</aside>
+
+
+
+<div class="prose" id="prose">
+
+
+
+<p>You could find all the scripts and configuration to install <a href="https://www.opensuse.org/#Tumbleweed">OpenSUSE Tumbleweed</a> in the <a href="https://github.com/pragmatias/opensuse">Github repository</a>.</p>
+
+<h1 id="install">Install</h1>
+
+<h3 id="summary">Summary</h3>
+
+<ol>
+<li><a href="#requirement">Requirement</a></li>
+<li><a href="#steps">Steps</a></li>
+<li><a href="#Tips">Things to do manually after install</a></li>
+</ol>
+
+<h3 id="requirement">Requirement</h3>
+
+<ol>
+<li>Install <a href="https://software.opensuse.org/distributions/tumbleweed">OpenSUSE Tumbleweed</a> with the <a href="https://www.kde.org/plasma-desktop">KDE/Plasma Desktop</a></li>
+<li>Install <a href="https://git-scm.com/">GIT</a> : <code>sudo zypper in --no-recommend git</code></li>
+<li>Get this git <a href="https://github.com/pragmatias/OpenSUSE">repository</a> : <code>git clone https://github.com/pragmatias/OpenSUSE.git ~/tmp_install</code></li>
+<li>Go to the scripts folder : <code>cd ~/tmp_install/scripts</code></li>
+</ol>
+
+<blockquote>
+<p><strong>Proxy</strong> : somes information if you want to install OpenSUSE Tumbleweed behind a proxy</p>
+
+<h5 id="with-yast">With Yast</h5>
+
+<ol>
+<li>Open Yast &gt; Network Services &gt; Proxy</li>
+<li>Click on Enable Proxy and fill all the needed information in &ldquo;Proxy Setting&rdquo; and &ldquo;Proxy Authentification&rdquo;</li>
+</ol>
+
+<h5 id="with-bashrc">With Bashrc</h5>
+
+<ol>
+<li>Add http information : <code>echo &quot;export http_proxy=http://proxy_ip:proxy_port&quot; &gt;&gt; ~/.bashrc</code></li>
+<li>Add https information : <code>echo &quot;export https_proxy=http://proxy_ip:proxy_port&quot; &gt;&gt; ~/.bashrc</code></li>
+<li>Add no proxy information : <code>echo &quot;export no_proxy=localhost,127.0.0.1&quot; &gt;&gt; ~/.bashrc</code></li>
+<li>Add ftp information : <code>echo &quot;export ftp_proxy=http://proxy_ip:proxy_port&quot; &gt;&gt; ~/.bashrc</code></li>
+</ol>
+</blockquote>
+
+<h3 id="steps">Steps</h3>
+
+<ol>
+<li>Configure the repositories list : <code>sudo ./01_TW_config_repository.sh</code></li>
+</ol>
+
+<blockquote>
+<p><em>Note</em> : you need to remove the nvidia repository if you don&rsquo;t have a nvidia graphic card</p>
+</blockquote>
+
+<ol>
+<li>Remove the listed packages : <code>sudo ./02_TW_remove_package.sh</code></li>
+<li>Install the listed packages : <code>sudo ./03_TW_install_package.sh</code></li>
+</ol>
+
+<blockquote>
+<p><em>Note</em> : if the &ldquo;vlc-codecs&rdquo; installation isn&rsquo;t [OK], you need to install it manually with the command <code>sudo zypper in --no-recommend vlc-codecs</code> and choose options with vendor change for the libraries</p>
+</blockquote>
+
+<ol>
+<li>Install of truetype proprietary fonts : <code>sudo ./04_TW_install_fonts_truetype.sh</code></li>
+<li>Customization of users : <code>sudo ./05_TW_customize_users.sh</code></li>
+<li>Install the graphic card driver (manually) : <code>sudo zypper in nvidia-glG05</code></li>
+<li>Restart your computer : <code>sudo shutdown -r 0</code></li>
+<li>Remove the tmp_install folder : <code>rm -rf ~/tmp_install</code></li>
+</ol>
+
+<h3 id="things-to-do-manually-after-install">Things to do manually after install</h3>
+
+<ul>
+<li>Firefox Config (bookmarks)</li>
+<li>Thunderbird Config (account)</li>
+<li>NFS Config (NAS)</li>
+<li>KeepassXC Config (file)</li>
+<li>Add &ldquo;Redshift Widget&rdquo; in Latte-Dock (before System Tray)</li>
+</ul>
+
+<h1 id="customization-kde-plasma-desktop">Customization (KDE/Plasma Desktop)</h1>
+
+<ul>
+<li>KDE System (System settings)
+
+<ul>
+<li>Workspace Theme &gt; Look And Feel &gt; Breeze Dark</li>
+<li>Workspace Theme &gt; Desktop Theme &gt; Breeze Dark</li>
+<li>Splash Screen &gt; openSUSE</li>
+<li>Icons &gt; Icons &gt; Papirus-Dark</li>
+<li>Fonts &gt; Fonts &gt; Ubuntu (Hack for &ldquo;Fixed  width&rdquo;)</li>
+<li>Application Style &gt; Window Decorations &gt; Border size : No Borders</li>
+<li>Application Style &gt; Window Decorations &gt; Breeze (Customize : &ldquo;Small&rdquo; Button Size, check only &ldquo;Draw window background gradient&rdquo;)</li>
+<li>Desktop Behavior &gt; Workspace &gt; Click behavior &gt; Double-click to open files and folders</li>
+<li>Desktop Behavior &gt; Screen Locking &gt; deactivation Lock screen automatically</li>
+<li>Desltop Behavior &gt; Virtual Desktop &gt; Desktop (Customize : Number of desktops = 4 and Number of rows = 1)</li>
+<li>Input Devices &gt; Keyboard &gt; NumLock on Plasma Startup &gt; Turn on</li>
+</ul></li>
+<li>KDE Desktop
+
+<ul>
+<li>Right Click on the desktop wallpaper &gt; Configure Desktop &gt; Tweask &gt; Uncheck Show the desktop toolbox</li>
+<li>Right Click on the desktop wallpaper &gt; Configure Desktop &gt; Filter &gt; Show Files Matching</li>
+<li>Right Click on the desktop wallpaper &gt; Configure Desktop &gt; Wallpaper &gt; Add Image &gt; Choose your wallpaper</li>
+</ul></li>
+</ul>
+
+<h1 id="ressources">Ressources</h1>
+
+<p>This work is based on the following ressources :</p>
+
+<ul>
+<li><a href="https://blog.microlinux.fr">blog.microlinux.fr</a> <em>(<a href="https://blog.microlinux.fr/tag/opensuse/">OpenSUSE</a>)</em></li>
+<li><a href="https://www.volted.net/">www.volted.net</a> <em>(<a href="un-prompt-zsh-au-poil18555.html">ZSH</a>/<a href="https://www.volted.net/un-vimrc-remis-au-propre18752.html">VIM</a>)</em></li>
+<li><a href="https://zren.github.io/kde/#configuration">KDE Tips</a></li>
+</ul>
+
+</div>
+
+
+        </div>
+      </div>
+      <div class="order-0 w-20 dn db-l">
         
 <nav role="navigation">
   <ul class="list pa0 nl2">
@@ -228,10 +398,10 @@
       </li>
       
       <li class="f5 w-100 hover-accent-color-light fw8">
-        <span class="dib w-100 link mid-gray pl2 pr2 pv2 " data-target=".linux">Linux</span>
+        <span class="dib w-100 link mid-gray pl2 pr2 pv2  primary-color" data-target=".linux">Linux</span>
         <ul class="linux desktopmenu animated fadeIn list pl0 db">
           <li class="f6 fw4">
-            <a href="/docs/linux/opensuse_tw/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+            <a href="/docs/linux/opensuse_tw/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 primary-color ">
               OpenSUSE (TW)
             </a>
           </li>
@@ -245,29 +415,11 @@
   </ul>
 </nav>
 
-    </div>
-
-    <div class="w-100 w-80-l ph0 ph4-l">
-      <article class="w-100 nested-copy-line-height nested-links nested-img">
-        <h1 class="primary-color-dark f2">
-          Pragmatias Documentation
-        </h1>
-        <div class=" mid-gray f5 f4-l">
-          <p>Below you will find some of the most common and helpful pages from our documentation.</p>
-
-        </div>
-      </article>
-
-
-
-      
-
+      </div>
 
     </div>
+  </article>
 
-  </div>
-
-</div>
 
 
     </main>
