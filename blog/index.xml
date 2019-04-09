@@ -1,31 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Pragmatias Docs</title>
+    <title> Pragmatias Blog </title>
     <link>/blog/</link>
-    <description>Recent content in Blogs on Pragmatias Docs</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <description>Recent content in Pragmatias Blog</description>
+    <generator>Hugo</generator>
+    
+      <language>en-us</language>
+    
+    
+    
+    
+      <copyright>This work is licensed under a WTFPL license</copyright>
+    
+    
     <lastBuildDate>Thu, 04 Apr 2019 20:53:54 +0200</lastBuildDate>
     
-	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>hello posts</title>
-      <link>/blog/posts/20180101_hello_posts/</link>
-      <pubDate>Thu, 04 Apr 2019 20:53:54 +0200</pubDate>
-      
-      <guid>/blog/posts/20180101_hello_posts/</guid>
+      <link>/blog/posts/201801/20180101_hello_posts/</link>
+      <pubDate>
+          Thu, 04 Apr 2019
+      </pubDate>
+      <lastModDate>
+          Tue, 04 Apr 2017
+      </lastModDate>
+      <guid>/blog/posts/201801/20180101_hello_posts/</guid>
       <description>Ceci est le premier post et c&amp;rsquo;est uniquement un hello world</description>
     </item>
     
     <item>
       <title>Hugo Christmas Edition</title>
-      <link>/blog/posts/test_1/</link>
-      <pubDate>Wed, 04 Apr 2018 20:53:54 +0200</pubDate>
-      
-      <guid>/blog/posts/test_1/</guid>
+      <link>/blog/posts/201901/release_53/</link>
+      <pubDate>
+          Wed, 04 Apr 2018
+      </pubDate>
+      <lastModDate>
+          Wed, 04 Apr 2018
+      </lastModDate>
+      <guid>/blog/posts/201901/release_53/</guid>
       <description>Start How to use image ???
 From all of us to all of you, a very Merry Christmas &amp;ndash; and Hugo 0.53!
 The main new features in this release are:
