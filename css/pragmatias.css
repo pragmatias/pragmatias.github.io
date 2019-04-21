@@ -418,7 +418,7 @@ body {
 @media (min-width: 768px) {
 	.prag-toc {
 	  position:fixed;
-	  top: 100px;
+	  top: 70px;
 	  right: 0px;
 	  width: 20%;
 	}
