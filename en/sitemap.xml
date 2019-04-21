@@ -3,138 +3,133 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/docs/linux/opensuse_tw/</loc>
-    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
+    <loc>/en/2019/04/20/tips-for-opensuse-tumbleweed/</loc>
+    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/docs/linux/opensuse_tw/"
+                href="/2019/04/20/astuces-pour-opensuse-tumbleweed/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/docs/linux/opensuse_tw/"
+                href="/en/2019/04/20/tips-for-opensuse-tumbleweed/"
                 />
   </url>
   
   <url>
-    <loc>/docs/general/todolist/</loc>
-    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+    <loc>/en/archives/</loc>
+    <lastmod>2019-04-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/docs/general/todolist/"
+                href="/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/docs/general/todolist/"
+                href="/en/archives/"
                 />
   </url>
   
   <url>
-    <loc>/docs/linux/opensuse_tips/</loc>
-    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/docs/linux/opensuse_tips/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/docs/linux/opensuse_tips/"
-                />
+    <loc>/en/2019/02/05/install-of-opensuse-tumbleweed/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-04-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-  </url>
-  
-  <url>
-    <loc>/docs/</loc>
-    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/docs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/docs/"
-                />
-  </url>
-  
-  <url>
-    <loc>/blog/posts/201901/20190101_example_2019/</loc>
-    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/blog/posts/201901/20190101_example_2019/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/blog/posts/201901/20190101_example_2019/"
-                />
-  </url>
-  
-  <url>
-    <loc>/blog/posts/201801/20180101_hello_posts/</loc>
-    <lastmod>2018-01-31T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/blog/posts/201801/20180101_hello_posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/blog/posts/201801/20180101_hello_posts/"
-                />
-  </url>
-  
-  <url>
-    <loc>/blog/</loc>
-    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+    <loc>/en/blog/</loc>
+    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="/blog/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/blog/"
+                />
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/en/tags/linux/</loc>
+    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/categories/"
+                href="/tags/linux/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="/en/tags/linux/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/opensuse/</loc>
+    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/tags/opensuse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/opensuse/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/</loc>
+    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/</loc>
+    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/tips/</loc>
+    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/tags/tips/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/tips/"
                 />
   </url>
   
