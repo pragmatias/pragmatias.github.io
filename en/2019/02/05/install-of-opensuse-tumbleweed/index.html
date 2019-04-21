@@ -162,7 +162,7 @@
 
 
 		
-		<a href="#" class="prag-sticky-bot">
+		<a id="showTopBtn" href="#" class="prag-sticky-bot">
 			<svg height="24px" id="Layer_1" style="enable-background:new 0 0 438.533 438.533;" version="1.1" viewBox="0 0 438.533 438.533" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<path style="fill-rule:evenodd;clip-rule:evenodd;fill:;" d="M409.133,109.203c-19.608-33.592-46.205-60.189-79.798-79.796C295.736,9.801,259.058,0,219.273,0
 		c-39.781,0-76.47,9.801-110.063,29.407c-33.595,19.604-60.192,46.201-79.8,79.796C9.801,142.8,0,179.489,0,219.267
@@ -179,6 +179,28 @@
 </svg>
 
 		</a>
+
+		
+		<script type="text/javascript">
+		$(document).ready(function(){
+
+			$('#showTopBtn').removeClass("prag-sticky-bot");
+			$('#showTopBtn').addClass("prag-sticky-hide");
+
+		    $(function () {
+		        $(window).scroll(function () {
+		            if ($(this).scrollTop() > 900 ) {
+		            	$('#showTopBtn').addClass("prag-sticky-bot");
+		            	$('#showTopBtn').removeClass("prag-sticky-hide");
+		            } else {
+		            	$('#showTopBtn').addClass("prag-sticky-hide");
+		            	$('#showTopBtn').removeClass("prag-sticky-bot");
+		            }
+		           });
+		    });
+		});
+
+		</script>
 
 	    <main class="blog-post-main">
 	    	<p>Avant de passer sur une distribution GNU/Linux, il était temps de faire un cahier des charges de ce que j&rsquo;en attendais.

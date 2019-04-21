@@ -328,6 +328,10 @@ body {
 
 
 /* style du petit bouton permettant de retourner facilement en haut de la page (mobile navigation) */
+.prag-sticky-hide {
+	display:none;
+}
+
 .prag-sticky-bot {
   position: -webkit-sticky; /* Safari */
   position: sticky;
