@@ -327,6 +327,23 @@ body {
 
 
 
+/* style du petit bouton permettant de retourner facilement en haut de la page (mobile navigation) */
+.prag-sticky-bot {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 20px;
+  float: right;
+  fill: #486B00;
+}
+
+@media (min-width: 768px) {
+	.prag-sticky-bot {
+	  display:none;
+	}
+}
+
+
+
 
 
 /* gestion de l'affichage de la pagination */
