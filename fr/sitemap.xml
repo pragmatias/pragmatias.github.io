@@ -33,6 +33,12 @@
   </url>
   
   <url>
+    <loc>https://pragmatias.fr/tags/astuces/</loc>
+    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://pragmatias.fr/blog/</loc>
     <lastmod>2019-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -109,22 +115,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://pragmatias.fr/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://pragmatias.fr/tags/tips/</loc>
-    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pragmatias.fr/en/tags/tips/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/tags/tips/"
                 />
   </url>
   

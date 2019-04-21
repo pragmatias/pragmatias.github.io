@@ -121,16 +121,6 @@
     <loc>https://pragmatias.fr/en/tags/tips/</loc>
     <lastmod>2019-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/tags/tips/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pragmatias.fr/en/tags/tips/"
-                />
   </url>
   
 </urlset>
