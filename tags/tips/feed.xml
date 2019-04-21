@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pragmatias Blog</title>
-    <link>/tags/tips/</link>
+    <link>https://pragmatias.fr/tags/tips/</link>
     <description>Contenu récent dans  Tips</description>
     <generator> Hugo 0.54.0</generator>
     
@@ -16,19 +16,19 @@
     
     <lastBuildDate>2019-02-01T09:40:34Z</lastBuildDate>
     
-        <atom:link href="/tags/tips/feed.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://pragmatias.fr/tags/tips/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Astuces pour OpenSUSE (Tumbleweed)</title>
-      <link>/2019/04/20/astuces-pour-opensuse-tumbleweed/</link>
+      <link>https://pragmatias.fr/2019/04/20/astuces-pour-opensuse-tumbleweed/</link>
       <pubDate>
           20 Avril 2019
       </pubDate>
       <lastModDate>
           20 Avril 2019
       </lastModDate>
-      <guid>/2019/04/20/astuces-pour-opensuse-tumbleweed/</guid>
+      <guid>https://pragmatias.fr/2019/04/20/astuces-pour-opensuse-tumbleweed/</guid>
       <description>&lt;p&gt;Après plusieurs mois à manipuler la distribution GNU/Linux &lt;a href=&#34;https://www.opensuse.org/#Tumbleweed&#34;&gt;OpenSUSE Tumbleweed&lt;/a&gt;, d&amp;rsquo;abord sur des machines virtuelles (&lt;a href=&#34;https://www.virtualbox.org&#34;&gt;VirtualBox&lt;/a&gt; / &lt;a href=&#34;https:www.vmware.com&#34;&gt;VMWare&lt;/a&gt;) puis sur mon poste principal, il était temps de rassembler les astuces quelques parts.&lt;/p&gt;
 
 &lt;p&gt;Les astuces portent sur zypper, btrfs, nfs, konsole, virtualbox, vmware, etc &amp;hellip;&lt;/p&gt;</description>

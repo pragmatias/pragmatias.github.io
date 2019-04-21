@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pragmatias Blog</title>
-    <link>/en/tags/</link>
+    <link>https://pragmatias.fr/en/tags/</link>
     <description>Recent content in Tags</description>
     <generator> Hugo 0.54.0</generator>
     
@@ -16,7 +16,7 @@
     
     <lastBuildDate>2019-02-01T09:40:34Z</lastBuildDate>
     
-        <atom:link href="/en/tags/feed.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://pragmatias.fr/en/tags/feed.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
