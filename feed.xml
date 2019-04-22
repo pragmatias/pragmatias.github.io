@@ -3,10 +3,10 @@
   <channel>
     <title>Pragmatias Blog</title>
     <link>https://pragmatias.fr/</link>
-    <description>Contenu récent dans  Pragmatias Blog</description>
+    <description>Recent content in Pragmatias Blog</description>
     <generator> Hugo 0.54.0</generator>
     
-      <language>fr</language>
+      <language>en</language>
     
     
       <webMaster>pragmatias</webMaster>
@@ -20,18 +20,37 @@
     
     
     <item>
-      <title>Astuces pour OpenSUSE (Tumbleweed)</title>
-      <link>https://pragmatias.fr/2019/04/20/astuces-pour-opensuse-tumbleweed/</link>
+      <title>Tips for OpenSUSE (Tumbleweed)</title>
+      <link>https://pragmatias.fr/2019/04/20/tips-for-opensuse-tumbleweed/</link>
       <pubDate>
-          20 Avril 2019
+          20 April 2019
       </pubDate>
       <lastModDate>
-          20 Avril 2019
+          20 April 2019
       </lastModDate>
-      <guid>https://pragmatias.fr/2019/04/20/astuces-pour-opensuse-tumbleweed/</guid>
-      <description>&lt;p&gt;Après plusieurs mois à manipuler la distribution GNU/Linux &lt;a href=&#34;https://www.opensuse.org/#Tumbleweed&#34;&gt;OpenSUSE Tumbleweed&lt;/a&gt;, d&amp;rsquo;abord sur des machines virtuelles (&lt;a href=&#34;https://www.virtualbox.org&#34;&gt;VirtualBox&lt;/a&gt; / &lt;a href=&#34;https:www.vmware.com&#34;&gt;VMWare&lt;/a&gt;) puis sur mon poste principal, il était temps de rassembler les astuces quelques parts.&lt;/p&gt;
+      <guid>https://pragmatias.fr/2019/04/20/tips-for-opensuse-tumbleweed/</guid>
+      <description>&lt;p&gt;After few month to work with the &lt;a href=&#34;https://www.opensuse.org/#Tumbleweed&#34;&gt;OpenSUSE Tumbleweed&lt;/a&gt; Gnu/Linux distribution, first on virtual machines (&lt;a href=&#34;https://www.virtualbox.org&#34;&gt;VirtualBox&lt;/a&gt; / &lt;a href=&#34;https:www.vmware.com&#34;&gt;VMWare&lt;/a&gt;) then on my main computer, he was time to gather all the tips used.&lt;/p&gt;
 
-&lt;p&gt;Les astuces portent sur zypper, btrfs, nfs, konsole, virtualbox, vmware, etc &amp;hellip;&lt;/p&gt;</description>
+&lt;p&gt;The tips are about zypper, btrfs, nfs, konsole, virtualbox, vmware, etc &amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Install of OpenSUSE (Tumbleweed)</title>
+      <link>https://pragmatias.fr/2019/02/05/install-of-opensuse-tumbleweed/</link>
+      <pubDate>
+          5 February 2019
+      </pubDate>
+      <lastModDate>
+          5 February 2019
+      </lastModDate>
+      <guid>https://pragmatias.fr/2019/02/05/install-of-opensuse-tumbleweed/</guid>
+      <description>&lt;p&gt;Avant de passer sur une distribution GNU/Linux, il était temps de faire un cahier des charges de ce que j&amp;rsquo;en attendais.
+L&amp;rsquo;objectif était de pouvoir travailler dessus (docker/sublimtext/etc &amp;hellip;) et aussi de pouvoir se divertir (Streaming/Video/etc &amp;hellip;)&lt;/p&gt;
+
+&lt;p&gt;Après avoir fait le tour d&amp;rsquo;une partie des distributions accessible, j&amp;rsquo;ai fait le choix de partir sur OpenSUSE Tumbleweed&lt;/p&gt;
+
+&lt;p&gt;Afin de faciliter l&amp;rsquo;installation (sur des VM ou sur mon postes) et pour mieux comprendre la distribution, j&amp;rsquo;ai repris/modifier/creer un ensemble de script permettant l&amp;rsquo;installation et la configuration.
+Toutes les sources se trouvent dans ce dépôt &lt;a href=&#34;https://github.com/pragmatias/opensuse&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -3,118 +3,118 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pragmatias.fr/2019/04/20/astuces-pour-opensuse-tumbleweed/</loc>
+    <loc>https://pragmatias.fr/fr/2019/04/20/astuces-pour-opensuse-tumbleweed/</loc>
     <lastmod>2019-04-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://pragmatias.fr/en/2019/04/20/tips-for-opensuse-tumbleweed/"
+                href="https://pragmatias.fr/2019/04/20/tips-for-opensuse-tumbleweed/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://pragmatias.fr/2019/04/20/astuces-pour-opensuse-tumbleweed/"
+                href="https://pragmatias.fr/fr/2019/04/20/astuces-pour-opensuse-tumbleweed/"
                 />
   </url>
   
   <url>
-    <loc>https://pragmatias.fr/archives/</loc>
+    <loc>https://pragmatias.fr/fr/archives/</loc>
     <lastmod>2019-04-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://pragmatias.fr/en/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
                 href="https://pragmatias.fr/archives/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/fr/archives/"
+                />
   </url>
   
   <url>
-    <loc>https://pragmatias.fr/tags/astuces/</loc>
+    <loc>https://pragmatias.fr/fr/tags/astuces/</loc>
     <lastmod>2019-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://pragmatias.fr/blog/</loc>
+    <loc>https://pragmatias.fr/fr/blog/</loc>
     <lastmod>2019-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://pragmatias.fr/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
                 href="https://pragmatias.fr/blog/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/fr/blog/"
+                />
   </url>
   
   <url>
-    <loc>https://pragmatias.fr/tags/linux/</loc>
+    <loc>https://pragmatias.fr/fr/tags/linux/</loc>
     <lastmod>2019-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://pragmatias.fr/en/tags/linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
                 href="https://pragmatias.fr/tags/linux/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/fr/tags/linux/"
+                />
   </url>
   
   <url>
-    <loc>https://pragmatias.fr/tags/opensuse/</loc>
+    <loc>https://pragmatias.fr/fr/tags/opensuse/</loc>
     <lastmod>2019-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://pragmatias.fr/en/tags/opensuse/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
                 href="https://pragmatias.fr/tags/opensuse/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/fr/tags/opensuse/"
+                />
   </url>
   
   <url>
-    <loc>https://pragmatias.fr/</loc>
+    <loc>https://pragmatias.fr/fr/</loc>
     <lastmod>2019-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://pragmatias.fr/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
                 href="https://pragmatias.fr/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/fr/"
+                />
   </url>
   
   <url>
-    <loc>https://pragmatias.fr/tags/</loc>
+    <loc>https://pragmatias.fr/fr/tags/</loc>
     <lastmod>2019-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://pragmatias.fr/en/tags/"
+                href="https://pragmatias.fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://pragmatias.fr/tags/"
+                href="https://pragmatias.fr/fr/tags/"
                 />
   </url>
   
