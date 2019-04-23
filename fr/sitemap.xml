@@ -3,21 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pragmatias.fr/fr/2019/04/20/astuces-pour-opensuse-tumbleweed/</loc>
-    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pragmatias.fr/2019/04/20/tips-for-opensuse-tumbleweed/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/fr/2019/04/20/astuces-pour-opensuse-tumbleweed/"
-                />
-  </url>
-  
-  <url>
     <loc>https://pragmatias.fr/fr/archives/</loc>
     <lastmod>2019-04-19T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -33,14 +18,23 @@
   </url>
   
   <url>
-    <loc>https://pragmatias.fr/fr/tags/astuces/</loc>
-    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://pragmatias.fr/fr/2019/02/05/cr%C3%A9ation-dun-site-avec-hugo/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/2019/02/05/create-a-site-with-hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/fr/2019/02/05/cr%C3%A9ation-dun-site-avec-hugo/"
+                />
   </url>
   
   <url>
     <loc>https://pragmatias.fr/fr/blog/</loc>
-    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -55,40 +49,24 @@
   </url>
   
   <url>
-    <loc>https://pragmatias.fr/fr/tags/linux/</loc>
-    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
+    <loc>https://pragmatias.fr/fr/tags/divers/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://pragmatias.fr/tags/linux/"
+                href="https://pragmatias.fr/tags/divers/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://pragmatias.fr/fr/tags/linux/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://pragmatias.fr/fr/tags/opensuse/</loc>
-    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pragmatias.fr/tags/opensuse/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/fr/tags/opensuse/"
+                href="https://pragmatias.fr/fr/tags/divers/"
                 />
   </url>
   
   <url>
     <loc>https://pragmatias.fr/fr/</loc>
-    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -104,7 +82,7 @@
   
   <url>
     <loc>https://pragmatias.fr/fr/tags/</loc>
-    <lastmod>2019-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"

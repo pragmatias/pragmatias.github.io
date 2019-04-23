@@ -22,7 +22,7 @@
     <script src="https://pragmatias.fr/js/popper.min.js"></script>
     <script src="https://pragmatias.fr/js/bootstrap.bundle.min.js"></script>
 
-    <title>Tips for OpenSUSE (Tumbleweed)</title><body>    <div class="navbar navbar-expand-md prag-bg-primary prag-header" role="navigation">
+    <title>Create a site with Hugo</title><body>    <div class="navbar navbar-expand-md prag-bg-primary prag-header" role="navigation">
         <div class="container-fluid  justify-content-center">
             <div class="navbar-brand">
                 <a href="https://pragmatias.fr">
@@ -63,7 +63,7 @@
                      
                         
                         <li class="nav-item">
-                            <a href="https://pragmatias.fr/fr/2019/04/20/astuces-pour-opensuse-tumbleweed/" class="prag_header_svg mr-1 ml-1" >         
+                            <a href="https://pragmatias.fr/fr/2019/02/05/cr%C3%A9ation-dun-site-avec-hugo/" class="prag_header_svg mr-1 ml-1" >         
                                 <img src="/images/france-flag-round-xs.png" alt="Français" witdh="24px" height="24px"> 
                             </a>
                         </li>
@@ -119,51 +119,23 @@
         </div>
     </div><div id="content">
 <div class="container">
-	<article class="blog-post  blog-post-with-toc ">
+	<article class="blog-post ">
 	    <header>
 	        <h2 class="blog-post-title">
-	            Tips for OpenSUSE (Tumbleweed)
+	            Create a site with Hugo
 	        </h2>
 	        <div class="blog-post-date">
-	            <span>Last update : 20 April 2019
+	            <span>Last update : 5 February 2019
 	            </span>
 	        </div>
 			<div class="blog-post-tags">
 			<strong>Tags:</strong>
 			    
-			        <a href="https://pragmatias.fr/tags/linux"> Linux</a>
-			    
-			        <a href="https://pragmatias.fr/tags/opensuse"> OpenSuse</a>
-			    
-			        <a href="https://pragmatias.fr/tags/tips"> Tips</a>
+			        <a href="https://pragmatias.fr/tags/divers"> Divers</a>
 			    
 			</div>
 	    </header>
 
-
-	  	<aside class="prag-toc">
-		<h1 class="prag-toc-head">Summary</h1>
-		<div class="prag-toc-body">
-		<nav id="TableOfContents">
-<ul>
-<li><a href="#zypper">Zypper</a></li>
-<li><a href="#file-system-btrfs">File system btrfs</a></li>
-<li><a href="#sound-service-pulseaudio">Sound service (Pulseaudio)</a></li>
-<li><a href="#network-service">Network service</a></li>
-<li><a href="#configuration-fstab-with-ntfs-drive">Configuration Fstab (with ntfs drive)</a></li>
-<li><a href="#configuration-nfs-client">Configuration NFS client</a></li>
-<li><a href="#configure-bind-to-switch-desktop-and-quick-tile-window">Configure Bind to Switch Desktop and Quick tile Window</a></li>
-<li><a href="#autostart-kde">Autostart (KDE)</a></li>
-<li><a href="#reset-kde-session">Reset KDE Session</a></li>
-<li><a href="#konsole-configuration">Konsole configuration</a></li>
-<li><a href="#firefox-configuration">Firefox configuration</a></li>
-<li><a href="#latte-dock">Latte Dock</a></li>
-<li><a href="#wmware-tips">WMware tips</a></li>
-<li><a href="#virtualbox-tips">VirtualBox tips</a></li>
-</ul>
-</nav>
-		</div>
-		</aside>
 
 
 		
@@ -208,206 +180,9 @@
 		</script>
 
 	    <main class="blog-post-main">
-	    	<p>After few month to work with the <a href="https://www.opensuse.org/#Tumbleweed">OpenSUSE Tumbleweed</a> Gnu/Linux distribution, first on virtual machines (<a href="https://www.virtualbox.org">VirtualBox</a> / <a href="https:www.vmware.com">VMWare</a>) then on my main computer, he was time to gather all the tips used.</p>
+	    	<p>No description</p>
 
-<p>The tips are about zypper, btrfs, nfs, konsole, virtualbox, vmware, etc &hellip;</p>
-
-<h1 id="zypper">Zypper</h1>
-
-<ol>
-<li>Install a package : <code>sudo zypper in --no-recommend package</code></li>
-<li>Remove a package : <code>sudo zypper rm --clean-deps package</code></li>
-<li>Refresh repositories : <code>sudo zypper ref</code> or <code>sudo zypper ref -f</code></li>
-<li>Update packages : <code>sudo zypper up</code></li>
-<li>Upgrade Distribution : <code>sudo zypper dup</code></li>
-<li>Search packages : <code>sudo zypper se package</code> or <code>sudo zypper se -is package</code></li>
-</ol>
-
-<blockquote>
-<p>Note: replace <strong>package</strong> by the package name</p>
-</blockquote>
-
-<h1 id="file-system-btrfs">File system btrfs</h1>
-
-<p>If btrfs-cleaner use 100% of your CPU and freeze your computer,
-you can stop it with the following command : <code>sudo btrfs quota disable /</code></p>
-
-<h1 id="sound-service-pulseaudio">Sound service (Pulseaudio)</h1>
-
-<p>To restart pulseaudio, use : <code>pulseaudio -k</code></p>
-
-<h1 id="network-service">Network service</h1>
-
-<p>To restart network service use :<code>sudo rcnetwork restart network_interface</code></p>
-
-<blockquote>
-<p>Note: replace <strong>network_interface</strong> by your interface name (used <code>ifconfig</code>)</p>
-</blockquote>
-
-<h1 id="configuration-fstab-with-ntfs-drive">Configuration Fstab (with ntfs drive)</h1>
-
-<p>For each drive :</p>
-
-<ol>
-<li>Create the following folder : <code>mkdir /mnt/&lt;name&gt;</code></li>
-<li>change the folder owner : <code>chown anybody:wheel /mnt/&lt;name&gt;</code></li>
-<li>update the fstab file <code>sudo vi /etc/fstab</code> with the following line : <code>/dev/&lt;drive&gt;          /mnt/&lt;name&gt;          ntfs     rw,nosuid,nodev,relatime   0  0</code></li>
-</ol>
-
-<p>Tips :
- - list partitions : <code>sudo fdisk -l</code>
- - list block devices : <code>lsblk</code>
- - list uuid : <code>sudo blkid</code></p>
-
-<h1 id="configuration-nfs-client">Configuration NFS client</h1>
-
-<ul>
-<li>Discover the shared volumes on the NFS server : <code>showmount -e &lt;ip&gt;</code></li>
-<li>Mount a shared volume from the NFS server (manually) : <code>sudo mount -t nfs &lt;ip&gt;:&lt;repnfs&gt; &lt;replocal&gt;</code></li>
-<li>Mount a shared volume from the NFS server (automatically) : <code>sudo vi /etc/fstab</code> and add the line <code>&lt;ip&gt;:&lt;repnfs&gt; &lt;replocal&gt; nfs rw,noauto,_netdev 0 0</code></li>
-<li>Mount all the fstab (reload) : <code>mount -a</code></li>
-</ul>
-
-<blockquote>
-<ul>
-<li><strong>ip</strong> of the NFS server</li>
-<li><strong>repnfs</strong> : path/folder on the NFS server</li>
-<li><strong>replocal</strong> : path/folder on the NFS client</li>
-</ul>
-</blockquote>
-
-<h1 id="configure-bind-to-switch-desktop-and-quick-tile-window">Configure Bind to Switch Desktop and Quick tile Window</h1>
-
-<ol>
-<li>Go to System Settings &gt; Shortcuts &gt; Global Shortcuts &gt; System Settings or Kwin</li>
-</ol>
-
-<blockquote>
-<p>| Action | Global |
-|&ndash;|&ndash;|
-| Quick Tile Window to the Bottom | Meta+Num+2 |
-| Quick Tile Window to the Bottom Left | Meta+Num+1 |
-| Quick Tile Window to the Bottom Right | Meta+Num+3 |
-| Quick Tile Window to the Left | Meta+Num+4 |
-| Quick Tile Window to the Right | Meta+Num+6 |
-| Quick Tile Window to the Top | Meta+Num+8 |
-| Quick Tile Window to the Top Left | Meta+Num+7 |
-| Quick Tile Window to the Top Right | Meta+Num+9 |
-| Switch One Desktop Down | Meta+Down |
-| Switch One Desktop to the Left | Meta+Left |
-| Switch One Desktop to the Right | Meta+Right |
-| Switch One Desktop Up | Meta+Up |
-| Full screen Window | Meta+f |</p>
-</blockquote>
-
-<ol>
-<li>Right Click on the desktop wallpaper &gt; Configure Desktop &gt; Mouse Actions &gt; Remove action &ldquo;Switch Desktop&rdquo; for &ldquo;Vertical-Scroll&rdquo;</li>
-</ol>
-
-<h1 id="autostart-kde">Autostart (KDE)</h1>
-
-<p>Copy a file <strong>org.kde.*.desktop</strong> in the folder <strong>~/.config/autostart</strong></p>
-
-<blockquote>
-<p>You could find them in the folder <em>/usr/share/applications</em></p>
-</blockquote>
-
-<p>Or use System Settings &gt; Startup and Shutdown &gt; Autostart</p>
-
-<h1 id="reset-kde-session">Reset KDE Session</h1>
-
-<p>Reset the current KDE session (kill all process &amp; logout) : <code>pkill -kill -u username</code></p>
-
-<blockquote>
-<p>Note : replace <strong>username</strong> by the name of the choosen one</p>
-</blockquote>
-
-<h1 id="konsole-configuration">Konsole configuration</h1>
-
-<p>In Settings &gt; Edit Current Profile</p>
-
-<ol>
-<li>General &gt; Profile name &gt; Users</li>
-<li>General &gt; Command &gt; /bin/bash</li>
-<li>Appearance &gt; Color Scheme &amp; Background &gt; Monokai-Flat</li>
-<li>Keyboard &gt; Linux console</li>
-</ol>
-
-<h1 id="firefox-configuration">Firefox configuration</h1>
-
-<p>The file <strong>places.sqlite</strong> in <strong>$HOME/.mozilla/firefox/%.default</strong> contains bookmarks and history</p>
-
-<p>List of interesting addons :</p>
-
-<ul>
-<li>Ublock Origin</li>
-<li>HTTPS Everywhere</li>
-<li>Canvasblocker</li>
-<li>Cookie autodelete</li>
-<li>Css exfil protection</li>
-<li>DecentralEyes</li>
-<li>Redirector</li>
-<li>Select context search</li>
-<li>Awesome RSS</li>
-<li>Privacy Badger</li>
-<li>No Coin</li>
-</ul>
-
-<h1 id="latte-dock">Latte Dock</h1>
-
-<p>List of widgets :</p>
-
-<ul>
-<li>Application Menu</li>
-<li>Pager</li>
-<li>Justify Splitter</li>
-<li>Latte plasmoid</li>
-<li>Justify Splitter</li>
-<li>System Tray</li>
-<li>Digital Clock</li>
-<li>Lock/Logout</li>
-</ul>
-
-<blockquote>
-<p>You need to download and add manually the widget &ldquo;redshift&rdquo;</p>
-</blockquote>
-
-<p>To restore plasma config (panel) :</p>
-
-<ol>
-<li><code>kquitapp plasmashell</code></li>
-<li><code>sleep 10s</code></li>
-<li><code>cp &lt;plasma_files_backup&gt; $HOME/.config/.</code></li>
-<li><code>plasmashell &amp;</code></li>
-</ol>
-
-<h1 id="wmware-tips">WMware tips</h1>
-
-<p><a href="https://en.opensuse.org/SDB:VMware_Tools">Shared Folder</a> :</p>
-
-<ul>
-<li>Listing of shared folder : <code>vmware-hgfsclient</code></li>
-<li>Mount a shared folder : <code>vmhgfs-fuse -o allow_other .host: /mnt/</code></li>
-<li>Unmount a shared folder : <code>fusermount -uz /mnt/</code>or <code>umount -f /mnt/</code></li>
-</ul>
-
-<h1 id="virtualbox-tips">VirtualBox tips</h1>
-
-<p>Install VBoxGuestAdditions :</p>
-
-<ol>
-<li>insert file VBoxGuestAdditions*.iso in the cdrom</li>
-<li><code>sudo mkdir -p /media/cdrom</code></li>
-<li><code>sudo mount -t iso9660 /dev/cdrom /media/cdrom</code></li>
-<li><code>cd /media/cdrom</code></li>
-<li><code>sudo ./VBoxLinuxAdditions.run</code></li>
-</ol>
-
-<p>Install VirtualBox package :</p>
-
-<ol>
-<li><code>sudo zypper in virtualbox-guest-tools virtualbox-guest-x11</code></li>
-</ol>
+<p>no contents</p>
 	  	</main>
 
 	</article>

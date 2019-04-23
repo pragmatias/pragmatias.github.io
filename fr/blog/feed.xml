@@ -20,18 +20,16 @@
     
     
     <item>
-      <title>Astuces pour OpenSUSE (Tumbleweed)</title>
-      <link>https://pragmatias.fr/fr/2019/04/20/astuces-pour-opensuse-tumbleweed/</link>
+      <title>Création d&#39;un site avec Hugo</title>
+      <link>https://pragmatias.fr/fr/2019/02/05/cr%C3%A9ation-dun-site-avec-hugo/</link>
       <pubDate>
-          20 Avril 2019
+          5 Février 2019
       </pubDate>
       <lastModDate>
-          20 Avril 2019
+          5 Février 2019
       </lastModDate>
-      <guid>https://pragmatias.fr/fr/2019/04/20/astuces-pour-opensuse-tumbleweed/</guid>
-      <description>&lt;p&gt;Après plusieurs mois à manipuler la distribution GNU/Linux &lt;a href=&#34;https://www.opensuse.org/#Tumbleweed&#34;&gt;OpenSUSE Tumbleweed&lt;/a&gt;, d&amp;rsquo;abord sur des machines virtuelles (&lt;a href=&#34;https://www.virtualbox.org&#34;&gt;VirtualBox&lt;/a&gt; / &lt;a href=&#34;https:www.vmware.com&#34;&gt;VMWare&lt;/a&gt;) puis sur mon poste principal, il était temps de rassembler les astuces quelques parts.&lt;/p&gt;
-
-&lt;p&gt;Les astuces portent sur zypper, btrfs, nfs, konsole, virtualbox, vmware, etc &amp;hellip;&lt;/p&gt;</description>
+      <guid>https://pragmatias.fr/fr/2019/02/05/cr%C3%A9ation-dun-site-avec-hugo/</guid>
+      <description>&lt;p&gt;Aucune description&lt;/p&gt;</description>
     </item>
     
   </channel>
