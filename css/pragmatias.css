@@ -28,6 +28,21 @@
 	--color-bg-tags-btn:#d09424;
 }
 
+/* pour le corps du site */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	src: url('/fonts/OpenSans-Regular.woff') format('woff');
+}
+
+/* pour la partie code */
+@font-face {
+	font-family: 'SF Mono';
+	font-style: normal;
+	font-weight: normal;
+	src: url('/fonts/SFMono-Regular.otf') format('otf');
+}
 
 
 body {
@@ -35,7 +50,6 @@ body {
 	background-color: var(--color-bg-primary);
 	color: var(--color-fg-blog-texte);
 }
-
 
 
 /* Style generale */
