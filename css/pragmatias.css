@@ -38,11 +38,22 @@
 
 /* pour la partie code */
 @font-face {
-	font-family: 'SF Mono';
+	font-family: 'SFMono';
 	font-style: normal;
 	font-weight: normal;
-	src: url('/fonts/SFMono-Regular.otf') format('otf');
+	src: url('/fonts/SFMono-Regular.woff') format('woff');
 }
+
+
+/* pour la partie code */
+@font-face {
+	font-family: 'FiraGO';
+	font-style: normal;
+	font-weight: normal;
+	src: url('/fonts/FiraGO-Regular.woff') format('woff');
+}
+
+
 
 
 body {
@@ -259,8 +270,8 @@ body {
 
 
 .blog-post-main code {
-	color : var(--color-fg-blog-code);
-	background-color: var(--color-bg-blog-code);
+/*	color : var(--color-fg-blog-code);
+	background-color: var(--color-bg-blog-code); */
 	padding-left : 10px;
 	padding-right : 10px;
 }
@@ -272,15 +283,17 @@ body {
 	color : var(--color-fg-blog-titre);
 }
 .blog-post-main h2 {
-	margin-top: 40px;
-	font-size: 22px;
-	text-decoration-line: underline;
+/*	margin-top: 40px; */
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration-line: none;
 	color : var(--color-fg-blog-titre);
 }
 .blog-post-main h3 {
-	margin-top: 40px;
-	font-size: 20px;
-	text-decoration-line: underline;
+/*	margin-top: 40px;*/
+	font-size: 18px;
+	font-weight: 600;
+	text-decoration-line: none;
 	color : var(--color-fg-blog-titre);
 }
 
@@ -484,6 +497,7 @@ body {
 .prag-toc ul {
 	list-style-type: none;
 	padding-left:12px;
+	list-style-type: decimal;
 
 }
 
@@ -526,7 +540,7 @@ body {
 
 	.prag-toc a {
 	  color: var(--color-fg-toc-lien);
-	  text-decoration: none;
+	  text-decoration: initial;
 	  font-size: 14px;
 	}
 
@@ -536,6 +550,7 @@ body {
 
 	.prag-toc-head {
 		font-size: 16px;
+		font-weight: 600;
 		text-decoration-line: none;
 	}
 

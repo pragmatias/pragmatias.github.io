@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pragmatias Blog</title>
-    <link>https://pragmatias.fr/</link>
+    <link>https://pragmatias.fr/blog</link>
     <description>Recent content in Pragmatias Blog</description>
-    <generator> Hugo 0.54.0</generator>
+    <generator>Hugo 0.54.0</generator>
     
       <language>en</language>
     
@@ -14,19 +14,17 @@
     
       <copyright>WTFPL license</copyright>
     
-    <lastBuildDate>2019-02-01T09:40:34Z</lastBuildDate>
-    
-        <atom:link href="https://pragmatias.fr/feed.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://pragmatias.fr/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Create a site with Hugo</title>
       <link>https://pragmatias.fr/2019/02/05/create-a-site-with-hugo/</link>
       <pubDate>
-          5 February 2019
+          Tue, 05 Feb 2019 00:00:00 +0000
       </pubDate>
       <lastModDate>
-          5 February 2019
+          Tue, 05 Feb 2019 00:00:00 +0000
       </lastModDate>
       <guid>https://pragmatias.fr/2019/02/05/create-a-site-with-hugo/</guid>
       <description>&lt;p&gt;No description&lt;/p&gt;</description>

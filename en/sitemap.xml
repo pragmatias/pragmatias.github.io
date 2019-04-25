@@ -20,48 +20,18 @@
   <url>
     <loc>https://pragmatias.fr/2019/02/05/create-a-site-with-hugo/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/fr/2019/02/05/cr%C3%A9ation-dun-site-avec-hugo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pragmatias.fr/2019/02/05/create-a-site-with-hugo/"
-                />
   </url>
   
   <url>
     <loc>https://pragmatias.fr/blog/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/fr/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pragmatias.fr/blog/"
-                />
   </url>
   
   <url>
     <loc>https://pragmatias.fr/tags/divers/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/fr/tags/divers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pragmatias.fr/tags/divers/"
-                />
   </url>
   
   <url>
