@@ -1,0 +1,9 @@
+User-agent: *
+
+
+Disallow: /fr/archives/
+
+Disallow: /fr/
+
+Disallow: /fr/tags/
+

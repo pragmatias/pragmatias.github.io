@@ -28,30 +28,67 @@
 	--color-bg-tags-btn:#d09424;
 }
 
-/* pour le corps du site */
+/* FONT PATHS
+ * -------------------------- */
 @font-face {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: normal;
-	src: url('/fonts/OpenSans-Regular.woff') format('woff');
+  font-family: 'Hack';
+  src: url('/fonts/hack-regular.woff2') format('woff2'), url('/fonts/hack-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
 
-/* pour la partie code */
 @font-face {
-	font-family: 'SFMono';
-	font-style: normal;
-	font-weight: normal;
-	src: url('/fonts/SFMono-Regular.woff') format('woff');
+  font-family: 'Hack';
+  src: url('/fonts/hack-bold.woff2') format('woff2'), url('/fonts/hack-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('/fonts/hack-italic.woff2') format('woff2'), url('/fonts/hack-italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('/fonts/hack-bolditalic.woff2') format('woff2'), url('/fonts/hack-bolditalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('/fonts/OpenSans-Regular.woff2') format('woff2'), url('/fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('/fonts/OpenSans-Bold.woff2') format('woff2'), url('/fonts/OpenSans-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('/fonts/OpenSans-Italic.woff2') format('woff2'), url('/fonts/OpenSans-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('/fonts/OpenSans-BoldItalic.woff2') format('woff2'), url('/fonts/OpenSans-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
 }
 
 
-/* pour la partie code */
-@font-face {
-	font-family: 'FiraGO';
-	font-style: normal;
-	font-weight: normal;
-	src: url('/fonts/FiraGO-Regular.woff') format('woff');
-}
+
+
 
 
 html {
@@ -59,10 +96,11 @@ html {
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'OpenSans';
 	background-color: var(--color-bg-primary);
 	color: var(--color-fg-blog-texte);
 }
+
 
 
 /* Style generale */
@@ -276,7 +314,7 @@ body {
 	background-color: var(--color-bg-blog-code); 
 	padding-left : 10px;
 	padding-right : 10px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Hack';
 }
 
 .blog-post-main h1 {
