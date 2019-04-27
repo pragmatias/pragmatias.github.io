@@ -3,48 +3,86 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pragmatias.fr/fr/archives/</loc>
+    <loc>https://pragmatias.fr/2019/04/25/mise-en-place-dun-site-avec-hugo/</loc>
+    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/2019/02/05/create-a-site-with-hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/2019/04/25/mise-en-place-dun-site-avec-hugo/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pragmatias.fr/archives/</loc>
     <lastmod>2019-04-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://pragmatias.fr/en/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
                 href="https://pragmatias.fr/archives/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/fr/archives/"
-                />
   </url>
   
   <url>
-    <loc>https://pragmatias.fr/fr/</loc>
+    <loc>https://pragmatias.fr/blog/</loc>
+    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://pragmatias.fr/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pragmatias.fr/</loc>
+    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
                 href="https://pragmatias.fr/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/fr/"
-                />
   </url>
   
   <url>
-    <loc>https://pragmatias.fr/fr/tags/</loc>
+    <loc>https://pragmatias.fr/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://pragmatias.fr/tags/"
+                href="https://pragmatias.fr/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://pragmatias.fr/fr/tags/"
+                href="https://pragmatias.fr/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://pragmatias.fr/tags/web/</loc>
+    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

@@ -16,6 +16,7 @@
 	--color-bg-blog-code:#ece9dd;
 	--color-fg-blog-code:#000000;
 	--color-fg-blog-border:#d09424;
+	--color-bg-blog-sticky:#d09424;
 	--color-fg-toc-titre:#022946;
 	--color-fg-toc-puce:#d09424;
 	--color-fg-toc-lien:#022946;
@@ -293,6 +294,11 @@ body {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	color: var(--color-fg-blog-texte);
+	font-size:15px;
+}
+
+.blog-post p {
+	line-height: 1.2em;
 }
 
 .blog-post-main {
@@ -485,7 +491,7 @@ body {
   position: sticky;
   top: 20px;
   float: right;
-  fill: var(--color-fg-blog-titre);
+  fill: var(--color-bg-blog-sticky);
 }
 
 @media (min-width: 768px) {
@@ -543,7 +549,7 @@ body {
 }
 
 .prag-toc li {
-	line-height: 2rem;
+	line-height: 1.5rem;
 	color:var(--color-fg-toc-puce);
 }
 

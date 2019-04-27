@@ -1,0 +1,15 @@
+User-agent: *
+
+
+Disallow: /en/archives/
+
+Disallow: /en/2019/02/05/create-a-site-with-hugo/
+
+Disallow: /en/blog/
+
+Disallow: /en/tags/divers/
+
+Disallow: /en/
+
+Disallow: /en/tags/
+

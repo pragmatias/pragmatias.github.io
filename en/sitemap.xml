@@ -3,66 +3,86 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pragmatias.fr/archives/</loc>
+    <loc>https://pragmatias.fr/en/archives/</loc>
     <lastmod>2019-04-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://pragmatias.fr/fr/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="https://pragmatias.fr/archives/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/archives/"
+                />
   </url>
   
   <url>
-    <loc>https://pragmatias.fr/2019/02/05/create-a-site-with-hugo/</loc>
+    <loc>https://pragmatias.fr/en/2019/02/05/create-a-site-with-hugo/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/2019/04/25/mise-en-place-dun-site-avec-hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/2019/02/05/create-a-site-with-hugo/"
+                />
   </url>
   
   <url>
-    <loc>https://pragmatias.fr/blog/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pragmatias.fr/tags/divers/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pragmatias.fr/</loc>
+    <loc>https://pragmatias.fr/en/blog/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://pragmatias.fr/fr/"
+                href="https://pragmatias.fr/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://pragmatias.fr/en/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pragmatias.fr/en/tags/divers/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pragmatias.fr/en/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
                 href="https://pragmatias.fr/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/"
+                />
   </url>
   
   <url>
-    <loc>https://pragmatias.fr/tags/</loc>
+    <loc>https://pragmatias.fr/en/tags/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://pragmatias.fr/fr/tags/"
+                href="https://pragmatias.fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://pragmatias.fr/tags/"
+                href="https://pragmatias.fr/en/tags/"
                 />
   </url>
   

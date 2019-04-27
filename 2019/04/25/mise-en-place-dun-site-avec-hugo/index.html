@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="fr">    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html">
+    <meta name="ROBOTS" content="INDEX, FOLLOW">
+    <meta name="generator" content="Hugo 0.54.0" /> 
+
+    
+    <link rel="stylesheet" href="https://pragmatias.fr/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pragmatias.fr/css/pragmatias.css">
+    <link rel="stylesheet" href="https://pragmatias.fr/css/prism.css">
+
+    
+    
+    <script src="https://pragmatias.fr/js/jquery-3.4.0.slim.min.js"></script>
+    <script src="https://pragmatias.fr/js/popper.min.js"></script>
+    <script src="https://pragmatias.fr/js/bootstrap.bundle.min.js"></script>
+    <script src="https://pragmatias.fr/js/prism.js"></script>
+
+
+    
+    <link rel="alternate" type="application/rss+xml" href="https://pragmatias.fr/feed.xml" />
+    <title>Mise en place d&#39;un site avec Hugo</title><body>    <div class="navbar navbar-expand-md prag-bg-primary prag-header" role="navigation">
+        <div class="container-fluid  justify-content-center">
+            <div class="navbar-brand">
+                <a href="https://pragmatias.fr/blog">
+                    <img src="/images/logo_pragmatias.svg" alt="pragmatias">
+                </a>
+            </div>
+
+            <button class="navbar-toggler justify-content-end prag-navbar" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav text-center">
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://pragmatias.fr/blog/">Blog</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://pragmatias.fr/tags/">Tags</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://pragmatias.fr/archives/">Archives</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+
+
+        
+            <div class="collapse navbar-collapse justify-content-md-end" id="navbarSupportedContent">
+                <ul class="navbar-nav flex-row justify-content-center" >
+
+             
+                     
+                        
+                        <li class="nav-item">
+                            <a href="https://pragmatias.fr/en/2019/02/05/create-a-site-with-hugo/" class="prag_header_svg mr-1 ml-1" >         
+                                <img src="/images/united-kingdom-flag-round-xs-24.png" alt="English"> 
+                            </a>
+                        </li>
+                         
+                      
+
+                    <li class="nav-item">
+                      <a href="https://pragmatias.fr/feed.xml" title="Pragmatias Blog" class="prag_header_svg mr-1 ml-1">
+                        <svg height="24px"  style="enable-background:new 0 0 508.52 508.52;" version="1.1" viewBox="0 0 508.52 508.52" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path style="fill-rule:evenodd;clip-rule:evenodd;fill:;" d="M254.26,0C113.845,0,0,113.845,0,254.26s113.845,254.26,254.26,254.26
+	s254.26-113.845,254.26-254.26C508.52,113.813,394.675,0,254.26,0z M137.141,412.441c-22.852,0-41.413-18.434-41.413-41.285
+	c0-22.693,18.561-41.349,41.413-41.349c22.915,0,41.444,18.656,41.476,41.349C178.618,393.976,160.088,412.441,137.141,412.441z
+	 M241.197,412.791c0-39.029-15.16-75.674-42.62-103.071c-27.46-27.524-63.978-42.716-102.785-42.716v-59.624
+	c113.177,0,205.315,92.137,205.315,205.41H241.197z M347.001,412.727c0-138.603-112.669-251.399-251.145-251.399v-59.624
+	c171.435,0,310.96,139.589,310.96,311.023H347.001z"/>
+</svg>
+
+                      </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="" title="Mail" class="prag_header_svg mr-1 ml-1">
+                        <svg height="24px"  style="enable-background:new 0 0 299.997 299.997;" version="1.1" viewBox="0 0 299.997 299.997" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path style="fill-rule:evenodd;clip-rule:evenodd;fill:;" d="M149.996,0C67.157,0,0.001,67.158,0.001,149.997c0,82.837,67.156,150,149.995,150s150-67.163,150-150
+	C299.996,67.158,232.835,0,149.996,0z M149.999,52.686l88.763,55.35H61.236L149.999,52.686z M239.868,196.423h-0.009
+	c0,8.878-7.195,16.072-16.072,16.072H76.211c-8.878,0-16.072-7.195-16.072-16.072v-84.865c0-0.939,0.096-1.852,0.252-2.749
+	l84.808,52.883c0.104,0.065,0.215,0.109,0.322,0.169c0.112,0.062,0.226,0.122,0.34,0.179c0.599,0.309,1.216,0.558,1.847,0.721
+	c0.065,0.018,0.13,0.026,0.195,0.041c0.692,0.163,1.393,0.265,2.093,0.265h0.005c0.005,0,0.01,0,0.01,0
+	c0.7,0,1.401-0.099,2.093-0.265c0.065-0.016,0.13-0.023,0.195-0.041c0.63-0.163,1.245-0.412,1.847-0.721
+	c0.114-0.057,0.228-0.117,0.34-0.179c0.106-0.06,0.218-0.104,0.322-0.169l84.808-52.883c0.156,0.897,0.252,1.808,0.252,2.749
+	V196.423z"/>
+</svg>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.github.com/pragmatias" title="github" class="prag_header_svg mr-1 ml-1">
+                          <svg height="24px"  style="enable-background:new 0 0 438.549 438.549;" version="1.1" viewBox="0 0 438.549 438.549" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<path style="fill-rule:evenodd;clip-rule:evenodd;fill:;" d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+		c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+		c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+		c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+		c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+		c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+		c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+		c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+		c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+		c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+		c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+		c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+		c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+		c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+		c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+		c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+		c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+		c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+		c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+		C438.536,184.851,428.728,148.168,409.132,114.573z"/>
+
+</svg>
+
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div><div id="content">
+<div class="container">
+	<article class="blog-post  blog-post-with-toc ">
+	    <header>
+	        <h2 class="blog-post-title">
+	            Mise en place d&#39;un site avec Hugo
+	        </h2>
+	        <div class="blog-post-date">
+	            <span>Dernière modification : 25 Avril 2019
+	            </span>
+	        </div>
+			<div class="blog-post-tags">
+			<strong>Tags:</strong>
+			    
+			        <a href="https://pragmatias.fr/tags/web"> Web</a>
+			    
+			</div>
+	    </header>
+
+
+	  	<aside class="prag-toc">
+		<h1 class="prag-toc-head">Sommaire</h1>
+		<div class="prag-toc-body">
+		<nav id="TableOfContents">
+<ul>
+<li><a href="#qu-est-ce-que-hugo">Qu&rsquo;est ce que Hugo</a></li>
+<li><a href="#objectif">Objectif</a></li>
+<li><a href="#code-source">Code source</a></li>
+<li><a href="#démarrage">Démarrage</a>
+<ul>
+<li><a href="#téléchargement">Téléchargement</a></li>
+<li><a href="#découverte-d-hugo">Découverte d&rsquo;Hugo</a></li>
+</ul></li>
+<li><a href="#structuration-du-site">Structuration du site</a>
+<ul>
+<li><a href="#définition-des-répertoires-du-socle">Définition des répertoires du socle</a></li>
+<li><a href="#définition-des-répertoires-d-un-thème">Définition des répertoires d&rsquo;un thème</a></li>
+<li><a href="#définition-du-squelette-du-site">Définition du squelette du site</a></li>
+<li><a href="#gestion-du-menu-de-navigation">Gestion du menu de navigation</a></li>
+</ul></li>
+<li><a href="#définition-d-une-section-blog">Définition d&rsquo;une section Blog</a></li>
+<li><a href="#définition-d-une-section-tags">Définition d&rsquo;une section Tags</a></li>
+<li><a href="#définition-d-une-section-archives">Définition d&rsquo;une section Archives</a></li>
+<li><a href="#mise-en-place-du-multilingue">Mise en place du multilingue</a>
+<ul>
+<li><a href="#mise-en-place-de-deux-langues-fr-en">Mise en place de deux langues (fr/en)</a></li>
+<li><a href="#gestion-des-mois-en-fonction-de-la-langue">Gestion des mois en fonction de la langue</a></li>
+</ul></li>
+<li><a href="#ajout-d-un-flux-rss-concernant-la-section-blog">Ajout d&rsquo;un flux RSS concernant la section Blog</a></li>
+<li><a href="#gestion-du-fichier-css-principal">Gestion du fichier CSS principal</a>
+<ul>
+<li><a href="#gestion-des-couleurs">Gestion des couleurs</a></li>
+<li><a href="#gestion-des-fonts">Gestion des fonts</a></li>
+</ul></li>
+</ul>
+</nav>
+		</div>
+		</aside>
+
+
+		
+		<a id="showTopBtn" href="#" class="prag-sticky-bot">
+			<svg height="24px" id="Layer_1" style="enable-background:new 0 0 438.533 438.533;" version="1.1" viewBox="0 0 438.533 438.533" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<path style="fill-rule:evenodd;clip-rule:evenodd;fill:;" d="M409.133,109.203c-19.608-33.592-46.205-60.189-79.798-79.796C295.736,9.801,259.058,0,219.273,0
+		c-39.781,0-76.47,9.801-110.063,29.407c-33.595,19.604-60.192,46.201-79.8,79.796C9.801,142.8,0,179.489,0,219.267
+		c0,39.78,9.804,76.463,29.407,110.062c19.607,33.592,46.204,60.189,79.799,79.798c33.597,19.605,70.283,29.407,110.063,29.407
+		s76.47-9.802,110.065-29.407c33.593-19.602,60.189-46.206,79.795-79.798c19.603-33.596,29.403-70.284,29.403-110.062
+		C438.533,179.485,428.732,142.795,409.133,109.203z M361.449,231.831l-25.981,25.981c-3.613,3.613-7.901,5.42-12.847,5.42
+		c-4.948,0-9.229-1.807-12.847-5.42l-53.954-53.961v143.32c0,4.948-1.813,9.232-5.428,12.847c-3.613,3.62-7.898,5.427-12.847,5.427
+		h-36.547c-4.948,0-9.231-1.807-12.847-5.427c-3.617-3.614-5.426-7.898-5.426-12.847v-143.32l-53.959,53.961
+		c-3.431,3.425-7.708,5.133-12.85,5.133c-5.14,0-9.423-1.708-12.85-5.133l-25.981-25.981c-3.422-3.429-5.137-7.714-5.137-12.852
+		c0-5.137,1.709-9.419,5.137-12.847l103.356-103.353l25.981-25.981c3.427-3.425,7.71-5.14,12.847-5.14
+		c5.142,0,9.423,1.715,12.849,5.14l25.98,25.981l103.35,103.353c3.432,3.427,5.14,7.71,5.14,12.847
+		C366.589,224.117,364.881,228.402,361.449,231.831z"/>
+
+</svg>
+
+		</a>
+
+		
+		<script type="text/javascript">
+		$(document).ready(function(){
+
+			$('#showTopBtn').removeClass("prag-sticky-bot");
+			$('#showTopBtn').addClass("prag-sticky-hide");
+
+		    $(function () {
+		        $(window).scroll(function () {
+		            if ($(this).scrollTop() > 900 ) {
+		            	$('#showTopBtn').addClass("prag-sticky-bot");
+		            	$('#showTopBtn').removeClass("prag-sticky-hide");
+		            } else {
+		            	$('#showTopBtn').addClass("prag-sticky-hide");
+		            	$('#showTopBtn').removeClass("prag-sticky-bot");
+		            }
+		           });
+		    });
+		});
+
+		</script>
+
+	    <main class="blog-post-main">
+	    	<p>Vous trouverez dans cet article, l&rsquo;ensemble des éléments permettant de mettre en place un site web static en se basant sur les outils suivants :</p>
+
+<ul>
+<li><a href="https://gohugo.io">Hugo</a> : Générateur de site web static</li>
+<li><a href="https://github.com">Github</a> : Service web d&rsquo;hébergement et de gestion des sources de développements (utilisant l&rsquo;outil <a href="https://en.wikipedia.org/wiki/Git">Git</a>)</li>
+<li><a href="https://travis-ci.com">Travis CI</a> : Service web permettant de tester et deployer les développements</li>
+</ul>
+
+<p>Les sujets abordés sont la structuration du site, la création d&rsquo;un thème, la gestion d&rsquo;un flux rss, la mise en place du multi-langue, &hellip;</p>
+
+<h1 id="qu-est-ce-que-hugo">Qu&rsquo;est ce que Hugo</h1>
+
+<p><a href="https://gohugo.io">Hugo</a> est un générateur de site web static écrit en Go et créé par Steve Francia en 2013 (<a href="https://en.wikipedia.org/wiki/Hugo_(software)">wikipedia</a>)</p>
+
+<p>La <a href="https://gohugo.io/documentation/">documentation</a> est très bien faite pour prendre en main rapidement les bases de l&rsquo;outil.</p>
+
+<h1 id="objectif">Objectif</h1>
+
+<p>Pour mettre en place ce premier site, je me suis fixé les objectifs suivants :</p>
+
+<ul>
+<li>Avoir un système de <strong>blog</strong> lié avec des tags permettant de naviguer sur les sujets et avoir un esprit <strong>documentation</strong> sans être un <strong>wiki</strong></li>
+<li>Ne pas avoir de dépendance inutile avec des ressources extérieurs <em>(google,facebook,javascript,&hellip;)</em></li>
+<li>Ne pas récupérer/gérer d&rsquo;information des visiteurs <em>(trackers,cookies,commentaires,&hellip;)</em></li>
+<li>Mettre en place l&rsquo;ensemble des sources sur github</li>
+<li>Faire le maximum de chose par moi même</li>
+<li>Générer automatiquement les pages html</li>
+</ul>
+
+<h1 id="code-source">Code source</h1>
+
+<p>L&rsquo;ensemble du code source de ce site se trouve sur mon <a href="https://github.com/pragmatias/documentation">dépôt github</a></p>
+
+<h1 id="démarrage">Démarrage</h1>
+
+<h2 id="téléchargement">Téléchargement</h2>
+
+<p>J&rsquo;ai principalement travaillé avec la version 0.55.4, en récupérant l&rsquo;exécutable sur le dépôt <a href="https://github.com/gohugoio/hugo/releases">officiel des releases</a>.</p>
+
+<p>Pour Windows10 (en 64bit), l&rsquo;exécutable se trouve <a href="https://github.com/gohugoio/hugo/releases/download/v0.55.4/hugo_0.55.4_Windows-64bit.zip">ici</a></p>
+
+<h2 id="découverte-d-hugo">Découverte d&rsquo;Hugo</h2>
+
+<p>Pour créer un premier site, vous pouvez suivre la <a href="https://gohugo.io/getting-started/quick-start/">documentation officielle</a>.
+Les étapes sont bien expliquées et il existe un grand nombre de choix de <a href="https://themes.gohugo.io">theme</a> pour commencer à manipuler l&rsquo;outil et partir d&rsquo;un visuel existant.</p>
+
+<h1 id="structuration-du-site">Structuration du site</h1>
+
+<h2 id="définition-des-répertoires-du-socle">Définition des répertoires du socle</h2>
+
+<pre><code class="language-html">/documentation
+  +-- /archetypes
+  +-- /config
+  |   +-- /_default
+  +-- /content
+  +-- /ressources
+  +-- /themes
+</code></pre>
+
+<ul>
+<li>Le répertoire &ldquo;archetypes&rdquo; permet de stocker le template des articles de blogs</li>
+<li>Le répertoire &ldquo;config&rdquo; permet de stocket les fichiers de configurations</li>
+<li>Le répertoire &ldquo;content&rdquo; permet de stocker le contenant du site (articles du blog)</li>
+<li>Le répertoire &ldquo;ressources&rdquo; permet de stocker l&rsquo;ensemble des ressources générés (le site)</li>
+<li>Le répertoire &ldquo;themes&rdquo; permet de stocker le theme utilisé</li>
+</ul>
+
+<h2 id="définition-des-répertoires-d-un-thème">Définition des répertoires d&rsquo;un thème</h2>
+
+<p>Les répertoires possibles pour un theme <em>(en prenant exemple sur mon propre theme)</em> :</p>
+
+<pre><code class="language-html">/themes
+  +-- /pragmatias
+  |   +-- /i18n
+  |   +-- /layouts
+  |   |   +-- /_default
+  |   |   +-- /partials
+  |   |   +-- 404.html
+  |   |   +-- index.html
+  |   +-- /static
+  |   |   +-- /css
+  |   |   +-- /fonts
+  |   |   +-- /images
+  |   |   +-- /js
+  |   +-- LICENSE
+  |   +-- theme.toml
+</code></pre>
+
+<p>Le theme se nomme &ldquo;pragmatias&rdquo; et les metadonnées se trouvent dans le fichier &ldquo;theme.toml&rdquo;
+Un exemple de contenu pour le fichier &ldquo;theme.toml&rdquo; peut être récupéré sur le <a href="https://github.com/gohugoio/hugoThemes#themetoml">site officiel</a></p>
+
+<p>Les répertoires importants sont :</p>
+
+<ul>
+<li>i18n : permettant gérer la partie multi-langue (vocabulaire)</li>
+<li>layouts : permettant de gérer l&rsquo;affichage du site</li>
+<li>static : permettant de stocker l&rsquo;ensemble des ressources (js,fonts,css,images)</li>
+</ul>
+
+<h2 id="définition-du-squelette-du-site">Définition du squelette du site</h2>
+
+<p>Création du fichier <strong>baseof.html</strong> dans le répertoire <code>/themes/pragmatias/layouts/_default</code></p>
+
+<pre><code class="language-html">&lt;html lang=&quot;{{ with $.Site.LanguageCode }}{{ . }}{{ else }}fr{{ end }}&quot;&gt;
+    {{- partial &quot;head.html&quot; . -}}
+    &lt;body&gt;
+        {{- partial &quot;header.html&quot; . -}}
+        &lt;div id=&quot;content&quot;&gt;
+        {{- block &quot;main&quot; . }}{{- end }}
+        &lt;/div&gt;
+        {{- partial &quot;footer.html&quot; . -}}
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>Cette page sera le squelette par défaut de chaque page du site.</p>
+
+<p>Elle nécessite la création des fichiers suivants dans le répertoire <code>/themes/pragmatias/layouts/partials</code> :</p>
+
+<ul>
+<li>head.html : permet de définir l&rsquo;entête de chaque page HTML (les balises meta, javascript, css, etc &hellip;)</li>
+<li>header.html : permet de définir le menu de navigation en haut du site</li>
+<li>footer.html : permet de définir le pied de page du site</li>
+</ul>
+
+<p>Pour l&rsquo;entête et le pied de page, l&rsquo;invocation des fichiers <strong>*.html</strong> se fait en utilisant la syntaxe suivantes :</p>
+
+<pre><code class="language-html">{{- partial &quot;*.html&quot; . -}}
+</code></pre>
+
+<p>Pour le corps, l&rsquo;invocation des fichiers *.html se fait de manière plus complexe. Vous trouverez les informations dans les chapitres concernants la création des différentes section/pages du site. <em>(blog, tags, archives, &hellip;)</em></p>
+
+<h2 id="gestion-du-menu-de-navigation">Gestion du menu de navigation</h2>
+
+<p>Afin de gérer un menu de navigation en fonction de la taille de l&rsquo;écran (mobile/desktop), j&rsquo;ai utilisé la librairie javascript <a href="https://getbootstrap.com/">bootstrap</a>.</p>
+
+<p>Les étapes de mise en place sont les suivantes :</p>
+
+<p>1. Télécharger les fichiers javascript <a href="https://getbootstrap.com/docs/4.3/getting-started/download/">bootstrap</a>,<a href="https://jquery.com/download/">jquery</a> et <a href="https://popper.js.org">popper</a> dans les répertoires <code>/themes/pragmatias/static/js</code> et <code>/themes/pragmatias/static/css</code></p>
+
+<ul>
+<li>js/bootstrap.min.js</li>
+<li>js/bootstrap.min.js.map</li>
+<li>js/jquery-3.4.0.slim.min.js</li>
+<li>js/jquery-3.4.0.slim.min.js.map</li>
+<li>js/popper.min.js</li>
+<li>js/popper.min.js.map</li>
+<li>css/bootstrap.min.css</li>
+<li>css/bootstrap.min.css.map</li>
+</ul>
+
+<p>2. Ajout des informations suivantes dans le fichier <code>/themes/pragmatias/layouts/partial/head.html</code> pour charger les fichiers JS et CSS nécessaires</p>
+
+<pre><code class="language-html">    &lt;!-- Bootstrap CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;{{ .Site.BaseURL }}/css/bootstrap.min.css&quot;&gt;
+
+    &lt;!-- Optional JavaScript --&gt;
+    &lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&gt;
+    &lt;script src=&quot;{{ .Site.BaseURL }}/js/jquery-3.4.0.slim.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;{{ .Site.BaseURL }}/js/popper.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;{{ .Site.BaseURL }}/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+
+<p>3. Création du menu de navigation <code>/themes/pragmatias/layouts/partial/header.html</code></p>
+
+<pre><code class="language-html">	&lt;div class=&quot;navbar navbar-expand-md prag-bg-primary prag-header&quot; role=&quot;navigation&quot;&gt;
+        &lt;div class=&quot;container-fluid  justify-content-center&quot;&gt;
+
+            &lt;button class=&quot;navbar-toggler justify-content-end prag-navbar&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarSupportedContent&quot; aria-controls=&quot;navbarSupportedContent&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+                &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+            &lt;/button&gt;
+
+            &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarSupportedContent&quot;&gt;
+                &lt;ul class=&quot;navbar-nav text-center&quot;&gt;
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.global }}
+                    &lt;li class=&quot;nav-item&quot;&gt;
+                        &lt;a class=&quot;nav-link&quot; href=&quot;{{ .URL | absLangURL }}&quot;&gt;{{ .Name }}&lt;/a&gt;
+                    &lt;/li&gt;
+                    {{ end }}
+                &lt;/ul&gt;
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+</code></pre>
+
+<p>4. Création des entrées dans le menu global, en ajoutant les informations suivantes dans le fichier de configuration principal <code>config\_default\config.toml</code></p>
+
+<pre><code class="language-makefile">[[menus]]
+	[[menu.global]]
+		name = &quot;Test&quot;
+		weight = 1
+		identifier = &quot;test&quot;
+		url = &quot;/test&quot;
+</code></pre>
+
+<h1 id="définition-d-une-section-blog">Définition d&rsquo;une section Blog</h1>
+
+<p>Afin de pouvoir créer des articles, il faut mettre en place la gestion de la section <strong>Blog</strong>.</p>
+
+<p>1. Création d&rsquo;une entrée <strong>blog</strong> dans le menu global du fichier de configuration principal <code>config\_default\config.toml</code></p>
+
+<pre><code class="language-makefile">	[[menu.global]]
+		name = &quot;Blog&quot;
+		weight = 1
+		identifier = &quot;blog&quot;
+		url = &quot;/blog&quot;
+</code></pre>
+
+<p>2. Création du répertoire <code>/content/blog</code></p>
+
+<p>Ce répertoire sera utilisé pour stocker l&rsquo;ensemble des articles de la section <strong>Blog</strong> sous forme de fichier <strong>*.md</strong>.</p>
+
+<p>Exemple du contenu d&rsquo;un fichier *.md définissant un article :</p>
+
+<pre><code class="language-makefile">---
+Categories : [&quot;&quot;]
+Tags : [&quot;&quot;]
+title : &quot;Premier article avec hugo&quot;
+date : 2019-01-01
+draft : false
+---
+
+Welcome !
+</code></pre>
+
+<p>3. Création du fichier <code>/themes/pragmatias/layouts/blog/list.html</code></p>
+
+<p>Ce fichier sera appelé par défaut par le fichier <strong>baseof.html</strong> lorsque l&rsquo;url <strong>/blog</strong> sera appelé.</p>
+
+<pre><code class="language-html">{{ define &quot;main&quot; }}
+&lt;div class=&quot;container&quot;&gt;
+	{{ range (where .Site.Pages &quot;Type&quot; &quot;blog&quot;) }}
+	&lt;article class=&quot;list-blog-post&quot;&gt;
+	    &lt;header&gt;
+	        &lt;h2 class=&quot;list-blog-post-title&quot;&gt;
+	            &lt;a href=&quot;{{ .RelPermalink }}&quot;&gt;{{ .Title }}&lt;/a&gt;
+	        &lt;/h2&gt;
+	    &lt;/header&gt;
+	    &lt;div class=&quot;list-blog-post-summary&quot;&gt;
+	        {{ .Summary | safeHTML }}
+	    &lt;/div&gt;
+	&lt;/article&gt;
+	{{ end}}
+&lt;/div&gt;
+{{ end }}
+</code></pre>
+
+<blockquote>
+<p>Remarque : le fait d&rsquo;utiliser la syntaxe <code>{{ define &quot;main&quot; }} ... {{ end }}</code> aura pour effet de remplacer le block <code>{{- block &quot;main&quot; . }}{{- end }}</code> du fichier <strong>baseof.html</strong></p>
+</blockquote>
+
+<p>4. Création du fichier <code>/themes/pragmatias/layouts/blog/single.html</code></p>
+
+<p>Ce fichier sera appelé par défaut par le fichier <strong>baseof.html</strong> lorsque l&rsquo;url <strong>/blog/titre_article.html</strong> sera appelé pour afficher le contenu d&rsquo;un article.
+Un article étant défini par le contenu d&rsquo;un fichier <strong>*.md</strong> du répertoire <code>/content/blog</code></p>
+
+<pre><code class="language-html">{{ define &quot;main&quot; }}
+&lt;div class=&quot;container&quot;&gt;
+	&lt;article class=&quot;blog-post&quot;&gt;
+	    &lt;header&gt;
+	        &lt;h2 class=&quot;blog-post-title&quot;&gt;
+	            {{ .Title }}
+	        &lt;/h2&gt;
+	    &lt;/header&gt;
+	    &lt;main class=&quot;blog-post-main&quot;&gt;
+	    	{{ .Content }}
+	  	&lt;/main&gt;
+	&lt;/article&gt;
+&lt;/div&gt;
+{{ end }}
+</code></pre>
+
+<h1 id="définition-d-une-section-tags">Définition d&rsquo;une section Tags</h1>
+
+<p>Pour pouvoir lister les articles par <strong>Tags</strong> avec Hugo.</p>
+
+<p>1. Ajouter une entrée <strong>Tags</strong> dans le menu global du fichier de configuration principal <code>config\_default\config.toml</code></p>
+
+<pre><code class="language-makefile">	[[menu.global]]
+		name = &quot;Tags&quot;
+		weight = 2
+		identifier = &quot;tags&quot;
+		url = &quot;/tags&quot;
+</code></pre>
+
+<p>2. Ajouter le parametre suivant dans le fichier de configuration principal <code>config\_default\config.toml</code> pour activer la gestion des <strong>Tags</strong></p>
+
+<pre><code class="language-makefile">[taxonomies]
+  tag = &quot;tags&quot;
+</code></pre>
+
+<p>3. Ajouter dans les fichiers <strong>*.md</strong> du répertoire <code>content/blog</code> le paramètre <strong>Tags</strong> avec les mots clés souhaités</p>
+
+<pre><code class="language-makefile">---
+Tags : [&quot;Tags1&quot;,&quot;Tags2&quot;]
+---
+</code></pre>
+
+<p>4. Création du fichier <code>/themes/pragmatias/layouts/_default/terms.html</code> pour gérer l&rsquo;affichage de l&rsquo;url <strong>/Tags</strong></p>
+
+<pre><code class="language-html">{{ define &quot;main&quot; }}
+&lt;div class=&quot;container prag-tags&quot;&gt;
+  {{ $type := .Type }}
+  {{ range $key, $value := .Data.Terms.ByCount }}
+    {{ $name := .Name }}
+    {{ $count := .Count }}
+    {{ with $.Site.GetPage (printf &quot;/%s/%s&quot; $type $name) }}
+    &lt;p&gt;
+      &lt;a class=&quot;&quot; href=&quot;{{ .Permalink }}&quot;&gt;
+        {{ $name | humanize }}
+      &lt;/a&gt;
+    &lt;/p&gt;
+    {{ end }}
+  {{ end }}
+&lt;/div&gt;
+{{ end }}
+</code></pre>
+
+<p>5. Création du fichier <code>/themes/pragmatias/layouts/_default/taxonomy.html</code> pour gérer l&rsquo;affichage du contenu d&rsquo;un <strong>Tags</strong></p>
+
+<pre><code class="language-html">{{ define &quot;main&quot; }}
+&lt;div class=&quot;container&quot;&gt;
+  {{ range (where .Site.Pages &quot;Type&quot; &quot;blog&quot;) }}
+  &lt;article class=&quot;list-blog-post&quot;&gt;
+      &lt;header&gt;
+          &lt;h2 class=&quot;list-blog-post-title&quot;&gt;
+              &lt;a href=&quot;{{ .RelPermalink }}&quot;&gt;{{ .Title }}&lt;/a&gt;
+          &lt;/h2&gt;
+      &lt;/header&gt;
+      &lt;div class=&quot;list-blog-post-summary&quot;&gt;
+          {{ .Summary | safeHTML }}
+      &lt;/div&gt;
+  &lt;/article&gt;
+  {{ end}}
+&lt;/div&gt;
+{{ end }}
+</code></pre>
+
+<h1 id="définition-d-une-section-archives">Définition d&rsquo;une section Archives</h1>
+
+<p>Afin de pouvoir lister les articles pour voir les archives, il faut créer une section <strong>Archives</strong>.</p>
+
+<p>1. Ajouter une entrée <strong>Archives</strong> dans le menu global du fichier de configuration principal <code>config\_default\config.toml</code></p>
+
+<pre><code class="language-makefile">[[menus]]
+	[[menu.global]]
+		name = &quot;Archives&quot;
+		weight = 3
+		identifier = &quot;archives&quot;
+		url = &quot;/archives&quot;
+
+</code></pre>
+
+<p>2. Création du répertoire <code>content\archives</code> et d&rsquo;un fichier <strong>_index.md</strong> avec le contenu suivant</p>
+
+<pre><code class="language-makefile">---
+Title : &quot;Archives&quot;
+date : 2019-01-01
+---
+</code></pre>
+
+<p>3. Création du fichier <code>/themes/pragmatias/layouts/_default/list.html</code> pour gérer l&rsquo;affichage de l&rsquo;url <strong>/Archives</strong></p>
+
+<pre><code class="language-html">{{ define &quot;main&quot; }}
+&lt;div class=&quot;container&quot;&gt;
+    {{ $v1 := where .Site.RegularPages &quot;Type&quot; &quot;blog&quot; }}
+    {{ range ($v1.GroupByDate &quot;2006&quot;) }}
+    &lt;div class=&quot;arch-posts-group&quot;&gt;
+        &lt;div class=&quot;arch-post-year&quot;&gt;{{ .Key }}&lt;/div&gt;
+        &lt;ul class=&quot;arch-post-list&quot;&gt;
+            {{ range (where .Pages &quot;Type&quot; &quot;blog&quot;) }}
+            &lt;li class=&quot;arch-post-item&quot;&gt;
+                &lt;a href=&quot;{{ .RelPermalink }}&quot;&gt;
+                    &lt;span class=&quot;arch-post-title&quot;&gt;{{ .Title }}&lt;/span&gt;
+                &lt;/a&gt;
+            &lt;/li&gt;
+            {{ end }}
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    {{ end }}
+&lt;/div&gt;
+{{ end }}
+</code></pre>
+
+<h1 id="mise-en-place-du-multilingue">Mise en place du multilingue</h1>
+
+<h2 id="mise-en-place-de-deux-langues-fr-en">Mise en place de deux langues (fr/en)</h2>
+
+<p>1. Définir la langue par défaut en ajoutant les paramètres suivants au début du fichier de configuration principal <code>/config/_default/config.toml</code></p>
+
+<pre><code class="language-makefile">languageCode = &quot;en&quot;
+DefaultContentLanguage = &quot;en&quot;
+</code></pre>
+
+<p>2. Définir les différentes langues en ajoutant les paramètres suivants à la fin du fichier de configuration principal <code>/config/_default/config.toml</code></p>
+
+<pre><code class="language-makefile">[languages]
+  [languages.en]
+    weight = 10
+    languageName = &quot;English&quot;
+    contentDir = &quot;content/en&quot;
+    languageCode = &quot;en&quot;
+    [languages.en.params]
+    imagePNG = &quot;united-kingdom-flag-round-xs.png&quot;
+
+  [languages.fr]
+      weight = 20
+      languageName = &quot;Français&quot;
+      contentDir = &quot;content/fr&quot;
+      languageCode = &quot;fr&quot;
+      [languages.fr.params]
+      imagePNG = &quot;france-flag-round-xs.png&quot;
+</code></pre>
+
+<p>3. Définition du dictionnaire anglais en créant le fichier <strong>en.toml</strong> dans le répertoire <code>/themes/pragmatias/i18n</code></p>
+
+<pre><code class="language-makefile">[more_read]
+other = &quot;Read more&quot;
+</code></pre>
+
+<p>4. Définition du dictionnaire français en créant le fichier <strong>fr.toml</strong> dans le répertoire <code>/themes/pragmatias/i18n</code></p>
+
+<pre><code class="language-makefile">[more_read]
+other = &quot;Continer la lecture&quot;
+</code></pre>
+
+<p>5. Pour utiliser les termes des dictionnaries dans les fichiers html du répertoire <code>/themes/pragmatias/layouts</code>, il faut utiliser la syntaxe suivante :</p>
+
+<pre><code class="language-makefile">{{ i18n &quot;more_read&quot; }}
+</code></pre>
+
+<h2 id="gestion-des-mois-en-fonction-de-la-langue">Gestion des mois en fonction de la langue</h2>
+
+<p>1. Ajouter la traduction des 12 mois dans le dictionnaire Anglais <code>/themes/pragmatias/i18n/en.toml</code></p>
+
+<pre><code class="language-makefile">[January]
+other = &quot;January&quot;
+[February]
+other = &quot;February&quot;
+[March]
+other = &quot;March&quot;
+[April]
+other = &quot;April&quot;
+[May]
+other = &quot;May&quot;
+[June]
+other = &quot;June&quot;
+[July]
+other = &quot;July&quot;
+[August]
+other = &quot;August&quot;
+[September]
+other = &quot;September&quot;
+[October]
+other = &quot;October&quot;
+[November]
+other = &quot;November&quot;
+[December]
+other = &quot;December&quot;
+</code></pre>
+
+<p>2. Ajouter la traduction des 12 mois dans le dictionnaire Français <code>/themes/pragmatias/i18n/fr.toml</code></p>
+
+<pre><code class="language-makefile">[January]
+other = &quot;Janvier&quot;
+[February]
+other = &quot;Février&quot;
+[March]
+other = &quot;Mars&quot;
+[April]
+other = &quot;Avril&quot;
+[May]
+other = &quot;Mai&quot;
+[June]
+other = &quot;Juin&quot;
+[July]
+other = &quot;Juillet&quot;
+[August]
+other = &quot;Aout&quot;
+[September]
+other = &quot;Septembre&quot;
+[October]
+other = &quot;Octobre&quot;
+[November]
+other = &quot;Novembre&quot;
+[December]
+other = &quot;Décembre&quot;
+</code></pre>
+
+<p>3. Utiliser la syntaxe suivante pour afficher les dates dans les fichiers html du répertoire <code>/themes/pragmatias/layouts</code></p>
+
+<pre><code class="language-html">{{.Date.Day}} {{i18n .Date.Month}} {{.Date.Year}}
+</code></pre>
+
+<h1 id="ajout-d-un-flux-rss-concernant-la-section-blog">Ajout d&rsquo;un flux RSS concernant la section Blog</h1>
+
+<p>1. Ajout des informations de sortie dans le fichier de configuration principal <code>/config/_default/config.toml</code></p>
+
+<pre><code class="language-makefile">[outputs]
+  home = [ &quot;HTML&quot;, &quot;RSS&quot; ]
+  section = [ &quot;HTML&quot;] 
+  taxonomy = [ &quot;HTML&quot;]
+</code></pre>
+
+<p>2. Création de la définition du flux RSS dans le fichier <code>/themes/pragmatias/layouts/_default/rss.xml</code></p>
+
+<pre><code class="language-xml">&lt;rss version=&quot;2.0&quot; xmlns:atom=&quot;http://www.w3.org/2005/Atom&quot;&gt;
+  &lt;channel&gt;
+    &lt;title&gt;{{ .Site.Title }}&lt;/title&gt;
+    &lt;link&gt;{{ &quot;/blog&quot; | absLangURL }}&lt;/link&gt;
+    &lt;description&gt;{{ i18n &quot;rss_content&quot; }} {{ .Site.Title }}&lt;/description&gt;
+    &lt;generator&gt;Hugo {{ .Hugo.Version }}&lt;/generator&gt;
+    {{ with .Site.LanguageCode }}
+      &lt;language&gt;{{.}}&lt;/language&gt;
+    {{end}}
+    {{ with $.Site.Author.name }}
+      &lt;webMaster&gt;{{.}}&lt;/webMaster&gt;
+    {{end}}
+    {{ with .Site.Copyright }}
+      &lt;copyright&gt;{{.}}&lt;/copyright&gt;
+    {{end}}
+    &lt;lastBuildDate&gt;{{ .Date.Format &quot;Mon, 02 Jan 2006 15:04:05 -0700&quot; | safeHTML }}&lt;/lastBuildDate&gt;
+    &lt;atom:link href=&quot;{{ &quot;/feed.xml&quot; | absLangURL }}&quot; rel=&quot;self&quot; type=&quot;application/rss+xml&quot; /&gt;
+    {{ range first 10 (where .Data.Pages &quot;Type&quot; &quot;blog&quot;) }}
+    &lt;item&gt;
+      &lt;title&gt;{{ .Title }}&lt;/title&gt;
+      &lt;link&gt;{{ .Permalink }}&lt;/link&gt;
+      &lt;pubDate&gt;
+          {{ .Date.Format &quot;Mon, 02 Jan 2006 15:04:05 -0700&quot; | safeHTML }}
+      &lt;/pubDate&gt;
+      &lt;lastModDate&gt;
+          {{ .Lastmod.Format &quot;Mon, 02 Jan 2006 15:04:05 -0700&quot; | safeHTML }}
+      &lt;/lastModDate&gt;
+      &lt;guid&gt;{{ .Permalink }}&lt;/guid&gt;
+      &lt;description&gt;{{ .Summary | html }}&lt;/description&gt;
+    &lt;/item&gt;
+    {{ end }}
+  &lt;/channel&gt;
+&lt;/rss&gt;
+</code></pre>
+
+<p>3. Ajout des informations dans le fichier <code>/themes/pragmatias/layouts/partials/head.html</code> :</p>
+
+<pre><code class="language-html">    &lt;!-- Flux RSS --&gt;
+    &lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;{{ &quot;/feed.xml&quot; | absLangURL }}&quot; /&gt;
+</code></pre>
+
+<p>4. Ajout de l&rsquo;icone RSS dans le fichier <code>/themes/pragmatias/layouts/partials/header.html</code> :</p>
+
+<pre><code class="language-html">   &lt;li class=&quot;nav-item&quot;&gt;
+      &lt;a href=&quot;{{ &quot;/feed.xml&quot; | absLangURL }}&quot; title=&quot;{{ .Site.Title}}&quot; class=&quot;prag_header_svg mr-1 ml-1&quot;&gt;
+        {{ partial &quot;svg/social-rss-circle-internet.svg&quot; (dict &quot;size&quot; &quot;24px&quot;) }}
+      &lt;/a&gt;
+    &lt;/li&gt;
+</code></pre>
+
+<h1 id="gestion-du-fichier-css-principal">Gestion du fichier CSS principal</h1>
+
+<h2 id="gestion-des-couleurs">Gestion des couleurs</h2>
+
+<p>Afin de pouvoir gérer plus facilement les couleurs.</p>
+
+<p>1. Définir l&rsquo;ensemble des variables nécessaire au début du fichier CSS</p>
+
+<pre><code class="language-css">:root {
+  --color-bg-primary:#fdfaee;
+  --color-fg-head-titre:#03416d;
+}
+</code></pre>
+
+<p>2. Utiliser la syntaxe suivante pour appeler la variable définissant la couleur attendue</p>
+
+<pre><code class="language-css">body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-fg-blog-texte);
+}
+</code></pre>
+
+<h2 id="gestion-des-fonts">Gestion des fonts</h2>
+
+<p>Pour ajouter une font spécifique.</p>
+
+<p>1. Copier les fichiers de la font choisie au format woff et woff2 dans le répertoire <code>/themes/pragmatias/static/fonts</code></p>
+
+<ul>
+<li>OpenSans-Regular.woff</li>
+<li>OpenSans-Regular.woff2</li>
+<li>OpenSans-Bold.woff</li>
+<li>OpenSans-Bold.woff2</li>
+<li>OpenSans-Italic.woff</li>
+<li>OpenSans-Italic.woff2</li>
+<li>OpenSans-BoldItalic.woff</li>
+<li>OpenSans-BoldItalic.woff2</li>
+</ul>
+
+<p>2. Définir les fonts pouvant être utiliser dans le CSS</p>
+
+<pre><code class="language-css">@font-face {
+  font-family: 'OpenSans';
+  src: url('/fonts/OpenSans-Regular.woff2') format('woff2'), url('/fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('/fonts/OpenSans-Bold.woff2') format('woff2'), url('/fonts/OpenSans-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('/fonts/OpenSans-Italic.woff2') format('woff2'), url('/fonts/OpenSans-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('/fonts/OpenSans-BoldItalic.woff2') format('woff2'), url('/fonts/OpenSans-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+</code></pre>
+
+<p>3. Utiliser le nom de la font dans les propriétés du CSS</p>
+
+<pre><code class="language-css">body {
+  font-family: 'OpenSans';
+}
+</code></pre>
+	  	</main>
+
+	</article>
+</div>
+
+        </div>  <footer>
+        <div class="container-fluid prag-bg-primary prag-foot">
+      	Généré avec <a class="" href="https://gohugo.io/">Hugo</a>
+      	 &nbsp; - &nbsp;
+      	 <a href="https://en.wikipedia.org/wiki/WTFPL">WTFPL license</a> © 2018–2019 
+        </div>
+  </footer>
+</body>
+</html>

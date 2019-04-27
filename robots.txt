@@ -1,15 +1,15 @@
 User-agent: *
 
 
+Disallow: /2019/04/25/mise-en-place-dun-site-avec-hugo/
+
 Disallow: /archives/
 
-Disallow: /2019/02/05/create-a-site-with-hugo/
-
 Disallow: /blog/
-
-Disallow: /tags/divers/
 
 Disallow: /
 
 Disallow: /tags/
+
+Disallow: /tags/web/
 

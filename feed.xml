@@ -3,10 +3,10 @@
   <channel>
     <title>Pragmatias Blog</title>
     <link>https://pragmatias.fr/blog</link>
-    <description>Recent content in Pragmatias Blog</description>
+    <description>Contenu récent dans  Pragmatias Blog</description>
     <generator>Hugo 0.54.0</generator>
     
-      <language>en</language>
+      <language>fr</language>
     
     
       <webMaster>pragmatias</webMaster>
@@ -14,20 +14,28 @@
     
       <copyright>WTFPL license</copyright>
     
-    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Apr 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pragmatias.fr/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Create a site with Hugo</title>
-      <link>https://pragmatias.fr/2019/02/05/create-a-site-with-hugo/</link>
+      <title>Mise en place d&#39;un site avec Hugo</title>
+      <link>https://pragmatias.fr/2019/04/25/mise-en-place-dun-site-avec-hugo/</link>
       <pubDate>
-          Tue, 05 Feb 2019 00:00:00 +0000
+          Thu, 25 Apr 2019 00:00:00 +0000
       </pubDate>
       <lastModDate>
-          Tue, 05 Feb 2019 00:00:00 +0000
+          Thu, 25 Apr 2019 00:00:00 +0000
       </lastModDate>
-      <guid>https://pragmatias.fr/2019/02/05/create-a-site-with-hugo/</guid>
-      <description>&lt;p&gt;No description&lt;/p&gt;</description>
+      <guid>https://pragmatias.fr/2019/04/25/mise-en-place-dun-site-avec-hugo/</guid>
+      <description>&lt;p&gt;Vous trouverez dans cet article, l&amp;rsquo;ensemble des éléments permettant de mettre en place un site web static en se basant sur les outils suivants :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; : Générateur de site web static&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt; : Service web d&amp;rsquo;hébergement et de gestion des sources de développements (utilisant l&amp;rsquo;outil &lt;a href=&#34;https://en.wikipedia.org/wiki/Git&#34;&gt;Git&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://travis-ci.com&#34;&gt;Travis CI&lt;/a&gt; : Service web permettant de tester et deployer les développements&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Les sujets abordés sont la structuration du site, la création d&amp;rsquo;un thème, la gestion d&amp;rsquo;un flux rss, la mise en place du multi-langue, &amp;hellip;&lt;/p&gt;</description>
     </item>
     
   </channel>
