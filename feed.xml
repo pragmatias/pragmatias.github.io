@@ -9,7 +9,7 @@
       <language>fr</language>
     
     
-      <webMaster>pragmatias</webMaster>
+      <webMaster>dev@pragmatias.fr</webMaster>
     
     
       <copyright>WTFPL license</copyright>
@@ -23,9 +23,6 @@
       <pubDate>
           Thu, 25 Apr 2019 00:00:00 +0000
       </pubDate>
-      <lastModDate>
-          Thu, 25 Apr 2019 00:00:00 +0000
-      </lastModDate>
       <guid>https://pragmatias.fr/2019/04/25/mise-en-place-dun-site-avec-hugo/</guid>
       <description>&lt;p&gt;Vous trouverez dans cet article, l&amp;rsquo;ensemble des éléments permettant de mettre en place un site web static en se basant sur les outils suivants :&lt;/p&gt;
 
