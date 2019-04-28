@@ -27,7 +27,7 @@
     
     <link rel="alternate" type="application/rss+xml" href="https://pragmatias.fr/feed.xml" />
 
-    <title>Mise en place d&#39;un site avec Hugo</title><body>    <div class="navbar navbar-expand-md prag-bg-primary prag-header" role="navigation">
+    <title>Création d&#39;un site avec Hugo</title><body>    <div class="navbar navbar-expand-md prag-bg-primary prag-header" role="navigation">
         <div class="container-fluid  justify-content-center">
             <div class="navbar-brand">
                 <a href="https://pragmatias.fr/blog/">
@@ -141,7 +141,7 @@
 	<article class="blog-post  blog-post-with-toc ">
 	    <header>
 	        <h2 class="blog-post-title">
-	            Mise en place d&#39;un site avec Hugo
+	            Création d&#39;un site avec Hugo
 	        </h2>
 	        <div class="blog-post-date">
 	            <span>Dernière modification : 25 Avril 2019
@@ -187,6 +187,7 @@
 <li><a href="#ajout-d-un-flux-rss-concernant-la-section-blog">Ajout d&rsquo;un flux RSS concernant la section Blog</a></li>
 <li><a href="#gestion-du-fichier-css-principal">Gestion du fichier CSS principal</a>
 <ul>
+<li><a href="#utilisation-d-un-fichier-css">Utilisation d&rsquo;un fichier CSS</a></li>
 <li><a href="#gestion-des-couleurs">Gestion des couleurs</a></li>
 <li><a href="#gestion-des-fonts">Gestion des fonts</a></li>
 </ul></li>
@@ -238,13 +239,7 @@
 		</script>
 
 	    <div class="blog-post-main">
-	    	<p>Vous trouverez dans cet article, l&rsquo;ensemble des éléments permettant de mettre en place un site web static en se basant sur les outils suivants :</p>
-
-<ul>
-<li><a href="https://gohugo.io">Hugo</a> : Générateur de site web static</li>
-<li><a href="https://github.com">Github</a> : Service web d&rsquo;hébergement et de gestion des sources de développements (utilisant l&rsquo;outil <a href="https://en.wikipedia.org/wiki/Git">Git</a>)</li>
-<li><a href="https://travis-ci.com">Travis CI</a> : Service web permettant de tester et deployer les développements</li>
-</ul>
+	    	<p>Vous trouverez dans cet article, l&rsquo;ensemble des éléments permettant de créer un site web static en se basant sur le générateur <a href="https://gohugo.io">Hugo</a></p>
 
 <p>Les sujets abordés sont la structuration du site, la création d&rsquo;un thème, la gestion d&rsquo;un flux rss, la mise en place du multi-langue, &hellip;</p>
 
@@ -256,13 +251,10 @@
 
 <h1 id="objectif">Objectif</h1>
 
-<p>Pour mettre en place ce premier site, je me suis fixé les objectifs suivants :</p>
-
 <ul>
 <li>Avoir un système de <strong>blog</strong> lié avec des tags permettant de naviguer sur les sujets et avoir un esprit <strong>documentation</strong> sans être un <strong>wiki</strong></li>
 <li>Ne pas avoir de dépendance inutile avec des ressources extérieurs <em>(google,facebook,javascript,&hellip;)</em></li>
 <li>Ne pas récupérer/gérer d&rsquo;information des visiteurs <em>(trackers,cookies,commentaires,&hellip;)</em></li>
-<li>Mettre en place l&rsquo;ensemble des sources sur github</li>
 <li>Faire le maximum de chose par moi même</li>
 <li>Générer automatiquement les pages html</li>
 </ul>
@@ -798,9 +790,23 @@ other = &quot;Décembre&quot;
 
 <h1 id="gestion-du-fichier-css-principal">Gestion du fichier CSS principal</h1>
 
+<h2 id="utilisation-d-un-fichier-css">Utilisation d&rsquo;un fichier CSS</h2>
+
+<p>1. Creer le fichier CSS souhaité dans le répertoire <code>/themes/pragmatias/static/css</code></p>
+
+<pre><code class="language-css">html {}
+
+body {}
+</code></pre>
+
+<p>2. Ajouter l&rsquo;utilisation du fichier CSS dans le fichier <code>/themes/pragmatias/layouts/partials/head.html</code></p>
+
+<pre><code class="language-html">    &lt;link rel=&quot;stylesheet&quot; href=&quot;{{ .Site.BaseURL }}/css/pragmatias.css&quot;&gt;
+</code></pre>
+
 <h2 id="gestion-des-couleurs">Gestion des couleurs</h2>
 
-<p>Afin de pouvoir gérer plus facilement les couleurs.</p>
+<p>Pour pouvoir gérer les couleurs de l&rsquo;ensemble du site à un seul endroit.</p>
 
 <p>1. Définir l&rsquo;ensemble des variables nécessaire au début du fichier CSS</p>
 
@@ -820,7 +826,7 @@ other = &quot;Décembre&quot;
 
 <h2 id="gestion-des-fonts">Gestion des fonts</h2>
 
-<p>Pour ajouter une font spécifique.</p>
+<p>Pour pouvoir utiliser une font spécifique sans passer par un webservice externe.</p>
 
 <p>1. Copier les fichiers de la font choisie au format woff et woff2 dans le répertoire <code>/themes/pragmatias/static/fonts</code></p>
 
