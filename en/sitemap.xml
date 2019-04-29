@@ -54,13 +54,6 @@
   </url>
   
   <url>
-    <loc>https://pragmatias.fr/en/tags/divers/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://pragmatias.fr/en/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -79,7 +72,6 @@
   
   <url>
     <loc>https://pragmatias.fr/en/tags/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
     <xhtml:link
@@ -91,6 +83,23 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://pragmatias.fr/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pragmatias.fr/en/tags/web/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/tags/web/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/tags/web/"
                 />
   </url>
   

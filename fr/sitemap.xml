@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://pragmatias.fr/2019/04/29/mise-en-place-dun-site-avec-hugo-github-et-travis/</loc>
+    <lastmod>2019-04-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://pragmatias.fr/2019/04/25/cr%C3%A9ation-dun-site-avec-hugo/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -38,7 +45,7 @@
   
   <url>
     <loc>https://pragmatias.fr/blog/</loc>
-    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
     <xhtml:link
@@ -54,8 +61,15 @@
   </url>
   
   <url>
+    <loc>https://pragmatias.fr/tags/hugo/</loc>
+    <lastmod>2019-04-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://pragmatias.fr/</loc>
-    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
     <xhtml:link
@@ -72,6 +86,7 @@
   
   <url>
     <loc>https://pragmatias.fr/tags/</loc>
+    <lastmod>2019-04-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
     <xhtml:link
@@ -88,9 +103,19 @@
   
   <url>
     <loc>https://pragmatias.fr/tags/web/</loc>
-    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/tags/web/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/tags/web/"
+                />
   </url>
   
 </urlset>

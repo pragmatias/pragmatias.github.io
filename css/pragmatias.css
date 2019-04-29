@@ -297,13 +297,14 @@ body {
 	font-size:15px;
 }
 
-.blog-post p {
-	line-height: 1.2em;
-}
 
 .blog-post-main {
 	margin-top : 50px;
 	margin-bottom : 50px;
+}
+
+.blog-post-main p {
+	line-height: 1.2em;
 }
 
 .blog-post-main a {
@@ -330,14 +331,12 @@ body {
 	color : var(--color-fg-blog-titre);
 }
 .blog-post-main h2 {
-/*	margin-top: 40px; */
 	font-size: 20px;
 	font-weight: 600;
 	text-decoration-line: none;
 	color : var(--color-fg-blog-titre);
 }
 .blog-post-main h3 {
-/*	margin-top: 40px;*/
 	font-size: 18px;
 	font-weight: 600;
 	text-decoration-line: none;
@@ -352,6 +351,43 @@ body {
 	padding-right : 50px;
 	color: var(--color-fg-blog-texte);
 }
+
+
+
+
+.blog-post-main p > a > img {
+	border : 1px dashed var(--color-fg-blog-lien);
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	max-width: 100%
+}
+
+
+.blog-post-main table {
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+}
+
+.blog-post-main table > thead
+,.blog-post-main table > tbody > tr {
+	border-bottom : 1px dashed var(--color-fg-blog-texte);
+}
+
+
+.blog-post-main table > tbody > tr > td
+,.blog-post-main table > thead > tr > th {
+	padding-left : 10px;
+	padding-right : 20px;
+}
+
+
+
+
+
+
+
 
 
 /* Style de la page archive listant l'ensemble des articles */
