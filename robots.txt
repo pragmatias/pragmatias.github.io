@@ -1,15 +1,23 @@
 User-agent: *
 
 
+Disallow: /2019/04/29/astuces-pour-opensuse-tumbleweed/
+
 Disallow: /2019/04/28/mise-en-place-dun-site-avec-hugo-github-et-travis/
 
 Disallow: /2019/04/25/cr%C3%A9ation-dun-site-avec-hugo/
 
 Disallow: /archives/
 
+Disallow: /tags/astuces/
+
 Disallow: /blog/
 
 Disallow: /tags/hugo/
+
+Disallow: /tags/linux/
+
+Disallow: /tags/opensuse/
 
 Disallow: /
 
