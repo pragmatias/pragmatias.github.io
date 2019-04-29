@@ -14,16 +14,16 @@
     
       <copyright>WTFPL license</copyright>
     
-    <lastBuildDate>Mon, 29 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Apr 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pragmatias.fr/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Mise en place d&#39;un site avec Hugo, Github et Travis</title>
-      <link>https://pragmatias.fr/2019/04/29/mise-en-place-dun-site-avec-hugo-github-et-travis/</link>
+      <link>https://pragmatias.fr/2019/04/28/mise-en-place-dun-site-avec-hugo-github-et-travis/</link>
       <pubDate>
-          Mon, 29 Apr 2019 00:00:00 +0000
+          Sun, 28 Apr 2019 00:00:00 +0000
       </pubDate>
-      <guid>https://pragmatias.fr/2019/04/29/mise-en-place-dun-site-avec-hugo-github-et-travis/</guid>
+      <guid>https://pragmatias.fr/2019/04/28/mise-en-place-dun-site-avec-hugo-github-et-travis/</guid>
       <description>&lt;p&gt;Vous trouverez dans cet article, l&amp;rsquo;ensemble des éléments permettant de mettre en place un site web static en se basant sur les outils suivants :&lt;/p&gt;
 
 &lt;ul&gt;
