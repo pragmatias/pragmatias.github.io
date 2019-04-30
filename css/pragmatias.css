@@ -232,10 +232,12 @@ body {
 .list-blog-post-date, .blog-post-date {
 	text-align:right;
 	opacity:0.8;
+	font-size:14px;
 }
 
 .list-blog-post-tags {
 	margin-bottom: 10px;
+	font-size:14px;
 }
 
 .list-blog-post-tags a, .blog-post-tags a {
@@ -250,6 +252,7 @@ body {
 
 .list-blog-post-readmore {
 	text-align: right;
+	font-size:14px;
 }
 
 .list-blog-post-readmore a {
@@ -528,6 +531,7 @@ body {
   top: 20px;
   float: right;
   fill: var(--color-bg-blog-sticky);
+  opacity:0.6;
 }
 
 @media (min-width: 768px) {
