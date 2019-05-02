@@ -14,7 +14,7 @@
 	--color-fg-blog-lien:#d09424;
 	--color-fg-blog-lien-hover:#996400;
 	--color-bg-blog-code:#ece9dd;
-	--color-fg-blog-code:#000000;
+	--color-fg-blog-code:#022946;
 	--color-fg-blog-border:#d09424;
 	--color-bg-blog-sticky:#d09424;
 	--color-fg-toc-titre:#022946;
@@ -94,12 +94,14 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 100%;
 }
 
 body {
 	font-family: 'OpenSans';
 	background-color: var(--color-bg-primary);
 	color: var(--color-fg-blog-texte);
+	font-size: 1em;
 }
 
 
@@ -122,7 +124,7 @@ body {
 .prag-404 {
 	color: var(--color-fg-title);
 	text-align: center;
-	font-size: 50px;
+	font-size: 3em;
 	padding-top: 50px;
 	padding-bottom: 50px;
 
@@ -146,7 +148,7 @@ body {
 
 .prag-header a {
 	color: var(--color-fg-head-titre);
-	font-size: 24px;
+	font-size: 1.8em;
 }
 
 .prag-header-active {
@@ -157,7 +159,7 @@ body {
 /* Style du footer */
 .prag-foot {
 	color: var(--color-fg-foot-texte);
-	font-size: 14px;
+	font-size: 0.9em;
 	min-height: 30px;
 	padding: 10px;
 	border-top: 0.1rem solid var(--color-fg-border);
@@ -232,12 +234,12 @@ body {
 .list-blog-post-date, .blog-post-date {
 	text-align:right;
 	opacity:0.8;
-	font-size:14px;
+	font-size:1em;
 }
 
 .list-blog-post-tags {
 	margin-bottom: 10px;
-	font-size:14px;
+	font-size:1em;
 }
 
 .list-blog-post-tags a, .blog-post-tags a {
@@ -252,7 +254,7 @@ body {
 
 .list-blog-post-readmore {
 	text-align: right;
-	font-size:14px;
+	font-size:1em;
 }
 
 .list-blog-post-readmore a {
@@ -283,7 +285,9 @@ body {
 
 @media (min-width: 768px) {
 	.blog-post-with-toc {
-		width: 80%;
+		width: 70%;
+		margin-left: 10%;
+		margin-right: 20%;
 	}
 
 }
@@ -297,7 +301,7 @@ body {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	color: var(--color-fg-blog-texte);
-	font-size:15px;
+	font-size:0.95em;
 }
 
 
@@ -327,31 +331,41 @@ body {
 	font-family: 'Hack';
 }
 
+.blog-post-main blockquote > p > code {
+
+}
+
 .blog-post-main h1 {
 	margin-top: 40px;
-	font-size: 24px;
+	margin-bottom : 10px;
+	font-size: 1.8em;
 	text-decoration-line: underline;
 	color : var(--color-fg-blog-titre);
 }
 .blog-post-main h2 {
-	font-size: 20px;
+	font-size: 1.4em;
 	font-weight: 600;
 	text-decoration-line: none;
 	color : var(--color-fg-blog-titre);
 }
 .blog-post-main h3 {
-	font-size: 18px;
+	font-size: 1.2em;
 	font-weight: 600;
 	text-decoration-line: none;
 	color : var(--color-fg-blog-titre);
 }
 
 
+.blog-post-main :not(h1) + h2 {
+	margin-top:30px;
+}
+
+
 .blog-post-main blockquote {
-	font-size : 14px;
+	font-size : 0.9em;
 	font-style : italic;
-	padding-left : 50px;
-	padding-right : 50px;
+	padding-left : 20px;
+	padding-right : 20px;
 	color: var(--color-fg-blog-texte);
 }
 
@@ -468,7 +482,7 @@ body {
 .arch-post-tags a {
 	color: var(--color-fg-arch-lien);
 	text-decoration: none;
-	font-size: 12px;
+	font-size : 0.8em;
 	font-style: italic;
 	margin-left: 5px;
 	padding-top:0px;
@@ -609,7 +623,7 @@ body {
 }
 
 .prag-toc-head {
-	font-size: 22px;
+	font-size: 1.8em;
 	text-decoration-line: underline;
 	color: var(--color-fg-toc-titre);
 }
@@ -633,7 +647,7 @@ body {
 	.prag-toc a {
 	  color: var(--color-fg-toc-lien);
 	  text-decoration: initial;
-	  font-size: 14px;
+	  font-size: 0.95em;
 	}
 
 	.prag-toc a:hover {
@@ -641,7 +655,7 @@ body {
 	}
 
 	.prag-toc-head {
-		font-size: 16px;
+		font-size: 1.2em;
 		font-weight: 600;
 		text-decoration-line: none;
 	}
