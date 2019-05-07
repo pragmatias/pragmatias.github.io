@@ -7,17 +7,9 @@ Disallow: /2019/04/25/cr%C3%A9ation-dun-site-avec-hugo/
 
 Disallow: /archives/
 
-Disallow: /2018/04/29/astuces-pour-opensuse-tumbleweed/
-
-Disallow: /tags/astuces/
-
 Disallow: /blog/
 
 Disallow: /tags/hugo/
-
-Disallow: /tags/linux/
-
-Disallow: /tags/opensuse/
 
 Disallow: /
 

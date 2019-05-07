@@ -14,17 +14,36 @@
     
       <copyright>WTFPL license</copyright>
     
-    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Apr 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pragmatias.fr/en/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Create a site with Hugo</title>
-      <link>https://pragmatias.fr/en/2019/02/05/create-a-site-with-hugo/</link>
+      <title>Setting up a website with Hugo, Github and Travis</title>
+      <link>https://pragmatias.fr/en/2019/04/28/setting-up-a-website-with-hugo-github-and-travis/</link>
       <pubDate>
-          Tue, 05 Feb 2019 00:00:00 +0000
+          Sun, 28 Apr 2019 00:00:00 +0000
       </pubDate>
-      <guid>https://pragmatias.fr/en/2019/02/05/create-a-site-with-hugo/</guid>
-      <description>&lt;p&gt;No description&lt;/p&gt;</description>
+      <guid>https://pragmatias.fr/en/2019/04/28/setting-up-a-website-with-hugo-github-and-travis/</guid>
+      <description>&lt;p&gt;You&amp;rsquo;ll find in this article, all the element to setting up a website based on the following tools :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; : Static website generator&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt; : Web hosting and development source management service (using &lt;a href=&#34;https://en.wikipedia.org/wiki/Git&#34;&gt;Git&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://travis-ci.com&#34;&gt;Travis CI&lt;/a&gt; : Web service to test and deploy developments&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gandi.net&#34;&gt;Gandi&lt;/a&gt; : Domain name provider&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Create a website with Hugo</title>
+      <link>https://pragmatias.fr/en/2019/04/25/create-a-website-with-hugo/</link>
+      <pubDate>
+          Thu, 25 Apr 2019 00:00:00 +0000
+      </pubDate>
+      <guid>https://pragmatias.fr/en/2019/04/25/create-a-website-with-hugo/</guid>
+      <description>&lt;p&gt;You&amp;rsquo;ll find in this article, All the element to create a website based on &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; generator tool.&lt;/p&gt;
+
+&lt;p&gt;The topics covered are website architecture, theme creation, rss feed output definition, setting up the multilingual properties, &amp;hellip;&lt;/p&gt;</description>
     </item>
     
   </channel>

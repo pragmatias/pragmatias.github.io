@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">    
+<html lang="en">    
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -25,12 +25,12 @@
 
 
     
-    <link rel="alternate" type="application/rss+xml" href="https://pragmatias.fr/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" href="https://pragmatias.fr/en/feed.xml" />
 
-    <title>Mise en place d&#39;un site avec Hugo, Github et Travis</title><body>    <div class="navbar navbar-expand-md prag-bg-primary prag-header" role="navigation">
+    <title>Setting up a website with Hugo, Github and Travis</title><body>    <div class="navbar navbar-expand-md prag-bg-primary prag-header" role="navigation">
         <div class="container-fluid  justify-content-center">
             <div class="navbar-brand">
-                <a href="https://pragmatias.fr/blog/">
+                <a href="https://pragmatias.fr/en/blog/">
                     <img src="/images/logo_pragmatias.svg" alt="pragmatias">
                 </a>
             </div>
@@ -44,15 +44,15 @@
                     
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="https://pragmatias.fr/blog/">Blog</a>
+                        <a class="nav-link" href="https://pragmatias.fr/en/blog/">Blog</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="https://pragmatias.fr/tags/">Tags</a>
+                        <a class="nav-link" href="https://pragmatias.fr/en/tags/">Tags</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="https://pragmatias.fr/archives/">Archives</a>
+                        <a class="nav-link" href="https://pragmatias.fr/en/archives/">Archives</a>
                     </li>
                     
                 </ul>
@@ -68,15 +68,15 @@
                      
                         
                         <li class="nav-item">
-                            <a href="https://pragmatias.fr/en/2019/04/28/setting-up-a-website-with-hugo-github-and-travis/" class="prag_header_svg mr-1 ml-1" >         
-                                <img src="/images/united-kingdom-flag-round-xs-24.png" alt="English"> 
+                            <a href="https://pragmatias.fr/2019/04/28/mise-en-place-dun-site-avec-hugo-github-et-travis/" class="prag_header_svg mr-1 ml-1" >         
+                                <img src="/images/france-flag-round-xs-24.png" alt="Français"> 
                             </a>
                         </li>
                          
                       
 
                     <li class="nav-item">
-                      <a href="https://pragmatias.fr/feed.xml" title="Pragmatias Blog" class="prag_header_svg mr-1 ml-1">
+                      <a href="https://pragmatias.fr/en/feed.xml" title="Pragmatias Blog" class="prag_header_svg mr-1 ml-1">
                         <svg height="24px"  style="enable-background:new 0 0 508.52 508.52;" version="1.1" viewBox="0 0 508.52 508.52" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <path style="fill-rule:evenodd;clip-rule:evenodd;fill:;" d="M254.26,0C113.845,0,0,113.845,0,254.26s113.845,254.26,254.26,254.26
 	s254.26-113.845,254.26-254.26C508.52,113.813,394.675,0,254.26,0z M137.141,412.441c-22.852,0-41.413-18.434-41.413-41.285
@@ -141,23 +141,23 @@
 	<article class="blog-post  blog-post-with-toc ">
 	    <header>
 	        <h2 class="blog-post-title">
-	            Mise en place d&#39;un site avec Hugo, Github et Travis
+	            Setting up a website with Hugo, Github and Travis
 	        </h2>
 	        <div class="blog-post-date">
-	            <span>Dernière modification : 28 Avril 2019
+	            <span>Last update : 28 April 2019
 	            </span>
 	        </div>
 
 			<div class="blog-post-date">
-			Temps de lecture : 5 minute(s) - 884 mots
+			Reading time : 4 minute(s) - 849 words
 			</div>
 
 			<div class="blog-post-tags">
 			<strong>Tags:</strong>
 			    
-			        <a href="https://pragmatias.fr/tags/web/"> Web</a>
+			        <a href="https://pragmatias.fr/en/tags/web/"> Web</a>
 			    
-			        <a href="https://pragmatias.fr/tags/hugo/"> Hugo</a>
+			        <a href="https://pragmatias.fr/en/tags/hugo/"> Hugo</a>
 			    
 			</div>
 
@@ -167,24 +167,24 @@
 
 
 	  	<aside class="prag-toc">
-		<h1 class="prag-toc-head">Sommaire</h1>
+		<h1 class="prag-toc-head">Summary</h1>
 		<div class="prag-toc-body">
 		<nav id="TableOfContents">
 <ul>
-<li><a href="#objectif">Objectif</a></li>
-<li><a href="#code-source">Code source</a></li>
-<li><a href="#création-des-dépôts-sur-github">Création des dépôts sur Github</a>
+<li><a href="#objective">Objective</a></li>
+<li><a href="#source-code">Source code</a></li>
+<li><a href="#create-a-github-repository">Create a Github repository</a>
 <ul>
-<li><a href="#création-du-dépôt-documentation">Création du dépôt documentation</a></li>
-<li><a href="#création-du-dépôt-pragmatias-github-io">Création du dépôt pragmatias.github.io</a></li>
+<li><a href="#create-the-repository-documentation">Create the repository documentation</a></li>
+<li><a href="#create-the-repository-pragmatias-github-io">Create the repository pragmatias.github.io</a></li>
 </ul></li>
-<li><a href="#lier-travis-ci-avec-un-dépôt-github">Lier Travis CI avec un dépôt Github</a></li>
-<li><a href="#configuration-des-actions-de-travis-ci-sur-les-dépôts-github">Configuration des actions de Travis CI sur les dépôts Github</a>
+<li><a href="#linking-travis-ci-with-a-github-repository">Linking Travis CI with a Github repository</a></li>
+<li><a href="#configure-travis-ci-actions-on-a-github-repository">Configure Travis CI actions on a Github repository</a>
 <ul>
-<li><a href="#gestion-d-un-jeton-github">Gestion d&rsquo;un jeton Github</a></li>
-<li><a href="#création-du-fichier-de-configuration-pour-travis-ci">Création du fichier de configuration pour Travis CI</a></li>
+<li><a href="#manage-a-github-token">Manage a Github token</a></li>
+<li><a href="#create-the-configuration-file-for-travis-ci">Create the configuration file for Travis CI</a></li>
 </ul></li>
-<li><a href="#utilisation-d-un-domaine-personnel-avec-github-pages">Utilisation d&rsquo;un domaine personnel avec Github Pages</a></li>
+<li><a href="#using-a-personal-domain-with-github-pages">Using a personal domain with Github Pages</a></li>
 </ul>
 </nav>
 		</div>
@@ -233,109 +233,109 @@
 		</script>
 
 	    <div class="blog-post-main">
-	    	<p>Vous trouverez dans cet article, l&rsquo;ensemble des éléments permettant de mettre en place un site web static en se basant sur les outils suivants :</p>
+	    	<p>You&rsquo;ll find in this article, all the element to setting up a website based on the following tools :</p>
 
 <ul>
-<li><a href="https://gohugo.io">Hugo</a> : Générateur de site web static</li>
-<li><a href="https://github.com">Github</a> : Service web d&rsquo;hébergement et de gestion des sources de développements (utilisant l&rsquo;outil <a href="https://en.wikipedia.org/wiki/Git">Git</a>)</li>
-<li><a href="https://travis-ci.com">Travis CI</a> : Service web permettant de tester et deployer les développements</li>
-<li><a href="https://www.gandi.net">Gandi</a> : Fournisseur du nom de domaine</li>
+<li><a href="https://gohugo.io">Hugo</a> : Static website generator</li>
+<li><a href="https://github.com">Github</a> : Web hosting and development source management service (using <a href="https://en.wikipedia.org/wiki/Git">Git</a>)</li>
+<li><a href="https://travis-ci.com">Travis CI</a> : Web service to test and deploy developments</li>
+<li><a href="https://www.gandi.net">Gandi</a> : Domain name provider</li>
 </ul>
 
-<h1 id="objectif">Objectif</h1>
+<h1 id="objective">Objective</h1>
 
-<p>Afin de mettre en place un site web static avec un nom de domaine personnel, j&rsquo;ai mis en place les éléments suivants :</p>
+<p>To set up a static website with a personal domain name, i have set up the following elements :</p>
 
 <ul>
-<li>Création d&rsquo;un dépôt <a href="https://github.com">Github</a> pour stocker les sources permettant de générer le site web static (<strong>documentation</strong>)</li>
-<li>Création d&rsquo;un dépôt <a href="https://github.com">Github</a> pour stocker les éléments du site web static (<strong>pragmatias.github.io</strong>)</li>
-<li>Configurer <a href="https://travis-ci.com">Travis CI</a> pour déclencher la génération du site web static dans le dépôt <strong>pragmatias.github.io</strong> lors d&rsquo;un commit dans la branche <strong>master</strong> du dépôt <strong>documentation</strong></li>
-<li>Gestion du nom de domaine personnel chez <a href="https://www.gandi.net/fr">Gandi</a> pour afficher le site web static avec l&rsquo;adresse <a href="https://pragmatias.fr">pragmatias.fr</a></li>
+<li>Create a <a href="https://github.com">Github</a> repository to store the source code to generate the static website (<strong>documentation</strong>)</li>
+<li>Create a <a href="https://github.com">Github</a> repository to store the generated static website elements (<strong>pragmatias.github.io</strong>)</li>
+<li>Configure <a href="https://travis-ci.com">Travis CI</a> to trigger the static website generation in the repository <strong>pragmatias.github.io</strong> after a commit in the branch <strong>master</strong> from the repository <strong>documentation</strong></li>
+<li>Management of a personal domain name from <a href="https://www.gandi.net/fr">Gandi</a> to display the static website with url <a href="https://pragmatias.fr">pragmatias.fr</a></li>
 </ul>
 
-<h1 id="code-source">Code source</h1>
+<h1 id="source-code">Source code</h1>
 
-<p>L&rsquo;ensemble du code source de ce site se trouve sur mon <a href="https://github.com/pragmatias/documentation">dépôt github</a></p>
+<p>All the source code of this website can be found on my <a href="https://github.com/pragmatias/documentation">dépôt github</a> repository.</p>
 
-<h1 id="création-des-dépôts-sur-github">Création des dépôts sur Github</h1>
+<h1 id="create-a-github-repository">Create a Github repository</h1>
 
-<h2 id="création-du-dépôt-documentation">Création du dépôt documentation</h2>
+<h2 id="create-the-repository-documentation">Create the repository documentation</h2>
 
-<p><em>Pré-requis : avoir un compte sur <a href="https://github.com">Github</a></em></p>
+<p><em>Prerequisites : have an account at <a href="https://github.com">Github</a></em></p>
 
-<p>1. Sur la page listant vos dépôts, cliquez sur <strong>New</strong></p>
+<p>1. On your repository listing page, click on <strong>New</strong></p>
 
 <p><a href="/blog/web/20190429_create_repository_step1.png"><img src="/blog/web/20190429_create_repository_step1.png" alt="1ère étape" /></a></p>
 
-<p>2. Renseignez le nom de votre dépôt qui contiendra les sources permettant de générer le site web et cliquez sur <strong>Create repository</strong></p>
+<p>2. Fill the name of your repository that will contain the sources code to generate the website and click on <strong>Create repository</strong></p>
 
 <p><a href="/blog/web/20190429_create_repository_step2.png"><img src="/blog/web/20190429_create_repository_step2.png" alt="2ème étape" /></a></p>
 
-<p>3. Github vous affichera les étapes pour initialiser votre dépôt</p>
+<p>3. Github will show you the steps to initialize your repository</p>
 
 <p><a href="/blog/web/20190429_create_repository_step3.png"><img src="/blog/web/20190429_create_repository_step3.png" alt="3ème étape" /></a></p>
 
-<h2 id="création-du-dépôt-pragmatias-github-io">Création du dépôt pragmatias.github.io</h2>
+<h2 id="create-the-repository-pragmatias-github-io">Create the repository pragmatias.github.io</h2>
 
-<p>Il faut faire les mêmes étapes que pour la création du dépôt <strong>documentation</strong> mais cette fois avec le nom <strong>pragmatias.github.io</strong>.</p>
+<p>You have to do the same step as for the creation of the repository <strong>documentation</strong> but this time with the name <strong>pragmatias.github.io</strong>.</p>
 
-<p>Il faut créer au moins un fichier dans le dépôt <strong>pragmatias.github.io</strong> pour la suite de la configuration du dépôt.</p>
+<p>You need to create at least one file in the repository <strong>pragmatias.github.io</strong> to configure the repository.</p>
 
-<p>Vous trouverez plus d&rsquo;information sur le systeme <strong>Pages</strong> de Github sur le <a href="https://pages.github.com">site officiel</a>.</p>
+<p>You will find more information about Github <strong>Pages</strong> system on the <a href="https://pages.github.com">official website</a>.</p>
 
-<p>Si vous voulez modifier la configuration par défaut :</p>
+<p>If you want to change the default configuration :</p>
 
-<p>1. Allez dans la page <strong>Settings</strong> du dépôt <strong>pragmatias.github.io</strong></p>
+<p>1. Go on the <strong>Settings</strong> page of the repository <strong>pragmatias.github.io</strong></p>
 
 <p><a href="/blog/web/20190429_create_repository_step4.png"><img src="/blog/web/20190429_create_repository_step4.png" alt="4ème étape" /></a></p>
 
-<p>2. Allez dans la section <strong>GitHub Pages</strong> pour configurer les informations nécessaires <em>(custom domain, enforces HTTPS, &hellip;)</em></p>
+<p>2. Go in the <strong>GitHub Pages</strong> section to configure the needed informations <em>(custom domain, enforces HTTPS, &hellip;)</em></p>
 
 <p><a href="/blog/web/20190429_create_repository_step5.png"><img src="/blog/web/20190429_create_repository_step5.png" alt="5ème étape" /></a></p>
 
-<h1 id="lier-travis-ci-avec-un-dépôt-github">Lier Travis CI avec un dépôt Github</h1>
+<h1 id="linking-travis-ci-with-a-github-repository">Linking Travis CI with a Github repository</h1>
 
-<p>1. Connectez vous sur <a href="https://travis-ci.com">Travis CI</a> avec votre compte <a href="https://github.com">Github</a></p>
+<p>1. Login on <a href="https://travis-ci.com">Travis CI</a> with your <a href="https://github.com">Github</a> account</p>
 
 <p><a href="/blog/web/20190429_travis_step1.png"><img src="/blog/web/20190429_travis_step1.png" alt="1ère étape" /></a></p>
 
-<p>2. Allez dans <strong>Settings</strong>, puis dans <strong>Repositories</strong> et cliquez sur <strong>Manage repositories on Github</strong></p>
+<p>2. Go in <strong>Settings</strong>, then in <strong>Repositories</strong> and click on <strong>Manage repositories on Github</strong></p>
 
 <p><a href="/blog/web/20190429_travis_step2.png"><img src="/blog/web/20190429_travis_step2.png" alt="2ème étape" /></a></p>
 
-<p>3. Sur Github, dans la section <strong>Repository access</strong>, ajoutez le dépôt <strong>documentation</strong> et cliquez sur <strong>Approve and install</strong></p>
+<p>3. On Github, in the <strong>Repository access</strong> section, add the repository <strong>documentation</strong> and click on <strong>Approve and install</strong></p>
 
 <p><a href="/blog/web/20190429_travis_step3.png"><img src="/blog/web/20190429_travis_step3.png" alt="3ème étape" /></a></p>
 
-<h1 id="configuration-des-actions-de-travis-ci-sur-les-dépôts-github">Configuration des actions de Travis CI sur les dépôts Github</h1>
+<h1 id="configure-travis-ci-actions-on-a-github-repository">Configure Travis CI actions on a Github repository</h1>
 
-<h2 id="gestion-d-un-jeton-github">Gestion d&rsquo;un jeton Github</h2>
+<h2 id="manage-a-github-token">Manage a Github token</h2>
 
-<p>Il faut commencer par créer un jeton Github permettant de donner le droit à <a href="https://travis-ci.com">Travis CI</a> de faire la mise à jour du dépot cible.</p>
+<p>First, you have to create a Github token allowing to give the right at <a href="https://travis-ci.com">Travis CI</a> to do the commit action on the target repository.</p>
 
-<p>1. Connectez vous sur votre compte <a href="https://github.com">Github</a>, allez dans <strong>settings</strong> et cliquez sur <strong>Developer settings</strong></p>
+<p>1. Login on your <a href="https://github.com">Github</a> account, go in <strong>settings</strong> and click on <strong>Developer settings</strong></p>
 
 <p><a href="/blog/web/20190429_github_token_step1.png"><img src="/blog/web/20190429_github_token_step1.png" alt="1ère étape" /></a></p>
 
-<p>2. Cliquez sur <strong>Personal access tokens</strong>, puis cliquez sur <strong>Generate new token</strong></p>
+<p>2. Click on <strong>Personal access tokens</strong>, then click on <strong>Generate new token</strong></p>
 
 <p><a href="/blog/web/20190429_github_token_step2.png"><img src="/blog/web/20190429_github_token_step2.png" alt="2ème étape" /></a></p>
 
-<p>3. Remplissez le champ <strong>Tocken description</strong>, puis selectionnez les droits nécessaires <em>(repo et gist)</em> et cliquez sur <strong>Generate token</strong></p>
+<p>3. Fill the <strong>Tocken description</strong> field, then select the necessary rights <em>(repo et gist)</em> and click on <strong>Generate token</strong></p>
 
 <p><a href="/blog/web/20190429_github_token_step3.png"><img src="/blog/web/20190429_github_token_step3.png" alt="3ème étape" /></a></p>
 
-<p>4. Copiez le code indiqué après la génération du jeton <em>(il ne s&rsquo;affichera qu&rsquo;une seule fois)</em></p>
+<p>4. Copy the code displayed after the token generation <em>(it will only be displayed once)</em></p>
 
 <p><a href="/blog/web/20190429_github_token_step4.png"><img src="/blog/web/20190429_github_token_step4.png" alt="4ème étape" /></a></p>
 
-<p>5. Allez sur <a href="https://travis-ci.com">Travis CI</a> et ajoutez le jeton avec le nom <strong>GITHUB_TOKEN</strong> et la valeur notée lors de l&rsquo;étape précédente.</p>
+<p>5. Go on <a href="https://travis-ci.com">Travis CI</a> and add the token with the name <strong>GITHUB_TOKEN</strong> and the value from the previous step.</p>
 
 <p><a href="/blog/web/20190429_github_token_step5.png"><img src="/blog/web/20190429_github_token_step5.png" alt="5ème étape" /></a></p>
 
-<h2 id="création-du-fichier-de-configuration-pour-travis-ci">Création du fichier de configuration pour Travis CI</h2>
+<h2 id="create-the-configuration-file-for-travis-ci">Create the configuration file for Travis CI</h2>
 
-<p>Pour pouvoir déployer automatiquement le site web à partir du dépôt <strong>documentation</strong> vers le dépôt <strong>pragmatias.github.com</strong>, il faut créer un fichier <strong>.travis.yml</strong> à la racine du dépôt <strong>documentation</strong></p>
+<p>To be able to automatically deploy the website from the repository  <strong>documentation</strong> to the repository <strong>pragmatias.github.com</strong>, you must create a file <strong>.travis.yml</strong> at the root of the repository <strong>documentation</strong></p>
 
 <pre><code class="language-yml"># https://docs.travis-ci.com/user/deployment/pages/
 # https://docs.travis-ci.com/user/reference/trusty/
@@ -367,35 +367,35 @@ deploy:
     branch: master  # branch contains Hugo generator code
 </code></pre>
 
-<p>Le contenu du fichier est le suivant :</p>
+<p>The content of this file is :</p>
 
 <ul>
-<li>Utilisation de la distribution Ubuntu Trusty <code>dist: trusty</code></li>
-<li>Recuperation et installation de l&rsquo;outil Hugo pour Linux <code>install: ...</code></li>
-<li>Suppression du répertoire <strong>public</strong> qui est le répertoire par défaut de génération de l&rsquo;outil Hugo <code>before_script: ...</code></li>
-<li>Exécution de l&rsquo;outil Hugo <code>script: ...</code></li>
-<li>Pour la partie déploiement :
+<li>Use the Ubuntu Trusty distribution <code>dist: trusty</code></li>
+<li>Download and installation of the Hugo tool for Linux <code>install: ...</code></li>
+<li>delete the folder <strong>public</strong> which is the default generation folder for Hugo <code>before_script: ...</code></li>
+<li>Run the Hugo tool <code>script: ...</code></li>
+<li>For the deployment part :
 
 <ul>
-<li>On défini que l&rsquo;on souhaite déployer le contenu du répertoire <strong>public</strong> après exécution de la partie <strong>script</strong> dans le dépôt <strong>pragmatias/pragmatias.github.io</strong></li>
-<li>On défini que l&rsquo;on souhaite utiliser la branche <strong>master</strong> pour les deux dépôts <em>(source et cible)</em></li>
-<li>On défini que la cible est <strong>Github Pages</strong> <code>provider: pages</code></li>
+<li>We define that we want to deploy the content of the directory <strong>public</strong> after executing the part <strong>script</strong> in the repository <strong>pragmatias/pragmatias.github.io</strong></li>
+<li>We define that we want to use the <strong>master</strong> branch for both repositories <em>(source and target)</em></li>
+<li>We define that the target is <strong>Github Pages</strong> <code>provider: pages</code></li>
 </ul></li>
 </ul>
 
-<h1 id="utilisation-d-un-domaine-personnel-avec-github-pages">Utilisation d&rsquo;un domaine personnel avec Github Pages</h1>
+<h1 id="using-a-personal-domain-with-github-pages">Using a personal domain with Github Pages</h1>
 
-<p><em>Note : J&rsquo;utilise le nom de domaine</em> <strong><em>pragmatias.fr</em></strong> <em>chez <a href="https://www.gandi.net">Gandi</a></em></p>
+<p>*Note : i use the domain name * <strong><em>pragmatias.fr</em></strong> <em>at <a href="https://www.gandi.net">Gandi</a></em></p>
 
-<p>1. Dans les paramètres du dépôt <strong>pragmatias.github.io</strong>, renseignez la section <strong>Custom domain</strong></p>
+<p>1. In the <strong>pragmatias.github.io</strong> repository parameters, fill then <strong>Custom domain</strong> section</p>
 
 <p><a href="/blog/web/20190429_create_repository_step5.png"><img src="/blog/web/20190429_create_repository_step5.png" alt="parametre github" /></a></p>
 
 <blockquote>
-<p>pour forcer l&rsquo;utilisation du <strong>https</strong>, sélectionnez l&rsquo;option <strong>Enforce HTTPS</strong></p>
+<p>to force the <strong>https</strong>, selection the <strong>Enforce HTTPS</strong> option.</p>
 </blockquote>
 
-<p>2. Modifier la section <strong>script</strong> du fichier <strong>.travis.yml</strong></p>
+<p>2. Modify the <strong>script</strong> section of the <strong>.travis.yml</strong> file</p>
 
 <pre><code class="language-yml"># script - run the build script
 script:
@@ -403,17 +403,17 @@ script:
     - echo &quot;pragmatias.fr&quot; &gt; public/CNAME
 </code></pre>
 
-<p>3. Configurez votre domaine pour rediriger les utilisateurs vers le contenu des <strong>Pages</strong> du dépôt <strong>pragmatias.github.io</strong></p>
+<p>3. Configure your domain to redirect users to the content of the <strong>Pages</strong> of the repository <strong>pragmatias.github.io</strong></p>
 
-<p>3.1. Allez sur le site de Gandi, cliquez sur <strong>Nom de domaine</strong>, puis sur le nom de domaine souhaité</p>
+<p>3.1. Go to Gandi&rsquo;s website, click on <strong>Domain name</strong>, then on the desired domain name</p>
 
 <p><a href="/blog/web/20190429_pages_github_domaine_gandi_p1.png"><img src="/blog/web/20190429_pages_github_domaine_gandi_p1.png" alt="Gandi 1" /></a></p>
 
-<p>3.2. Allez dans <strong>Enregistrement DNS</strong> pour modifier les enregistrements</p>
+<p>3.2. Go to <strong>Enregistrement DNS</strong> to modify the records</p>
 
 <p><a href="/blog/web/20190429_pages_github_domaine_gandi_p2.png"><img src="/blog/web/20190429_pages_github_domaine_gandi_p2.png" alt="Gandi 1" /></a></p>
 
-<p>3.3. Ajouter les enregistrements DNS suivants <em>(pour faire la redirection entre le service Pages de Github et votre nom de domaine)</em></p>
+<p>3.3. Add the following DNS records <em>(to redirect between the Github Pages service and your domain name)</em></p>
 
 <pre><code class="language-makefile">@ 1800 IN A 185.199.108.153
 @ 1800 IN A 185.199.109.153
@@ -423,10 +423,10 @@ www 10800 IN CNAME pragmatias.github.io
 </code></pre>
 
 <blockquote>
-<p>Attention à ne pas avoir d&rsquo;autres lignes commençant par <em>@ 1800 IN A</em> ou par <em>www</em></p>
+<p>Be careful not to have any other lines starting with <em>@ 1800 IN A</em> ou par <em>www</em></p>
 </blockquote>
 
-<p>La modification des enregistrements peut mettre plusieurs heures à se propager pour être prise en compte.</p>
+<p>It may take several hours for the modification of records to be propagate before they are taken into account.</p>
 	  	</div>
 
 
@@ -436,7 +436,7 @@ www 10800 IN CNAME pragmatias.github.io
 
         </div>  <footer>
         <div class="container-fluid prag-bg-primary prag-foot">
-      	Généré avec <a class="" href="https://gohugo.io/">Hugo</a>
+      	Build With <a class="" href="https://gohugo.io/">Hugo</a>
       	 &nbsp; - &nbsp;
       	 <a href="https://en.wikipedia.org/wiki/WTFPL">WTFPL license</a> © 2018–2019 
         </div>

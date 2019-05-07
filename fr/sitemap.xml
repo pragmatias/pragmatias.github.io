@@ -7,6 +7,16 @@
     <lastmod>2019-04-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/2019/04/28/setting-up-a-website-with-hugo-github-and-travis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/2019/04/28/mise-en-place-dun-site-avec-hugo-github-et-travis/"
+                />
   </url>
   
   <url>
@@ -17,7 +27,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://pragmatias.fr/en/2019/02/05/create-a-site-with-hugo/"
+                href="https://pragmatias.fr/en/2019/04/25/create-a-website-with-hugo/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -44,20 +54,6 @@
   </url>
   
   <url>
-    <loc>https://pragmatias.fr/2018/04/29/astuces-pour-opensuse-tumbleweed/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://pragmatias.fr/tags/astuces/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://pragmatias.fr/blog/</loc>
     <lastmod>2019-04-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -79,20 +75,16 @@
     <lastmod>2019-04-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pragmatias.fr/tags/linux/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pragmatias.fr/tags/opensuse/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/tags/hugo/"
+                />
   </url>
   
   <url>
@@ -114,7 +106,7 @@
   
   <url>
     <loc>https://pragmatias.fr/tags/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
     <xhtml:link
