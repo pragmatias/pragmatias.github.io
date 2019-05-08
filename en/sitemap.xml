@@ -3,6 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://pragmatias.fr/en/2019/05/01/tips-for-opensuse-tumbleweed/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/2019/05/01/astuces-pour-opensuse-tumbleweed/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/2019/05/01/tips-for-opensuse-tumbleweed/"
+                />
+  </url>
+  
+  <url>
     <loc>https://pragmatias.fr/en/2019/04/28/setting-up-a-website-with-hugo-github-and-travis/</loc>
     <lastmod>2019-04-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -54,25 +71,8 @@
   </url>
   
   <url>
-    <loc>https://pragmatias.fr/en/2018/05/01/tips-for-opensuse-tumbleweed/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/2018/05/01/astuces-pour-opensuse-tumbleweed/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pragmatias.fr/en/2018/05/01/tips-for-opensuse-tumbleweed/"
-                />
-  </url>
-  
-  <url>
     <loc>https://pragmatias.fr/en/blog/</loc>
-    <lastmod>2019-04-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
     <xhtml:link
@@ -106,7 +106,7 @@
   
   <url>
     <loc>https://pragmatias.fr/en/tags/linux/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
     <xhtml:link
@@ -123,7 +123,7 @@
   
   <url>
     <loc>https://pragmatias.fr/en/tags/opensuse/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
     <xhtml:link
@@ -140,7 +140,7 @@
   
   <url>
     <loc>https://pragmatias.fr/en/</loc>
-    <lastmod>2019-04-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
     <xhtml:link
@@ -174,7 +174,7 @@
   
   <url>
     <loc>https://pragmatias.fr/en/tags/tips/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>

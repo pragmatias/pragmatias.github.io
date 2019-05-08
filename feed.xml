@@ -14,8 +14,29 @@
     
       <copyright>WTFPL license</copyright>
     
-    <lastBuildDate>Sun, 28 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pragmatias.fr/feed.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Astuces pour OpenSUSE (Tumbleweed)</title>
+      <link>https://pragmatias.fr/2019/05/01/astuces-pour-opensuse-tumbleweed/</link>
+      <pubDate>
+          Wed, 01 May 2019 00:00:00 +0000
+      </pubDate>
+      <guid>https://pragmatias.fr/2019/05/01/astuces-pour-opensuse-tumbleweed/</guid>
+      <description>&lt;p&gt;Vous trouverez dans cet article, quelques astuces concernant l&amp;rsquo;utilisation de la distribution &lt;a href=&#34;https://www.opensuse.org/#Tumbleweed&#34;&gt;OpenSUSE Tumbleweed&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Les astuces portent sur :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.opensuse.org/Portal:Zypper&#34;&gt;Zypper&lt;/a&gt; : Gestionnaire de paquet en ligne de commande&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/KDE&#34;&gt;KDE&lt;/a&gt; : Environnement de bureau Linux&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Btrfs&#34;&gt;Btrfs&lt;/a&gt; : Système de fichier par défaut sur OpenSUSE&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Network_File_System&#34;&gt;NFS&lt;/a&gt; : Système de fichier distribué&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/VirtualBox&#34;&gt;VirtualBox&lt;/a&gt; : Logiciel de virtualisation&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     
     <item>
       <title>Mise en place d&#39;un site avec Hugo, Github et Travis</title>
@@ -44,27 +65,6 @@
       <description>&lt;p&gt;Vous trouverez dans cet article, l&amp;rsquo;ensemble des éléments permettant de créer un site web static en se basant sur le générateur &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Les sujets abordés sont la structuration du site, la création d&amp;rsquo;un thème, la gestion d&amp;rsquo;un flux rss, la mise en place du multi-langue, &amp;hellip;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Astuces pour OpenSUSE (Tumbleweed)</title>
-      <link>https://pragmatias.fr/2018/05/01/astuces-pour-opensuse-tumbleweed/</link>
-      <pubDate>
-          Tue, 01 May 2018 00:00:00 +0000
-      </pubDate>
-      <guid>https://pragmatias.fr/2018/05/01/astuces-pour-opensuse-tumbleweed/</guid>
-      <description>&lt;p&gt;Vous trouverez dans cet article, quelques astuces concernant l&amp;rsquo;utilisation de la distribution &lt;a href=&#34;https://www.opensuse.org/#Tumbleweed&#34;&gt;OpenSUSE Tumbleweed&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Les astuces portent sur :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.opensuse.org/Portal:Zypper&#34;&gt;Zypper&lt;/a&gt; : Gestionnaire de paquet en ligne de commande&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/KDE&#34;&gt;KDE&lt;/a&gt; : Environnement de bureau Linux&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Btrfs&#34;&gt;Btrfs&lt;/a&gt; : Système de fichier par défaut sur OpenSUSE&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Network_File_System&#34;&gt;NFS&lt;/a&gt; : Système de fichier distribué&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/VirtualBox&#34;&gt;VirtualBox&lt;/a&gt; : Logiciel de virtualisation&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;</description>
     </item>
     
   </channel>

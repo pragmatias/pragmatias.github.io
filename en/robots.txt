@@ -1,13 +1,13 @@
 User-agent: *
 
 
+Disallow: /en/2019/05/01/tips-for-opensuse-tumbleweed/
+
 Disallow: /en/2019/04/28/setting-up-a-website-with-hugo-github-and-travis/
 
 Disallow: /en/2019/04/25/create-a-website-with-hugo/
 
 Disallow: /en/archives/
-
-Disallow: /en/2018/05/01/tips-for-opensuse-tumbleweed/
 
 Disallow: /en/blog/
 
