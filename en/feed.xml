@@ -46,5 +46,26 @@
 &lt;p&gt;The topics covered are website architecture, theme creation, rss feed output definition, setting up the multilingual properties, &amp;hellip;&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Tips for OpenSUSE (Tumbleweed)</title>
+      <link>https://pragmatias.fr/en/2018/05/01/tips-for-opensuse-tumbleweed/</link>
+      <pubDate>
+          Tue, 01 May 2018 00:00:00 +0000
+      </pubDate>
+      <guid>https://pragmatias.fr/en/2018/05/01/tips-for-opensuse-tumbleweed/</guid>
+      <description>&lt;p&gt;You&amp;rsquo;ll find in this article, somes tips about the &lt;a href=&#34;https://www.opensuse.org/#Tumbleweed&#34;&gt;OpenSUSE Tumbleweed&lt;/a&gt; distribution.&lt;/p&gt;
+
+&lt;p&gt;The tips cover :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.opensuse.org/Portal:Zypper&#34;&gt;Zypper&lt;/a&gt; : Command line package management&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/KDE&#34;&gt;KDE&lt;/a&gt; : Desktop environment&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Btrfs&#34;&gt;Btrfs&lt;/a&gt; : OpenSuse default file system&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Network_File_System&#34;&gt;NFS&lt;/a&gt; : Network file system&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/VirtualBox&#34;&gt;VirtualBox&lt;/a&gt; : Virtualization software&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
   </channel>
 </rss>

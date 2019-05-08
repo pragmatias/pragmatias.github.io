@@ -7,13 +7,21 @@ Disallow: /en/2019/04/25/create-a-website-with-hugo/
 
 Disallow: /en/archives/
 
+Disallow: /en/2018/05/01/tips-for-opensuse-tumbleweed/
+
 Disallow: /en/blog/
 
 Disallow: /en/tags/hugo/
 
+Disallow: /en/tags/linux/
+
+Disallow: /en/tags/opensuse/
+
 Disallow: /en/
 
 Disallow: /en/tags/
+
+Disallow: /en/tags/tips/
 
 Disallow: /en/tags/web/
 
