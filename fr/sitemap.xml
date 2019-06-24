@@ -3,6 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://pragmatias.fr/2019/06/24/git-op%C3%A9rations/</loc>
+    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/2019/06/24/git-operations/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/2019/06/24/git-op%C3%A9rations/"
+                />
+  </url>
+  
+  <url>
     <loc>https://pragmatias.fr/2019/05/01/astuces-pour-opensuse-tumbleweed/</loc>
     <lastmod>2019-05-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -79,7 +96,7 @@
   
   <url>
     <loc>https://pragmatias.fr/blog/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
     <xhtml:link
@@ -91,6 +108,23 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://pragmatias.fr/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pragmatias.fr/tags/git/</loc>
+    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/tags/git/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/tags/git/"
                 />
   </url>
   
@@ -147,7 +181,7 @@
   
   <url>
     <loc>https://pragmatias.fr/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
     <xhtml:link

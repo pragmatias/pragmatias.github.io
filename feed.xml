@@ -14,8 +14,18 @@
     
       <copyright>WTFPL license</copyright>
     
-    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jun 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pragmatias.fr/feed.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Git : Opérations</title>
+      <link>https://pragmatias.fr/2019/06/24/git-op%C3%A9rations/</link>
+      <pubDate>
+          Mon, 24 Jun 2019 00:00:00 +0000
+      </pubDate>
+      <guid>https://pragmatias.fr/2019/06/24/git-op%C3%A9rations/</guid>
+      <description>&lt;p&gt;Vous trouverez dans cet article, quelques opérations/commandes à connaitre pour travailler avec l&amp;rsquo;outil &lt;a href=&#34;https://en.wikipedia.org/wiki/Git&#34;&gt;Git&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Astuces pour OpenSUSE (Tumbleweed)</title>

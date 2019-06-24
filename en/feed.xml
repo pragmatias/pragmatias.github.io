@@ -14,8 +14,18 @@
     
       <copyright>WTFPL license</copyright>
     
-    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jun 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pragmatias.fr/en/feed.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Git : Operations</title>
+      <link>https://pragmatias.fr/en/2019/06/24/git-operations/</link>
+      <pubDate>
+          Mon, 24 Jun 2019 00:00:00 +0000
+      </pubDate>
+      <guid>https://pragmatias.fr/en/2019/06/24/git-operations/</guid>
+      <description>&lt;p&gt;You&amp;rsquo;ll find in this article, some informations/commands to know to work with the &lt;a href=&#34;https://en.wikipedia.org/wiki/Git&#34;&gt;Git&lt;/a&gt; tool.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Tips for OpenSUSE (Tumbleweed)</title>
