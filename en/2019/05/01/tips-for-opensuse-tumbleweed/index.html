@@ -149,7 +149,7 @@
 	        </div>
 
 			<div class="blog-post-date">
-			Reading time : 4 minute(s) - 787 words
+			Reading time : 4 minute(s) - 835 words
 			</div>
 
 			<div class="blog-post-tags">
@@ -178,6 +178,7 @@
 <li><a href="#zypper">Zypper</a></li>
 <li><a href="#file-system-btrfs">File system btrfs</a></li>
 <li><a href="#service-chrony">Service chrony</a></li>
+<li><a href="#manage-update-manually-remove-packagekit">Manage update manually (remove PackageKit)</a></li>
 <li><a href="#sound-service-pulseaudio">Sound service (Pulseaudio)</a></li>
 <li><a href="#network-service">Network service</a></li>
 <li><a href="#configuration-of-the-file-fstab-with-ntfs-drive">Configuration of the file fstab (with ntfs drive)</a></li>
@@ -288,6 +289,14 @@
 <li><a href="https://en.opensuse.org/images/3/30/Zypper-cheat-sheet-2.pdf">Zypper Cheat Sheet 2</a></li>
 </ul>
 
+<p>Message :</p>
+
+<pre><code>Removal of ***********(@System) failed :
+Error: Subprocess failed. Error: RPM failed: error: package ********** is not installed
+</code></pre>
+
+<p>You have to rebuild the RPM database : <code>sudo rpm --rebuilddb</code></p>
+
 <h2 id="file-system-btrfs">File system btrfs</h2>
 
 <ul>
@@ -298,6 +307,10 @@
 <h2 id="service-chrony">Service chrony</h2>
 
 <p>To disable chrony service startup : <code>systemctl disable chrony-wait</code></p>
+
+<h2 id="manage-update-manually-remove-packagekit">Manage update manually (remove PackageKit)</h2>
+
+<p>To remove PackageKit : <code>sudo zypper rm PackageKit* &amp;&amp; sudo zypper al PackageKit*</code></p>
 
 <h2 id="sound-service-pulseaudio">Sound service (Pulseaudio)</h2>
 
