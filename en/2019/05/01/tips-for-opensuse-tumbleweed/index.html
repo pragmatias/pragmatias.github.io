@@ -149,7 +149,7 @@
 	        </div>
 
 			<div class="blog-post-date">
-			Reading time : 4 minute(s) - 717 words
+			Reading time : 4 minute(s) - 787 words
 			</div>
 
 			<div class="blog-post-tags">
@@ -177,12 +177,15 @@
 <ul>
 <li><a href="#zypper">Zypper</a></li>
 <li><a href="#file-system-btrfs">File system btrfs</a></li>
+<li><a href="#service-chrony">Service chrony</a></li>
 <li><a href="#sound-service-pulseaudio">Sound service (Pulseaudio)</a></li>
 <li><a href="#network-service">Network service</a></li>
 <li><a href="#configuration-of-the-file-fstab-with-ntfs-drive">Configuration of the file fstab (with ntfs drive)</a></li>
 <li><a href="#configuration-of-the-nfs-client">Configuration of the NFS client</a></li>
+<li><a href="#delete-the-boot-screen-plymouth">Delete the boot screen (plymouth)</a></li>
+<li><a href="#systemd-information">Systemd information</a></li>
 </ul></li>
-<li><a href="#some-tips-about-the-desktop-kde">Some tips about the desktop (KDE)</a>
+<li><a href="#some-tips-about-the-kde-desktop">Some tips about the KDE desktop</a>
 <ul>
 <li><a href="#configure-bind-to-switch-desktop-and-quick-tile-window">Configure Bind to Switch Desktop and Quick tile Window</a></li>
 <li><a href="#autostart-kde">Autostart (KDE)</a></li>
@@ -271,6 +274,7 @@
 <li>Update packages : <code>sudo zypper up</code></li>
 <li>Upgrade Distribution : <code>sudo zypper dup</code></li>
 <li>Search packages : <code>sudo zypper se package</code> or <code>sudo zypper se -is package</code></li>
+<li>Lock packages : <code>sudo zypper al package</code></li>
 </ol>
 
 <blockquote>
@@ -286,8 +290,14 @@
 
 <h2 id="file-system-btrfs">File system btrfs</h2>
 
-<p>If <strong>btrfs-cleaner</strong> use 100% of your CPU and freeze your computer,
-you can stop it with the command : <code>sudo btrfs quota disable /</code></p>
+<ul>
+<li>If <strong>btrfs-cleaner</strong> use 100% of your CPU and freeze your computer, you can stop it with the command : <code>sudo btrfs quota disable /</code></li>
+<li>To disable the btrfs service (if you don&rsquo;t use the filesystem) : <code>systemctl disable btrfsmaintenance-refresh</code></li>
+</ul>
+
+<h2 id="service-chrony">Service chrony</h2>
+
+<p>To disable chrony service startup : <code>systemctl disable chrony-wait</code></p>
 
 <h2 id="sound-service-pulseaudio">Sound service (Pulseaudio)</h2>
 
@@ -333,13 +343,23 @@ you can stop it with the command : <code>sudo btrfs quota disable /</code></p>
 </ul>
 </blockquote>
 
-<h1 id="some-tips-about-the-desktop-kde">Some tips about the desktop (KDE)</h1>
+<h2 id="delete-the-boot-screen-plymouth">Delete the boot screen (plymouth)</h2>
+
+<ul>
+<li>Remove and lock the package <strong>plymouth</strong> : <code>sudo zypper rm plymouth* &amp;&amp; sudo zypper al plymouth*</code></li>
+</ul>
+
+<h2 id="systemd-information">Systemd information</h2>
+
+<ul>
+<li>Information on the duration of the start of services : <code>systemd-analyze blame</code></li>
+</ul>
+
+<h1 id="some-tips-about-the-kde-desktop">Some tips about the KDE desktop</h1>
 
 <h2 id="configure-bind-to-switch-desktop-and-quick-tile-window">Configure Bind to Switch Desktop and Quick tile Window</h2>
 
-<ol>
-<li>Go to System Settings &gt; Shortcuts &gt; Global Shortcuts &gt; System Settings or Kwin</li>
-</ol>
+<p>1. Go to System Settings &gt; Shortcuts &gt; Global Shortcuts &gt; System Settings or Kwin</p>
 
 <table>
 <thead>
@@ -417,9 +437,7 @@ you can stop it with the command : <code>sudo btrfs quota disable /</code></p>
 </tbody>
 </table>
 
-<ol>
-<li>Right Click on the desktop wallpaper &gt; Configure Desktop &gt; Mouse Actions &gt; Remove action &ldquo;Switch Desktop&rdquo; for &ldquo;Vertical-Scroll&rdquo;</li>
-</ol>
+<p>2. Right Click on the desktop wallpaper &gt; Configure Desktop &gt; Mouse Actions &gt; Remove action &ldquo;Switch Desktop&rdquo; for &ldquo;Vertical-Scroll&rdquo;</p>
 
 <h2 id="autostart-kde">Autostart (KDE)</h2>
 
@@ -437,7 +455,9 @@ you can stop it with the command : <code>sudo btrfs quota disable /</code></p>
 
 <h2 id="reset-kde-session">Reset KDE Session</h2>
 
-<p>Reset the current KDE session (kill all process &amp; logout) : <code>pkill -kill -u username</code></p>
+<ul>
+<li>Reset the current KDE session (kill all process &amp; logout) : <code>pkill -kill -u username</code></li>
+</ul>
 
 <blockquote>
 <p>Note : replace <strong>username</strong> by the name of the choosen one</p>
