@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pragmatias Blog</title>
     <link>https://pragmatias.fr/en/blog</link>
     <description>Recent content in Pragmatias Blog</description>
-    <generator>Hugo 0.54.0</generator>
+    <generator>Hugo 0.59.0</generator>
     
       <language>en</language>
     
@@ -14,7 +13,7 @@
     
       <copyright>WTFPL license</copyright>
     
-    <lastBuildDate>Mon, 24 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Oct 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pragmatias.fr/en/feed.xml" rel="self" type="application/rss+xml" />
     
   </channel>

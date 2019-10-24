@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pragmatias Blog</title>
     <link>https://pragmatias.fr/en/blog</link>
     <description>Recent content in Pragmatias Blog</description>
-    <generator>Hugo 0.54.0</generator>
+    <generator>Hugo 0.59.0</generator>
     
       <language>en</language>
     
@@ -14,67 +13,17 @@
     
       <copyright>WTFPL license</copyright>
     
-    <lastBuildDate>Mon, 24 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Oct 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pragmatias.fr/en/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Git : Operations</title>
-      <link>https://pragmatias.fr/en/2019/06/24/git-operations/</link>
+      <title>Blogs</title>
+      <link>https://pragmatias.fr/en/blog/</link>
       <pubDate>
-          Mon, 24 Jun 2019 00:00:00 +0000
+          Sun, 20 Oct 2019 00:00:00 +0000
       </pubDate>
-      <guid>https://pragmatias.fr/en/2019/06/24/git-operations/</guid>
-      <description>&lt;p&gt;You&amp;rsquo;ll find in this article, some informations/commands to know to work with the &lt;a href=&#34;https://en.wikipedia.org/wiki/Git&#34;&gt;Git&lt;/a&gt; tool.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Tips for OpenSUSE (Tumbleweed)</title>
-      <link>https://pragmatias.fr/en/2019/05/01/tips-for-opensuse-tumbleweed/</link>
-      <pubDate>
-          Wed, 01 May 2019 00:00:00 +0000
-      </pubDate>
-      <guid>https://pragmatias.fr/en/2019/05/01/tips-for-opensuse-tumbleweed/</guid>
-      <description>&lt;p&gt;You&amp;rsquo;ll find in this article, somes tips about the &lt;a href=&#34;https://www.opensuse.org/#Tumbleweed&#34;&gt;OpenSUSE Tumbleweed&lt;/a&gt; distribution.&lt;/p&gt;
-
-&lt;p&gt;The tips cover :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.opensuse.org/Portal:Zypper&#34;&gt;Zypper&lt;/a&gt; : Command line package management&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/KDE&#34;&gt;KDE&lt;/a&gt; : Desktop environment&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Btrfs&#34;&gt;Btrfs&lt;/a&gt; : OpenSuse default file system&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Network_File_System&#34;&gt;NFS&lt;/a&gt; : Network file system&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/VirtualBox&#34;&gt;VirtualBox&lt;/a&gt; : Virtualization software&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>Setting up a website with Hugo, Github and Travis</title>
-      <link>https://pragmatias.fr/en/2019/04/28/setting-up-a-website-with-hugo-github-and-travis/</link>
-      <pubDate>
-          Sun, 28 Apr 2019 00:00:00 +0000
-      </pubDate>
-      <guid>https://pragmatias.fr/en/2019/04/28/setting-up-a-website-with-hugo-github-and-travis/</guid>
-      <description>&lt;p&gt;You&amp;rsquo;ll find in this article, all the element to setting up a website based on the following tools :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; : Static website generator&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt; : Web hosting and development source management service (using &lt;a href=&#34;https://en.wikipedia.org/wiki/Git&#34;&gt;Git&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://travis-ci.com&#34;&gt;Travis CI&lt;/a&gt; : Web service to test and deploy developments&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.gandi.net&#34;&gt;Gandi&lt;/a&gt; : Domain name provider&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>Create a website with Hugo</title>
-      <link>https://pragmatias.fr/en/2019/04/25/create-a-website-with-hugo/</link>
-      <pubDate>
-          Thu, 25 Apr 2019 00:00:00 +0000
-      </pubDate>
-      <guid>https://pragmatias.fr/en/2019/04/25/create-a-website-with-hugo/</guid>
-      <description>&lt;p&gt;You&amp;rsquo;ll find in this article, All the element to create a website based on &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; generator tool.&lt;/p&gt;
-
-&lt;p&gt;The topics covered are website architecture, theme creation, rss feed output definition, setting up the multilingual properties, &amp;hellip;&lt;/p&gt;</description>
+      <guid>https://pragmatias.fr/en/blog/</guid>
+      <description></description>
     </item>
     
   </channel>

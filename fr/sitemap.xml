@@ -1,6 +1,125 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://pragmatias.fr/blog/</loc>
+    <lastmod>2019-10-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pragmatias.fr/tags/cloud/</loc>
+    <lastmod>2019-10-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/tags/cloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/tags/cloud/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pragmatias.fr/2019/10/20/mise-en-place-de-nextcloud-sur-un-nas-synology/</loc>
+    <lastmod>2019-10-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/2019/10/20/installing-nextcloud-on-a-synology-nas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/2019/10/20/mise-en-place-de-nextcloud-sur-un-nas-synology/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pragmatias.fr/tags/nextcloud/</loc>
+    <lastmod>2019-10-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/tags/nextcloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/tags/nextcloud/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pragmatias.fr/</loc>
+    <lastmod>2019-10-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pragmatias.fr/tags/</loc>
+    <lastmod>2019-10-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pragmatias.fr/tags/git/</loc>
+    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/tags/git/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/tags/git/"
+                />
+  </url>
   
   <url>
     <loc>https://pragmatias.fr/2019/06/24/git-op%C3%A9rations/</loc>
@@ -17,6 +136,13 @@
                 hreflang="fr"
                 href="https://pragmatias.fr/2019/06/24/git-op%C3%A9rations/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://pragmatias.fr/tags/astuces/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -37,6 +163,57 @@
   </url>
   
   <url>
+    <loc>https://pragmatias.fr/tags/linux/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/tags/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/tags/linux/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pragmatias.fr/tags/opensuse/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/tags/opensuse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/tags/opensuse/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pragmatias.fr/tags/hugo/</loc>
+    <lastmod>2019-04-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/tags/hugo/"
+                />
+  </url>
+  
+  <url>
     <loc>https://pragmatias.fr/2019/04/28/mise-en-place-dun-site-avec-hugo-github-et-travis/</loc>
     <lastmod>2019-04-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -50,6 +227,23 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://pragmatias.fr/2019/04/28/mise-en-place-dun-site-avec-hugo-github-et-travis/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pragmatias.fr/tags/web/</loc>
+    <lastmod>2019-04-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pragmatias.fr/en/tags/web/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pragmatias.fr/tags/web/"
                 />
   </url>
   
@@ -84,149 +278,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://pragmatias.fr/archives/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://pragmatias.fr/tags/astuces/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pragmatias.fr/blog/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pragmatias.fr/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/blog/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://pragmatias.fr/tags/git/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pragmatias.fr/en/tags/git/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/tags/git/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://pragmatias.fr/tags/hugo/</loc>
-    <lastmod>2019-04-28T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pragmatias.fr/en/tags/hugo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/tags/hugo/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://pragmatias.fr/tags/linux/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pragmatias.fr/en/tags/linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/tags/linux/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://pragmatias.fr/tags/opensuse/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pragmatias.fr/en/tags/opensuse/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/tags/opensuse/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://pragmatias.fr/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pragmatias.fr/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://pragmatias.fr/tags/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pragmatias.fr/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://pragmatias.fr/tags/web/</loc>
-    <lastmod>2019-04-28T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pragmatias.fr/en/tags/web/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://pragmatias.fr/tags/web/"
                 />
   </url>
   

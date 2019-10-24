@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pragmatias Blog</title>
     <link>https://pragmatias.fr/blog</link>
     <description>Contenu récent dans  Pragmatias Blog</description>
-    <generator>Hugo 0.54.0</generator>
+    <generator>Hugo 0.59.0</generator>
     
       <language>fr</language>
     
@@ -14,67 +13,17 @@
     
       <copyright>WTFPL license</copyright>
     
-    <lastBuildDate>Mon, 24 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Oct 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pragmatias.fr/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Git : Opérations</title>
-      <link>https://pragmatias.fr/2019/06/24/git-op%C3%A9rations/</link>
+      <title>Blogs</title>
+      <link>https://pragmatias.fr/blog/</link>
       <pubDate>
-          Mon, 24 Jun 2019 00:00:00 +0000
+          Sun, 20 Oct 2019 00:00:00 +0000
       </pubDate>
-      <guid>https://pragmatias.fr/2019/06/24/git-op%C3%A9rations/</guid>
-      <description>&lt;p&gt;Vous trouverez dans cet article, quelques opérations/commandes à connaitre pour travailler avec l&amp;rsquo;outil &lt;a href=&#34;https://en.wikipedia.org/wiki/Git&#34;&gt;Git&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Astuces pour OpenSUSE (Tumbleweed)</title>
-      <link>https://pragmatias.fr/2019/05/01/astuces-pour-opensuse-tumbleweed/</link>
-      <pubDate>
-          Wed, 01 May 2019 00:00:00 +0000
-      </pubDate>
-      <guid>https://pragmatias.fr/2019/05/01/astuces-pour-opensuse-tumbleweed/</guid>
-      <description>&lt;p&gt;Vous trouverez dans cet article, quelques astuces concernant l&amp;rsquo;utilisation de la distribution &lt;a href=&#34;https://www.opensuse.org/#Tumbleweed&#34;&gt;OpenSUSE Tumbleweed&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Les astuces portent sur :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.opensuse.org/Portal:Zypper&#34;&gt;Zypper&lt;/a&gt; : Gestionnaire de paquet en ligne de commande&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/KDE&#34;&gt;KDE&lt;/a&gt; : Environnement de bureau Linux&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Btrfs&#34;&gt;Btrfs&lt;/a&gt; : Système de fichier par défaut sur OpenSUSE&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Network_File_System&#34;&gt;NFS&lt;/a&gt; : Système de fichier distribué&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/VirtualBox&#34;&gt;VirtualBox&lt;/a&gt; : Logiciel de virtualisation&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>Mise en place d&#39;un site avec Hugo, Github et Travis</title>
-      <link>https://pragmatias.fr/2019/04/28/mise-en-place-dun-site-avec-hugo-github-et-travis/</link>
-      <pubDate>
-          Sun, 28 Apr 2019 00:00:00 +0000
-      </pubDate>
-      <guid>https://pragmatias.fr/2019/04/28/mise-en-place-dun-site-avec-hugo-github-et-travis/</guid>
-      <description>&lt;p&gt;Vous trouverez dans cet article, l&amp;rsquo;ensemble des éléments permettant de mettre en place un site web static en se basant sur les outils suivants :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; : Générateur de site web static&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt; : Service web d&amp;rsquo;hébergement et de gestion des sources de développements (utilisant l&amp;rsquo;outil &lt;a href=&#34;https://en.wikipedia.org/wiki/Git&#34;&gt;Git&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://travis-ci.com&#34;&gt;Travis CI&lt;/a&gt; : Service web permettant de tester et deployer les développements&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.gandi.net&#34;&gt;Gandi&lt;/a&gt; : Fournisseur du nom de domaine&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>Création d&#39;un site avec Hugo</title>
-      <link>https://pragmatias.fr/2019/04/25/cr%C3%A9ation-dun-site-avec-hugo/</link>
-      <pubDate>
-          Thu, 25 Apr 2019 00:00:00 +0000
-      </pubDate>
-      <guid>https://pragmatias.fr/2019/04/25/cr%C3%A9ation-dun-site-avec-hugo/</guid>
-      <description>&lt;p&gt;Vous trouverez dans cet article, l&amp;rsquo;ensemble des éléments permettant de créer un site web static en se basant sur le générateur &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Les sujets abordés sont la structuration du site, la création d&amp;rsquo;un thème, la gestion d&amp;rsquo;un flux rss, la mise en place du multi-langue, &amp;hellip;&lt;/p&gt;</description>
+      <guid>https://pragmatias.fr/blog/</guid>
+      <description></description>
     </item>
     
   </channel>
