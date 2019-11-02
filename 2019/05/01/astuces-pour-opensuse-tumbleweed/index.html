@@ -149,7 +149,7 @@
 	        </div>
 
 			<div class="blog-post-date">
-			Temps de lecture : 5 minute(s) - 923 mots
+			Temps de lecture : 5 minute(s) - 990 mots
 			</div>
 
 			<div class="blog-post-tags">
@@ -197,6 +197,7 @@
 <li><a href="#konsole-configuration">Konsole configuration</a></li>
 <li><a href="#configuration-de-firefox">Configuration de Firefox</a></li>
 <li><a href="#configuration-de-latte-dock">Configuration de Latte Dock</a></li>
+<li><a href="#erreur-lors-de-l-installation-de-polybar">Erreur lors de l&rsquo;installation de Polybar</a></li>
 </ul></li>
 <li><a href="#astuces-concernant-les-outils-de-virtualisation">Astuces concernant les outils de virtualisation</a>
 <ul>
@@ -536,6 +537,14 @@ Error: Subprocess failed. Error: RPM failed: error: package ********** is not in
 <li><code>cp &lt;plasma_files_backup&gt; $HOME/.config/.</code></li>
 <li><code>plasmashell &amp;</code></li>
 </ol>
+
+<h2 id="erreur-lors-de-l-installation-de-polybar">Erreur lors de l&rsquo;installation de Polybar</h2>
+
+<p>Si vous ne pouvez pas installer <strong>Polybar</strong> (erreur avec <strong>libjsoncpp.so.19</strong>), vous pouvez essayer les étapes suivantes :
+ 1. Installez la librairie <strong>libjsoncpp21</strong>  : <code>sudo zypper in libjsoncpp21</code>
+ 2. Cherchez l&rsquo;emplacement du fichier <strong>libjsoncpp.so.21</strong> : <code>sudo find / -name &quot;libjsoncpp.so.21&quot;</code>
+ 3. Copiez le fichier <strong>libjsoncpp.so.21</strong> avec le nom <strong>libjsoncpp.so.19</strong> : <code>sudo cp /usr/lib64/libjsoncpp.so.21 /usr/lib64/libjsoncpp.so.19</code>
+ 4. Installez <strong>Polybar</strong> : <code>sudo zypper in polybar</code></p>
 
 <h1 id="astuces-concernant-les-outils-de-virtualisation">Astuces concernant les outils de virtualisation</h1>
 
