@@ -149,7 +149,7 @@
 	        </div>
 
 			<div class="blog-post-date">
-			Temps de lecture : 5 minute(s) - 990 mots
+			Temps de lecture : 5 minute(s) - 986 mots
 			</div>
 
 			<div class="blog-post-tags">
@@ -540,11 +540,14 @@ Error: Subprocess failed. Error: RPM failed: error: package ********** is not in
 
 <h2 id="erreur-lors-de-l-installation-de-polybar">Erreur lors de l&rsquo;installation de Polybar</h2>
 
-<p>Si vous ne pouvez pas installer <strong>Polybar</strong> (erreur avec <strong>libjsoncpp.so.19</strong>), vous pouvez essayer les étapes suivantes :
- 1. Installez la librairie <strong>libjsoncpp21</strong>  : <code>sudo zypper in libjsoncpp21</code>
- 2. Cherchez l&rsquo;emplacement du fichier <strong>libjsoncpp.so.21</strong> : <code>sudo find / -name &quot;libjsoncpp.so.21&quot;</code>
- 3. Copiez le fichier <strong>libjsoncpp.so.21</strong> avec le nom <strong>libjsoncpp.so.19</strong> : <code>sudo cp /usr/lib64/libjsoncpp.so.21 /usr/lib64/libjsoncpp.so.19</code>
- 4. Installez <strong>Polybar</strong> : <code>sudo zypper in polybar</code></p>
+<p>Si vous ne pouvez pas installer <strong>Polybar</strong> (erreur avec <strong>libjsoncpp.so.19</strong>), vous pouvez essayer les étapes suivantes :</p>
+
+<ol>
+<li>Installez la librairie <strong>libjsoncpp21</strong>  : <code>sudo zypper in libjsoncpp21</code></li>
+<li>Cherchez l&rsquo;emplacement du fichier <strong>libjsoncpp.so.21</strong> : <code>sudo find / -name &quot;libjsoncpp.so.21&quot;</code></li>
+<li>Copiez le fichier <strong>libjsoncpp.so.21</strong> avec le nom <strong>libjsoncpp.so.19</strong> : <code>sudo cp /usr/lib64/libjsoncpp.so.21 /usr/lib64/libjsoncpp.so.19</code></li>
+<li>Installez <strong>Polybar</strong> : <code>sudo zypper in polybar</code></li>
+</ol>
 
 <h1 id="astuces-concernant-les-outils-de-virtualisation">Astuces concernant les outils de virtualisation</h1>
 
