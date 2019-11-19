@@ -1,37 +1,40 @@
 User-agent: *
 
-
-Disallow: /blog/
-
-Disallow: /tags/cloud/
-
-Disallow: /2019/10/20/mise-en-place-de-nextcloud-sur-un-nas-synology/
-
-Disallow: /tags/nextcloud/
-
 Disallow: /
 
-Disallow: /tags/
 
-Disallow: /tags/git/
+Allow: /blog/
 
-Disallow: /2019/06/24/git-op%C3%A9rations/
+Allow: /tags/cloud/
 
-Disallow: /tags/astuces/
+Allow: /2019/10/20/mise-en-place-de-nextcloud-sur-un-nas-synology/
 
-Disallow: /2019/05/01/astuces-pour-opensuse-tumbleweed/
+Allow: /tags/nextcloud/
 
-Disallow: /tags/linux/
+Allow: /
 
-Disallow: /tags/opensuse/
+Allow: /tags/
 
-Disallow: /tags/hugo/
+Allow: /tags/git/
 
-Disallow: /2019/04/28/mise-en-place-dun-site-avec-hugo-github-et-travis/
+Allow: /2019/06/24/git-op%C3%A9rations/
 
-Disallow: /tags/web/
+Allow: /tags/astuces/
 
-Disallow: /2019/04/25/cr%C3%A9ation-dun-site-avec-hugo/
+Allow: /2019/05/01/astuces-pour-opensuse-tumbleweed/
 
-Disallow: /archives/
+Allow: /tags/linux/
+
+Allow: /tags/opensuse/
+
+Allow: /tags/hugo/
+
+Allow: /2019/04/28/mise-en-place-dun-site-avec-hugo-github-et-travis/
+
+Allow: /tags/web/
+
+Allow: /2019/04/25/cr%C3%A9ation-dun-site-avec-hugo/
+
+Allow: /archives/
+
 

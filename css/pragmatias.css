@@ -632,12 +632,14 @@ body {
 	padding-left: 25px;
 }
 
-@media (min-width: 768px),(min-height: 1024px) {
+@media (min-width: 768px) {
 	.prag-toc {
 	  position:fixed;
 	  top: 70px;
 	  right: 0px;
 	  width: 20%;
+	  height: 80%;
+	  overflow-y: auto;
 	}
 
 	.prag-toc li {

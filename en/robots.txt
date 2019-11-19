@@ -1,37 +1,40 @@
 User-agent: *
 
+Disallow: /
 
-Disallow: /en/blog/
 
-Disallow: /en/tags/cloud/
+Allow: /en/blog/
 
-Disallow: /en/2019/10/20/installing-nextcloud-on-a-synology-nas/
+Allow: /en/tags/cloud/
 
-Disallow: /en/tags/nextcloud/
+Allow: /en/2019/10/20/installing-nextcloud-on-a-synology-nas/
 
-Disallow: /en/
+Allow: /en/tags/nextcloud/
 
-Disallow: /en/tags/
+Allow: /en/
 
-Disallow: /en/tags/git/
+Allow: /en/tags/
 
-Disallow: /en/2019/06/24/git-operations/
+Allow: /en/tags/git/
 
-Disallow: /en/tags/linux/
+Allow: /en/2019/06/24/git-operations/
 
-Disallow: /en/tags/opensuse/
+Allow: /en/tags/linux/
 
-Disallow: /en/tags/tips/
+Allow: /en/tags/opensuse/
 
-Disallow: /en/2019/05/01/tips-for-opensuse-tumbleweed/
+Allow: /en/tags/tips/
 
-Disallow: /en/tags/hugo/
+Allow: /en/2019/05/01/tips-for-opensuse-tumbleweed/
 
-Disallow: /en/2019/04/28/setting-up-a-website-with-hugo-github-and-travis/
+Allow: /en/tags/hugo/
 
-Disallow: /en/tags/web/
+Allow: /en/2019/04/28/setting-up-a-website-with-hugo-github-and-travis/
 
-Disallow: /en/2019/04/25/create-a-website-with-hugo/
+Allow: /en/tags/web/
 
-Disallow: /en/archives/
+Allow: /en/2019/04/25/create-a-website-with-hugo/
+
+Allow: /en/archives/
+
 
