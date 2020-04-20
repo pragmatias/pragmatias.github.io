@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">    
+<html lang="fr">    
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -25,12 +25,12 @@
 
 
     
-    <link rel="alternate" type="application/rss+xml" href="https://pragmatias.fr/en/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" href="https://pragmatias.fr/feed.xml" />
 
-    <title>Tips for OpenSUSE (Tumbleweed)</title><body>    <div class="navbar navbar-expand-md prag-bg-primary prag-header" role="navigation">
+    <title>Astuces pour OpenSUSE (Tumbleweed)</title><body>    <div class="navbar navbar-expand-md prag-bg-primary prag-header" role="navigation">
         <div class="container-fluid  justify-content-center">
             <div class="navbar-brand">
-                <a href="https://pragmatias.fr/en/blog/">
+                <a href="https://pragmatias.fr/blog/">
                     <img src="/images/logo_pragmatias.svg" alt="pragmatias">
                 </a>
             </div>
@@ -44,15 +44,15 @@
                     
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="https://pragmatias.fr/en/blog/">Blog</a>
+                        <a class="nav-link" href="https://pragmatias.fr/blog/">Blog</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="https://pragmatias.fr/en/tags/">Tags</a>
+                        <a class="nav-link" href="https://pragmatias.fr/tags/">Tags</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="https://pragmatias.fr/en/archives/">Archives</a>
+                        <a class="nav-link" href="https://pragmatias.fr/archives/">Archives</a>
                     </li>
                     
                 </ul>
@@ -68,15 +68,15 @@
                      
                         
                         <li class="nav-item">
-                            <a href="https://pragmatias.fr/2019/05/01/astuces-pour-opensuse-tumbleweed/" class="prag_header_svg mr-1 ml-1" >         
-                                <img src="/images/france-flag-round-xs-24.png" alt="Français"> 
+                            <a href="https://pragmatias.fr/en/2020/04/20/tips-for-opensuse-tumbleweed/" class="prag_header_svg mr-1 ml-1" >         
+                                <img src="/images/united-kingdom-flag-round-xs-24.png" alt="English"> 
                             </a>
                         </li>
                          
                       
 
                     <li class="nav-item">
-                      <a href="https://pragmatias.fr/en/feed.xml" title="Pragmatias Blog" class="prag_header_svg mr-1 ml-1">
+                      <a href="https://pragmatias.fr/feed.xml" title="Pragmatias Blog" class="prag_header_svg mr-1 ml-1">
                         <svg height="24px"  style="enable-background:new 0 0 508.52 508.52;" version="1.1" viewBox="0 0 508.52 508.52" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <path style="fill-rule:evenodd;clip-rule:evenodd;fill:;" d="M254.26,0C113.845,0,0,113.845,0,254.26s113.845,254.26,254.26,254.26
 	s254.26-113.845,254.26-254.26C508.52,113.813,394.675,0,254.26,0z M137.141,412.441c-22.852,0-41.413-18.434-41.413-41.285
@@ -141,25 +141,25 @@
 	<article class="blog-post  blog-post-with-toc ">
 	    <header>
 	        <h2 class="blog-post-title">
-	            Tips for OpenSUSE (Tumbleweed)
+	            Astuces pour OpenSUSE (Tumbleweed)
 	        </h2>
 	        <div class="blog-post-date">
-	            <span>Last update : 1 May 2019
+	            <span>Dernière modification : 20 Avril 2020
 	            </span>
 	        </div>
 
 			<div class="blog-post-date">
-			Reading time : 5 minute(s) - 906 words
+			Temps de lecture : 6 minute(s) - 1074 mots
 			</div>
 
 			<div class="blog-post-tags">
 			<strong>Tags:</strong>
 			    
-			        <a href="https://pragmatias.fr/en/tags/linux/"> Linux</a>
+			        <a href="https://pragmatias.fr/tags/linux/"> Linux</a>
 			    
-			        <a href="https://pragmatias.fr/en/tags/opensuse/"> OpenSuse</a>
+			        <a href="https://pragmatias.fr/tags/opensuse/"> OpenSuse</a>
 			    
-			        <a href="https://pragmatias.fr/en/tags/tips/"> Tips</a>
+			        <a href="https://pragmatias.fr/tags/astuces/"> Astuces</a>
 			    
 			</div>
 
@@ -169,37 +169,38 @@
 
 
 	  	<aside class="prag-toc">
-		<h1 class="prag-toc-head">Summary</h1>
+		<h1 class="prag-toc-head">Sommaire</h1>
 		<div class="prag-toc-body">
 		<nav id="TableOfContents">
 <ul>
-<li><a href="#tips-about-opensuse-system">Tips about OpenSuse system</a>
+<li><a href="#quelques-astuces-concernant-le-système-opensuse">Quelques astuces concernant le système OpenSUSE</a>
 <ul>
 <li><a href="#zypper">Zypper</a></li>
-<li><a href="#file-system-btrfs">File system btrfs</a></li>
+<li><a href="#système-de-fichier-btrfs">Système de fichier btrfs</a></li>
 <li><a href="#service-chrony">Service chrony</a></li>
-<li><a href="#manage-update-manually-remove-packagekit">Manage update manually (remove PackageKit)</a></li>
-<li><a href="#sound-service-pulseaudio">Sound service (Pulseaudio)</a></li>
-<li><a href="#network-service">Network service</a></li>
-<li><a href="#configuration-of-the-file-fstab-with-ntfs-drive">Configuration of the file fstab (with ntfs drive)</a></li>
-<li><a href="#configuration-of-the-nfs-client">Configuration of the NFS client</a></li>
-<li><a href="#delete-the-boot-screen-plymouth">Delete the boot screen (plymouth)</a></li>
-<li><a href="#systemd-information">Systemd information</a></li>
+<li><a href="#gestion-des-mises-à-jour-manuellement">Gestion des mises à jour manuellement</a></li>
+<li><a href="#service-son-pulseaudio">Service son (Pulseaudio)</a></li>
+<li><a href="#service-réseau">Service réseau</a></li>
+<li><a href="#configuration-du-fichier-etc-fstab-avec-un-disque-ntfs">Configuration du fichier /etc/fstab (avec un disque ntfs)</a></li>
+<li><a href="#configuration-du-client-nfs">Configuration du client NFS</a></li>
+<li><a href="#supprimer-l-écran-de-démarrage-plymouth">Supprimer l&rsquo;écran de démarrage (plymouth)</a></li>
+<li><a href="#information-sur-systemd">Information sur systemd</a></li>
+<li><a href="#modification-de-la-configuration-de-la-souris">Modification de la configuration de la souris</a></li>
 </ul></li>
-<li><a href="#some-tips-about-the-kde-desktop">Some tips about the KDE desktop</a>
+<li><a href="#astuces-concernant-le-bureau-kde">Astuces concernant le bureau KDE</a>
 <ul>
-<li><a href="#configure-bind-to-switch-desktop-and-quick-tile-window">Configure Bind to Switch Desktop and Quick tile Window</a></li>
+<li><a href="#configuration-des-raccourcis-pour-changer-de-bureau-quick-tile-window">Configuration des raccourcis pour changer de bureau (Quick tile Window)</a></li>
 <li><a href="#autostart-kde">Autostart (KDE)</a></li>
-<li><a href="#reset-kde-session">Reset KDE Session</a></li>
+<li><a href="#redémarrer-la-session-kde">Redémarrer la session KDE</a></li>
 </ul></li>
-<li><a href="#some-tips-about-software">Some tips about software</a>
+<li><a href="#quelques-astuces-concernant-les-logiciels">Quelques astuces concernant les logiciels</a>
 <ul>
-<li><a href="#konsole-config">Konsole config</a></li>
-<li><a href="#firefox-configuration">Firefox configuration</a></li>
-<li><a href="#latte-dock-configuration">Latte Dock configuration</a></li>
-<li><a href="#polybar-install-error">Polybar install error</a></li>
+<li><a href="#konsole-configuration">Konsole configuration</a></li>
+<li><a href="#configuration-de-firefox">Configuration de Firefox</a></li>
+<li><a href="#configuration-de-latte-dock">Configuration de Latte Dock</a></li>
+<li><a href="#erreur-lors-de-l-installation-de-polybar">Erreur lors de l&rsquo;installation de Polybar</a></li>
 </ul></li>
-<li><a href="#some-tips-about-virtualization">Some tips about virtualization</a>
+<li><a href="#astuces-concernant-les-outils-de-virtualisation">Astuces concernant les outils de virtualisation</a>
 <ul>
 <li><a href="#wmware">WMware</a></li>
 <li><a href="#virtualbox">VirtualBox</a></li>
@@ -252,38 +253,38 @@
 		</script>
 
 	    <div class="blog-post-main">
-	    	<p>You&rsquo;ll find in this article, somes tips about the <a href="https://www.opensuse.org/#Tumbleweed">OpenSUSE Tumbleweed</a> distribution.</p>
+	    	<p>Vous trouverez dans cet article, quelques astuces concernant l&rsquo;utilisation de la distribution <a href="https://www.opensuse.org/#Tumbleweed">OpenSUSE Tumbleweed</a>.</p>
 
-<p>The tips cover :</p>
+<p>Les astuces portent sur :</p>
 
 <ul>
-<li><a href="https://en.opensuse.org/Portal:Zypper">Zypper</a> : Command line package management</li>
-<li><a href="https://en.wikipedia.org/wiki/KDE">KDE</a> : Desktop environment</li>
-<li><a href="https://en.wikipedia.org/wiki/Btrfs">Btrfs</a> : OpenSuse default file system</li>
-<li><a href="https://en.wikipedia.org/wiki/Network_File_System">NFS</a> : Network file system</li>
-<li><a href="https://en.wikipedia.org/wiki/VirtualBox">VirtualBox</a> : Virtualization software</li>
+<li><a href="https://en.opensuse.org/Portal:Zypper">Zypper</a> : Gestionnaire de paquet en ligne de commande</li>
+<li><a href="https://en.wikipedia.org/wiki/KDE">KDE</a> : Environnement de bureau Linux</li>
+<li><a href="https://en.wikipedia.org/wiki/Btrfs">Btrfs</a> : Système de fichier par défaut sur OpenSUSE</li>
+<li><a href="https://en.wikipedia.org/wiki/Network_File_System">NFS</a> : Système de fichier distribué</li>
+<li><a href="https://en.wikipedia.org/wiki/VirtualBox">VirtualBox</a> : Logiciel de virtualisation</li>
 <li>&hellip;</li>
 </ul>
 
-<h1 id="tips-about-opensuse-system">Tips about OpenSuse system</h1>
+<h1 id="quelques-astuces-concernant-le-système-opensuse">Quelques astuces concernant le système OpenSUSE</h1>
 
 <h2 id="zypper">Zypper</h2>
 
 <ol>
-<li>Install a package : <code>sudo zypper in --no-recommend package</code></li>
-<li>Remove a package : <code>sudo zypper rm --clean-deps package</code></li>
-<li>Refresh repositories : <code>sudo zypper ref</code> or <code>sudo zypper ref -f</code></li>
-<li>Update packages : <code>sudo zypper up</code></li>
-<li>Upgrade Distribution : <code>sudo zypper dup</code></li>
-<li>Search packages : <code>sudo zypper se package</code> or <code>sudo zypper se -is package</code></li>
-<li>Lock packages : <code>sudo zypper al package</code></li>
+<li>Installation d&rsquo;un package : <code>sudo zypper in --no-recommend package</code></li>
+<li>Suppression d&rsquo;un package : <code>sudo zypper rm --clean-deps package</code></li>
+<li>Mise à jour des dépôts : <code>sudo zypper ref</code> ou <code>sudo zypper ref -f</code></li>
+<li>Mise à jour des packages : <code>sudo zypper up</code></li>
+<li>Mise à niveau de la distribution : <code>sudo zypper dup</code></li>
+<li>Recherche d&rsquo;un package : <code>sudo zypper se package</code> ou <code>sudo zypper se -is package</code></li>
+<li>Verouillage d&rsquo;un package : <code>sudo zypper al package</code></li>
 </ol>
 
 <blockquote>
-<p>Note: replace <strong>package</strong> by the package name</p>
+<p>Note: remplacez <strong>package</strong> par le nom du package</p>
 </blockquote>
 
-<p>Some usefull links :</p>
+<p>Quelques liens utiles :</p>
 
 <ul>
 <li><a href="https://en.opensuse.org/images/1/17/Zypper-cheat-sheet-1.pdf">Zypper Cheat Sheet 1</a></li>
@@ -296,84 +297,101 @@
 Error: Subprocess failed. Error: RPM failed: error: package ********** is not installed
 </code></pre>
 
-<p>You have to rebuild the RPM database : <code>sudo rpm --rebuilddb</code></p>
+<p>Il faut reconstruire la base RPM : <code>sudo rpm --rebuilddb</code></p>
 
-<h2 id="file-system-btrfs">File system btrfs</h2>
+<h2 id="système-de-fichier-btrfs">Système de fichier btrfs</h2>
 
 <ul>
-<li>If <strong>btrfs-cleaner</strong> use 100% of your CPU and freeze your computer, you can stop it with the command : <code>sudo btrfs quota disable /</code></li>
-<li>To disable the btrfs service (if you don&rsquo;t use the filesystem) : <code>systemctl disable btrfsmaintenance-refresh</code></li>
+<li>Si <strong>btrfs-cleaner</strong> utilise 100% du CPU and bloque votre pc, vous pouvez l&rsquo;arrêter avec la commande : <code>sudo btrfs quota disable /</code></li>
+<li>Pour desactiver le service de maintenance btrfs (si vous n&rsquo;utilisez pas le système de fichier) : <code>systemctl disable btrfsmaintenance-refresh</code></li>
 </ul>
 
 <h2 id="service-chrony">Service chrony</h2>
 
-<p>To disable chrony service startup : <code>systemctl disable chrony-wait</code></p>
+<p>Pour desactiver le démarrage du service chrony : <code>systemctl disable chrony-wait</code></p>
 
-<h2 id="manage-update-manually-remove-packagekit">Manage update manually (remove PackageKit)</h2>
+<h2 id="gestion-des-mises-à-jour-manuellement">Gestion des mises à jour manuellement</h2>
 
-<p>To remove PackageKit : <code>sudo zypper rm PackageKit* &amp;&amp; sudo zypper al PackageKit*</code></p>
+<p>Pour supprimer PackageKit : <code>sudo zypper rm PackageKit* &amp;&amp; sudo zypper al PackageKit*</code></p>
 
-<h2 id="sound-service-pulseaudio">Sound service (Pulseaudio)</h2>
+<h2 id="service-son-pulseaudio">Service son (Pulseaudio)</h2>
 
-<p>To restart pulseaudio, use : <code>pulseaudio -k</code></p>
+<p>Pour redémarrer pulseaudio, vous pouvez utiliser : <code>pulseaudio -k</code></p>
 
-<h2 id="network-service">Network service</h2>
+<h2 id="service-réseau">Service réseau</h2>
 
-<p>To restart network service use :<code>sudo rcnetwork restart network_interface</code></p>
+<p>Pour redémarrer le service réseau, vous pouvez utiliser :<code>sudo rcnetwork restart network_interface</code></p>
 
 <blockquote>
-<p>Note: replace <strong>network_interface</strong> by your interface name (used <code>ifconfig</code>)</p>
+<p>Note: remplacer <strong>network_interface</strong> par votre nom d&rsquo;interface. (vous pouvez utiliser <code>ifconfig</code> pour la connaitre)</p>
 </blockquote>
 
-<h2 id="configuration-of-the-file-fstab-with-ntfs-drive">Configuration of the file fstab (with ntfs drive)</h2>
+<h2 id="configuration-du-fichier-etc-fstab-avec-un-disque-ntfs">Configuration du fichier /etc/fstab (avec un disque ntfs)</h2>
 
-<p>For each drive :</p>
+<p>Pour chaque disque :</p>
 
 <ol>
-<li>Create the following folder : <code>mkdir /mnt/&lt;name&gt;</code></li>
-<li>change the folder owner : <code>chown anybody:wheel /mnt/&lt;name&gt;</code></li>
-<li>update the fstab file <code>sudo vi /etc/fstab</code> with the following line : <code>/dev/&lt;drive&gt;          /mnt/&lt;name&gt;          ntfs     rw,nosuid,nodev,relatime   0  0</code></li>
+<li>Création du répertoire suivant : <code>mkdir /mnt/&lt;name&gt;</code></li>
+<li>Modification du propriétaire du répertoire : <code>chown anybody:wheel /mnt/&lt;name&gt;</code></li>
+<li>Modification du fichier fstab <code>sudo vi /etc/fstab</code> avec la ligne suivante : <code>/dev/&lt;drive&gt;          /mnt/&lt;name&gt;          ntfs     rw,nosuid,nodev,relatime   0  0</code></li>
 </ol>
 
-<p>Some usefull command :
- - list partitions : <code>sudo fdisk -l</code>
- - list block devices : <code>lsblk</code>
- - list uuid : <code>sudo blkid</code></p>
+<p>Quelques commandes utiles concernant les disques :
+ - Pour lister les partitions : <code>sudo fdisk -l</code>
+ - Pour lister les blocs : <code>lsblk</code>
+ - Pour lister les uuid : <code>sudo blkid</code></p>
 
-<h2 id="configuration-of-the-nfs-client">Configuration of the NFS client</h2>
+<h2 id="configuration-du-client-nfs">Configuration du client NFS</h2>
 
 <ul>
-<li>Discover the shared volumes on the NFS server : <code>showmount -e &lt;ip&gt;</code></li>
-<li>Mount a shared volume from the NFS server (manually) : <code>sudo mount -t nfs &lt;ip&gt;:&lt;repnfs&gt; &lt;replocal&gt;</code></li>
-<li>Mount a shared volume from the NFS server (automatically) : <code>sudo vi /etc/fstab</code> and add the line <code>&lt;ip&gt;:&lt;repnfs&gt; &lt;replocal&gt; nfs rw,noauto,_netdev 0 0</code></li>
-<li>Mount all the fstab (reload) : <code>mount -a</code></li>
+<li>Rechercher les répertoires partagés sur le serveur NFS : <code>showmount -e &lt;ip&gt;</code></li>
+<li>Monter le répertoire partagé sur le serveur NFS (manuellement) : <code>sudo mount -t nfs &lt;ip&gt;:&lt;repnfs&gt; &lt;replocal&gt;</code></li>
+<li>Monter le répertoire partagé à partir du server NFS (automatiquement) en modifiant le fichier fstab : <code>sudo vi /etc/fstab</code> et en ajoutant la ligne <code>&lt;ip&gt;:&lt;repnfs&gt; &lt;replocal&gt; nfs rw,noauto,_netdev 0 0</code></li>
+<li>Monter les répertoires connus dans le fichier fstab (rechargement) : <code>mount -a</code></li>
 </ul>
 
 <blockquote>
 <ul>
-<li><strong>ip</strong> of the NFS server</li>
-<li><strong>repnfs</strong> : path/folder on the NFS server</li>
-<li><strong>replocal</strong> : path/folder on the NFS client</li>
+<li><strong>ip</strong> : adresse du serveur NFS</li>
+<li><strong>repnfs</strong> : chemin/repertoire sur le serveur NFS</li>
+<li><strong>replocal</strong> : chemin/repertoire sur le client NFS</li>
 </ul>
 </blockquote>
 
-<h2 id="delete-the-boot-screen-plymouth">Delete the boot screen (plymouth)</h2>
+<h2 id="supprimer-l-écran-de-démarrage-plymouth">Supprimer l&rsquo;écran de démarrage (plymouth)</h2>
 
 <ul>
-<li>Remove and lock the package <strong>plymouth</strong> : <code>sudo zypper rm plymouth* &amp;&amp; sudo zypper al plymouth*</code></li>
+<li>Suppression et verouillage des paquets <strong>plymouth</strong> : <code>sudo zypper rm plymouth* &amp;&amp; sudo zypper al plymouth*</code></li>
 </ul>
 
-<h2 id="systemd-information">Systemd information</h2>
+<h2 id="information-sur-systemd">Information sur systemd</h2>
 
 <ul>
-<li>Information on the duration of the start of services : <code>systemd-analyze blame</code></li>
+<li>Information concernant la durée du démarrage des services : <code>systemd-analyze blame</code></li>
 </ul>
 
-<h1 id="some-tips-about-the-kde-desktop">Some tips about the KDE desktop</h1>
+<h2 id="modification-de-la-configuration-de-la-souris">Modification de la configuration de la souris</h2>
 
-<h2 id="configure-bind-to-switch-desktop-and-quick-tile-window">Configure Bind to Switch Desktop and Quick tile Window</h2>
+<ul>
+<li>Rechercher la liste des périphériques : <code>xinput list</code></li>
+<li>Récupération de la configuration d&rsquo;un périphérique : <code>xinput list-props &lt;number&gt;</code></li>
+<li>Modification d&rsquo;une propriété d&rsquo;un périphérique : <code>xinput set-prop &lt;number&gt; &lt;prop&gt; &lt;values&gt;</code></li>
+<li>Exemple pour ajuster la vitesse de la souris : <code>xinput set-prop 8 157 0.500000, 0.000000, 0.000000, 0.000000, 0.500000, 0.000000, 0.000000, 0.000000, 1.000000</code></li>
+</ul>
 
-<p>1. Go to System Settings &gt; Shortcuts &gt; Global Shortcuts &gt; System Settings or Kwin</p>
+<blockquote>
+<ul>
+<li><strong>number</strong> : Numero du périphérique</li>
+<li><strong>prop</strong> : Numero ou nom  de la propriété</li>
+<li><strong>values</strong> : Nouvelles valeurs</li>
+</ul>
+</blockquote>
+
+<h1 id="astuces-concernant-le-bureau-kde">Astuces concernant le bureau KDE</h1>
+
+<h2 id="configuration-des-raccourcis-pour-changer-de-bureau-quick-tile-window">Configuration des raccourcis pour changer de bureau (Quick tile Window)</h2>
+
+<p>1. Allez dans System Settings &gt; Shortcuts &gt; Global Shortcuts &gt; System Settings or Kwin</p>
 
 <table>
 <thead>
@@ -451,37 +469,37 @@ Error: Subprocess failed. Error: RPM failed: error: package ********** is not in
 </tbody>
 </table>
 
-<p>2. Right Click on the desktop wallpaper &gt; Configure Desktop &gt; Mouse Actions &gt; Remove action &ldquo;Switch Desktop&rdquo; for &ldquo;Vertical-Scroll&rdquo;</p>
+<p>2. Clique droit sur le papier peint du bureau &gt; Configure Desktop &gt; Mouse Actions &gt; Remove action &ldquo;Switch Desktop&rdquo; for &ldquo;Vertical-Scroll&rdquo;</p>
 
 <h2 id="autostart-kde">Autostart (KDE)</h2>
 
 <ul>
-<li>With command line : Copy a file <strong>org.kde.*.desktop</strong> in the folder <strong>~/.config/autostart</strong></li>
+<li>En ligne de commande : Copiez le fichier <strong>org.kde.*.desktop</strong> dans le répertoire <code>~/.config/autostart</code></li>
 </ul>
 
 <blockquote>
-<p>You could find them in the folder <code>/usr/share/applications</code></p>
+<p>Vous pouvez les trouver dans le répertoire <code>/usr/share/applications</code></p>
 </blockquote>
 
 <ul>
-<li>With GUI : Go in System Settings &gt; Startup and Shutdown &gt; Autostart</li>
+<li>Par interface graphique : Allez dans System Settings &gt; Startup et Shutdown &gt; Autostart</li>
 </ul>
 
-<h2 id="reset-kde-session">Reset KDE Session</h2>
+<h2 id="redémarrer-la-session-kde">Redémarrer la session KDE</h2>
 
 <ul>
-<li>Reset the current KDE session (kill all process &amp; logout) : <code>pkill -kill -u username</code></li>
+<li>Commande pour redémarrer la session courante de KDE (Tue tous les process et déconnecte l&rsquo;utilisateur) : <code>pkill -kill -u username</code></li>
 </ul>
 
 <blockquote>
-<p>Note : replace <strong>username</strong> by the name of the choosen one</p>
+<p>Note : remplacer <strong>username</strong> par le nom de l&rsquo;utilisateur choisi</p>
 </blockquote>
 
-<h1 id="some-tips-about-software">Some tips about software</h1>
+<h1 id="quelques-astuces-concernant-les-logiciels">Quelques astuces concernant les logiciels</h1>
 
-<h2 id="konsole-config">Konsole config</h2>
+<h2 id="konsole-configuration">Konsole configuration</h2>
 
-<p>In Settings &gt; Edit Current Profile</p>
+<p>Dans Settings &gt; Edit Current Profile</p>
 
 <ol>
 <li>General &gt; Profile name &gt; Users</li>
@@ -490,11 +508,11 @@ Error: Subprocess failed. Error: RPM failed: error: package ********** is not in
 <li>Keyboard &gt; Linux console</li>
 </ol>
 
-<h2 id="firefox-configuration">Firefox configuration</h2>
+<h2 id="configuration-de-firefox">Configuration de Firefox</h2>
 
-<p>The file <strong>places.sqlite</strong> in <strong>$HOME/.mozilla/firefox/%.default</strong> contains bookmarks and history.</p>
+<p>Le fichier <strong>places.sqlite</strong> dans <strong>$HOME/.mozilla/firefox/%.default</strong> contient les favoris et l&rsquo;historique.</p>
 
-<p>List of interesting addons :</p>
+<p>Liste des modules intéressant :</p>
 
 <ul>
 <li>Ublock Origin</li>
@@ -511,9 +529,9 @@ Error: Subprocess failed. Error: RPM failed: error: package ********** is not in
 <li>No Coin</li>
 </ul>
 
-<h2 id="latte-dock-configuration">Latte Dock configuration</h2>
+<h2 id="configuration-de-latte-dock">Configuration de Latte Dock</h2>
 
-<p>List of interesting widgets :</p>
+<p>Liste des widgets intéressant :</p>
 
 <ul>
 <li>Application Menu</li>
@@ -527,10 +545,10 @@ Error: Subprocess failed. Error: RPM failed: error: package ********** is not in
 </ul>
 
 <blockquote>
-<p>You need to download and add manually the widget &ldquo;redshift&rdquo;</p>
+<p>Vous devez télécharger et ajouter manuellement le widget &ldquo;redshift&rdquo;</p>
 </blockquote>
 
-<p>To restore plasma config (panel) :</p>
+<p>Pour restaurer la configuration de plasma (panneau) :</p>
 
 <ol>
 <li><code>kquitapp plasmashell</code></li>
@@ -539,48 +557,48 @@ Error: Subprocess failed. Error: RPM failed: error: package ********** is not in
 <li><code>plasmashell &amp;</code></li>
 </ol>
 
-<h2 id="polybar-install-error">Polybar install error</h2>
+<h2 id="erreur-lors-de-l-installation-de-polybar">Erreur lors de l&rsquo;installation de Polybar</h2>
 
-<p>If you can&rsquo;t install <strong>Polybar</strong> with Zypper (<strong>libjsoncpp.so.19</strong> error), you can try the following step :</p>
+<p>Si vous ne pouvez pas installer <strong>Polybar</strong> (erreur avec <strong>libjsoncpp.so.19</strong>), vous pouvez essayer les étapes suivantes :</p>
 
 <ol>
-<li>Install <strong>libjsoncpp21</strong>  : <code>sudo zypper in libjsoncpp21</code></li>
-<li>Find where is the file <strong>libjsoncpp.so.21</strong> : <code>sudo find / -name &quot;libjsoncpp.so.21&quot;</code></li>
-<li>Copy the file <strong>libjsoncpp.so.21</strong> with the name <strong>libjsoncpp.so.19</strong> : <code>sudo cp /usr/lib64/libjsoncpp.so.21 /usr/lib64/libjsoncpp.so.19</code></li>
-<li>Install <strong>Polybar</strong> : <code>sudo zypper in polybar</code></li>
+<li>Installez la librairie <strong>libjsoncpp21</strong>  : <code>sudo zypper in libjsoncpp21</code></li>
+<li>Cherchez l&rsquo;emplacement du fichier <strong>libjsoncpp.so.21</strong> : <code>sudo find / -name &quot;libjsoncpp.so.21&quot;</code></li>
+<li>Copiez le fichier <strong>libjsoncpp.so.21</strong> avec le nom <strong>libjsoncpp.so.19</strong> : <code>sudo cp /usr/lib64/libjsoncpp.so.21 /usr/lib64/libjsoncpp.so.19</code></li>
+<li>Installez <strong>Polybar</strong> : <code>sudo zypper in polybar</code></li>
 </ol>
 
-<h1 id="some-tips-about-virtualization">Some tips about virtualization</h1>
+<h1 id="astuces-concernant-les-outils-de-virtualisation">Astuces concernant les outils de virtualisation</h1>
 
 <h2 id="wmware">WMware</h2>
 
-<p><a href="https://en.opensuse.org/SDB:VMware_Tools">Shared Folder</a> :</p>
+<p><a href="https://en.opensuse.org/SDB:VMware_Tools">Répertoire partagé</a> :</p>
 
 <ul>
-<li>Listing of shared folder : <code>vmware-hgfsclient</code></li>
-<li>Mount a shared folder : <code>vmhgfs-fuse -o allow_other .host: /mnt/</code></li>
-<li>Unmount a shared folder : <code>fusermount -uz /mnt/</code>or <code>umount -f /mnt/</code></li>
+<li>Lister les répertoires partagés : <code>vmware-hgfsclient</code></li>
+<li>Monter un répertoire partagé : <code>vmhgfs-fuse -o allow_other .host: /mnt/</code></li>
+<li>Démonter un répertoire partagé : <code>fusermount -uz /mnt/</code>or <code>umount -f /mnt/</code></li>
 </ul>
 
 <h2 id="virtualbox">VirtualBox</h2>
 
-<p>Install VBoxGuestAdditions :</p>
+<p>Installation de VBoxGuestAdditions :</p>
 
 <ol>
-<li>insert file VBoxGuestAdditions*.iso in the cdrom</li>
+<li>insérez le fichier VBoxGuestAdditions*.iso dans le cdrom de la machine virtuel</li>
 <li><code>sudo mkdir -p /media/cdrom</code></li>
 <li><code>sudo mount -t iso9660 /dev/cdrom /media/cdrom</code></li>
 <li><code>cd /media/cdrom</code></li>
 <li><code>sudo ./VBoxLinuxAdditions.run</code></li>
 </ol>
 
-<p>Install VirtualBox package :</p>
+<p>Installation du package VirtualBox sur OpenSUSE :</p>
 
 <ol>
 <li><code>sudo zypper in virtualbox-guest-tools virtualbox-guest-x11</code></li>
 </ol>
 
-<p>Cleaning of disk image <strong>vdi</strong> :</p>
+<p>Nettoyage de l&rsquo;image disque <strong>vdi</strong> :</p>
 
 <ol>
 <li><code>vboxmanage modifymedium disk &quot;./opensuse.vdi&quot; --compact</code></li>
@@ -594,9 +612,9 @@ Error: Subprocess failed. Error: RPM failed: error: package ********** is not in
 
         </div>  <footer>
         <div class="container-fluid prag-bg-primary prag-foot">
-      	Build With <a class="" href="https://gohugo.io/">Hugo</a>
+      	Généré avec <a class="" href="https://gohugo.io/">Hugo</a>
       	 &nbsp; - &nbsp;
-      	 <a href="https://en.wikipedia.org/wiki/WTFPL">WTFPL license</a> © 2018–2019 
+      	 <a href="https://en.wikipedia.org/wiki/WTFPL">WTFPL license</a> © 2018–2020 
         </div>
   </footer>
 </body>

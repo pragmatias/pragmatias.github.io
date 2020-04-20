@@ -3,27 +3,27 @@ User-agent: *
 
 Allow: /en/blog/
 
+Allow: /en/tags/linux/
+
+Allow: /en/tags/opensuse/
+
+Allow: /en/
+
+Allow: /en/tags/
+
+Allow: /en/tags/tips/
+
+Allow: /en/2020/04/20/tips-for-opensuse-tumbleweed/
+
 Allow: /en/tags/cloud/
 
 Allow: /en/2019/10/20/installing-nextcloud-on-a-synology-nas/
 
 Allow: /en/tags/nextcloud/
 
-Allow: /en/
-
-Allow: /en/tags/
-
 Allow: /en/tags/git/
 
 Allow: /en/2019/06/24/git-operations/
-
-Allow: /en/tags/linux/
-
-Allow: /en/tags/opensuse/
-
-Allow: /en/tags/tips/
-
-Allow: /en/2019/05/01/tips-for-opensuse-tumbleweed/
 
 Allow: /en/tags/hugo/
 
