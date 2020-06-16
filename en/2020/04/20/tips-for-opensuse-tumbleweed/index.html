@@ -149,7 +149,7 @@
 	        </div>
 
 			<div class="blog-post-date">
-			Reading time : 5 minute(s) - 972 words
+			Reading time : 5 minute(s) - 1044 words
 			</div>
 
 			<div class="blog-post-tags">
@@ -176,7 +176,11 @@
 <li><a href="#tips-about-opensuse-system">Tips about OpenSuse system</a>
 <ul>
 <li><a href="#zypper">Zypper</a></li>
-<li><a href="#file-system-btrfs">File system btrfs</a></li>
+<li><a href="#file-system-btrfs">File system btrfs</a>
+<ul>
+<li><a href="#rollback">Rollback</a></li>
+<li><a href="#issues">Issues</a></li>
+</ul></li>
 <li><a href="#service-chrony">Service chrony</a></li>
 <li><a href="#manage-update-manually-remove-packagekit">Manage update manually (remove PackageKit)</a></li>
 <li><a href="#sound-service-pulseaudio">Sound service (Pulseaudio)</a></li>
@@ -300,6 +304,16 @@ Error: Subprocess failed. Error: RPM failed: error: package ********** is not in
 <p>You have to rebuild the RPM database : <code>sudo rpm --rebuilddb</code></p>
 
 <h2 id="file-system-btrfs">File system btrfs</h2>
+
+<h3 id="rollback">Rollback</h3>
+
+<p>To rollback from a bootable snapshot :
+ 1. Start the system. In the startup menu, choose the &ldquo;Bootable snapshots&rdquo; option and select the snapshot you want to boot from.
+ 2. Log in. Check that everything is working as expected.
+ 3. If you want to perform the rollback, run <code>sudo snapper rollback</code> and then restart.
+ 4. On the boot screen, choose the default boot entry to reboot on the restored system.</p>
+
+<h3 id="issues">Issues</h3>
 
 <ul>
 <li>If <strong>btrfs-cleaner</strong> use 100% of your CPU and freeze your computer, you can stop it with the command : <code>sudo btrfs quota disable /</code></li>

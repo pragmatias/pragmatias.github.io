@@ -149,7 +149,7 @@
 	        </div>
 
 			<div class="blog-post-date">
-			Temps de lecture : 6 minute(s) - 1074 mots
+			Temps de lecture : 6 minute(s) - 1150 mots
 			</div>
 
 			<div class="blog-post-tags">
@@ -176,7 +176,11 @@
 <li><a href="#quelques-astuces-concernant-le-système-opensuse">Quelques astuces concernant le système OpenSUSE</a>
 <ul>
 <li><a href="#zypper">Zypper</a></li>
-<li><a href="#système-de-fichier-btrfs">Système de fichier btrfs</a></li>
+<li><a href="#système-de-fichier-btrfs">Système de fichier btrfs</a>
+<ul>
+<li><a href="#retour-arrière">Retour Arrière</a></li>
+<li><a href="#problème">Problème</a></li>
+</ul></li>
 <li><a href="#service-chrony">Service chrony</a></li>
 <li><a href="#gestion-des-mises-à-jour-manuellement">Gestion des mises à jour manuellement</a></li>
 <li><a href="#service-son-pulseaudio">Service son (Pulseaudio)</a></li>
@@ -300,6 +304,16 @@ Error: Subprocess failed. Error: RPM failed: error: package ********** is not in
 <p>Il faut reconstruire la base RPM : <code>sudo rpm --rebuilddb</code></p>
 
 <h2 id="système-de-fichier-btrfs">Système de fichier btrfs</h2>
+
+<h3 id="retour-arrière">Retour Arrière</h3>
+
+<p>Pour effectuer un retour en arrière à partir d&rsquo;un snapshot &ldquo;bootable&rdquo; :
+ 1. Démarrez le système. Dans le menu de démarrage, choisissez l&rsquo;option &ldquo;Bootable snapshots&rdquo; et selectionnez le snapshot sur lequel vous voulez démarrer.
+ 2. Connectez-vous. Vérifiez si tout fonctionne comme prévu.
+ 3. Si vous voulez effectuer le rollback, exécutez <code>sudo snapper rollback</code> et redémarrez ensuite.
+ 4. Sur l&rsquo;écran de démarrage, choisissez l&rsquo;entrée de démarrage par défaut pour redémarrer sur le système restauré.</p>
+
+<h3 id="problème">Problème</h3>
 
 <ul>
 <li>Si <strong>btrfs-cleaner</strong> utilise 100% du CPU and bloque votre pc, vous pouvez l&rsquo;arrêter avec la commande : <code>sudo btrfs quota disable /</code></li>
