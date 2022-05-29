@@ -332,7 +332,7 @@ body {
 }
 
 .blog-post-main blockquote > p > code {
-
+	background-color: var(--color-bg-blog-code); 
 }
 
 .blog-post-main h1 {
