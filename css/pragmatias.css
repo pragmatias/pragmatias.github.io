@@ -13,8 +13,8 @@
 	--color-fg-blog-texte:#022946;
 	--color-fg-blog-lien:#d09424;
 	--color-fg-blog-lien-hover:#996400;
-	--color-bg-blog-code:#ece9dd;
-	--color-fg-blog-code:#022946;
+	--color-bg-blog-code:#faf3d7;
+	--color-fg-blog-code:#050c28;
 	--color-fg-blog-border:#d09424;
 	--color-bg-blog-sticky:#d09424;
 	--color-fg-toc-titre:#022946;
@@ -329,6 +329,7 @@ body {
 	padding-left : 10px;
 	padding-right : 10px;
 	font-family: 'Hack';
+	font-size: 0.85em;
 }
 
 .blog-post-main blockquote > p > code {
