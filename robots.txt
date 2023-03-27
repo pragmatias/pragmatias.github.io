@@ -35,4 +35,6 @@ Allow: /en/2019/04/25/create-a-website-with-hugo/
 
 Allow: /en/archives/
 
+Allow: /en/2019/02/05/install-of-opensuse-tumbleweed/
+
 
