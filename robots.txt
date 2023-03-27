@@ -3,13 +3,17 @@ User-agent: *
 
 Allow: /en/blog/
 
-Allow: /en/tags/linux/
+Allow: /en/tags/git/
 
-Allow: /en/tags/opensuse/
+Allow: /en/2023/03/27/git-operations-branch-focus/
 
 Allow: /en/
 
 Allow: /en/tags/
+
+Allow: /en/tags/linux/
+
+Allow: /en/tags/opensuse/
 
 Allow: /en/tags/tips/
 
@@ -20,8 +24,6 @@ Allow: /en/tags/cloud/
 Allow: /en/2019/10/20/installing-nextcloud-on-a-synology-nas/
 
 Allow: /en/tags/nextcloud/
-
-Allow: /en/tags/git/
 
 Allow: /en/2019/06/24/git-operations/
 
