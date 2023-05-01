@@ -3,23 +3,15 @@ User-agent: *
 
 Allow: /en/blog/
 
-Allow: /en/tags/linux/
+Allow: /en/tags/git/
 
-Allow: /en/tags/macos/
+Allow: /en/2023/03/27/git-operations-branch-focus/
 
 Allow: /en/
 
 Allow: /en/tags/
 
-Allow: /en/tags/wsl/
-
-Allow: /en/tags/zsh/
-
-Allow: /en/2023/05/01/zsh-omzsh-with-powerlevel10k/
-
-Allow: /en/tags/git/
-
-Allow: /en/2023/03/27/git-operations-branch-focus/
+Allow: /en/tags/linux/
 
 Allow: /en/tags/opensuse/
 
