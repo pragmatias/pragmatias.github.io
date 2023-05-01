@@ -15,7 +15,7 @@ Allow: /en/tags/wsl/
 
 Allow: /en/tags/zsh/
 
-Allow: /en/2023/05/01/zsh-omzsh-with-powerlevel10k/
+Allow: /en/2023/05/01/zsh-oh-my-zsh-with-powerlevel10k/
 
 Allow: /en/tags/git/
 
