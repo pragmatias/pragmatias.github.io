@@ -3,13 +3,19 @@ User-agent: *
 
 Allow: /en/blog/
 
-Allow: /en/tags/linux/
+Allow: /en/tags/databricks/
 
-Allow: /en/tags/macos/
+Allow: /en/2023/05/04/databricks-unity-catalog-first-step-set-up/
 
 Allow: /en/
 
 Allow: /en/tags/
+
+Allow: /en/tags/unity-catalog/
+
+Allow: /en/tags/linux/
+
+Allow: /en/tags/macos/
 
 Allow: /en/tags/wsl/
 
