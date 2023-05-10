@@ -5,13 +5,15 @@ Allow: /en/blog/
 
 Allow: /en/tags/databricks/
 
-Allow: /en/2023/05/04/databricks-unity-catalog-first-step-set-up/
+Allow: /en/2023/05/10/databricks-unity-catalog-first-step-data-and-rights-management/
 
 Allow: /en/
 
 Allow: /en/tags/
 
 Allow: /en/tags/unity-catalog/
+
+Allow: /en/2023/05/04/databricks-unity-catalog-first-step-set-up/
 
 Allow: /en/tags/linux/
 
