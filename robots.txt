@@ -5,13 +5,15 @@ Allow: /en/blog/
 
 Allow: /en/tags/databricks/
 
-Allow: /en/2023/05/10/databricks-unity-catalog-first-step-data-and-rights-management/
+Allow: /en/2023/05/12/databricks-unity-catalog-first-step-data-lineage/
 
 Allow: /en/
 
 Allow: /en/tags/
 
 Allow: /en/tags/unity-catalog/
+
+Allow: /en/2023/05/10/databricks-unity-catalog-first-step-data-and-rights-management/
 
 Allow: /en/2023/05/04/databricks-unity-catalog-first-step-set-up/
 
