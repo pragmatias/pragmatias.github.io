@@ -15,9 +15,9 @@ Allow: /en/tags/unity-catalog/
 
 Allow: /en/2023/05/12/databricks-unity-catalog-first-step-part-3-data-lineage/
 
-Allow: /en/2023/05/10/databricks-unity-catalog-first-step-data-and-rights-management/
+Allow: /en/2023/05/10/databricks-unity-catalog-first-step-part-2-data-and-rights-management/
 
-Allow: /en/2023/05/04/databricks-unity-catalog-first-step-set-up/
+Allow: /en/2023/05/04/databricks-unity-catalog-first-step-part-1-set-up/
 
 Allow: /en/tags/linux/
 
