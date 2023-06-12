@@ -5,13 +5,17 @@ Allow: /en/blog/
 
 Allow: /en/tags/databricks/
 
-Allow: /en/2023/05/21/databricks-unity-catalog-first-step-part-4-delta-sharing/
+Allow: /en/2023/06/12/databricks-unity-catalog-first-step-part-4-delta-live-tables/
+
+Allow: /en/tags/delta-live-table/
 
 Allow: /en/
 
 Allow: /en/tags/
 
 Allow: /en/tags/unity-catalog/
+
+Allow: /en/2023/05/21/databricks-unity-catalog-first-step-part-4-delta-sharing/
 
 Allow: /en/2023/05/12/databricks-unity-catalog-first-step-part-3-data-lineage/
 
