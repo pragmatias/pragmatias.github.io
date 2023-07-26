@@ -1,15 +1,21 @@
 User-agent: *
 
 
+Allow: /en/tags/azure/
+
+Allow: /en/2023/07/24/azure-microsoft-fabric-preview/
+
 Allow: /en/blog/
 
-Allow: /en/tags/databricks/
-
-Allow: /en/2023/06/12/databricks-unity-catalog-first-step-part-5-delta-live-tables/
+Allow: /en/tags/microsoft-fabric/
 
 Allow: /en/
 
 Allow: /en/tags/
+
+Allow: /en/tags/databricks/
+
+Allow: /en/2023/06/12/databricks-unity-catalog-first-step-part-5-delta-live-tables/
 
 Allow: /en/tags/unity-catalog/
 
