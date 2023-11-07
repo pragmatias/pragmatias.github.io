@@ -1,17 +1,27 @@
 User-agent: *
 
 
+Allow: /en/blog/
+
+Allow: /en/tags/cloud/
+
+Allow: /en/tags/docker/
+
+Allow: /en/tags/nextcloud/
+
+Allow: /en/
+
+Allow: /en/tags/qnap/
+
+Allow: /en/2023/11/07/setting-up-nextcloud-application-on-a-qnap-nas/
+
+Allow: /en/tags/
+
 Allow: /en/tags/azure/
 
 Allow: /en/2023/07/24/azure-microsoft-fabric-preview/
 
-Allow: /en/blog/
-
 Allow: /en/tags/microsoft-fabric/
-
-Allow: /en/
-
-Allow: /en/tags/
 
 Allow: /en/tags/databricks/
 
@@ -47,11 +57,7 @@ Allow: /en/tags/tips/
 
 Allow: /en/2020/04/20/tips-for-opensuse-tumbleweed/
 
-Allow: /en/tags/cloud/
-
 Allow: /en/2019/10/20/installing-nextcloud-on-a-synology-nas/
-
-Allow: /en/tags/nextcloud/
 
 Allow: /en/2019/06/24/git-operations/
 
