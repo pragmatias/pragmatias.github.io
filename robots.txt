@@ -3,7 +3,17 @@ User-agent: *
 
 Allow: /blog/
 
+Allow: /2024/02/21/mise-en-place-dun-acc%C3%A8s-vpn-avec-un-nas-synology/
+
+Allow: /tags/nas/
+
 Allow: /
+
+Allow: /tags/synology/
+
+Allow: /tags/
+
+Allow: /tags/vpn/
 
 Allow: /tags/cloud/
 
@@ -14,8 +24,6 @@ Allow: /2023/11/07/mise-en-place-de-lapplication-nextcloud-sur-un-nas-qnap/
 Allow: /tags/nextcloud/
 
 Allow: /tags/qnap/
-
-Allow: /tags/
 
 Allow: /tags/azure/
 
@@ -64,8 +72,6 @@ Allow: /2020/04/20/astuces-pour-opensuse-tumbleweed/
 Allow: /tags/opensuse/
 
 Allow: /2019/10/20/mise-en-place-de-nextcloud-sur-un-nas-synology/
-
-Allow: /tags/synology/
 
 Allow: /2019/06/24/git-op%C3%A9rations/
 
