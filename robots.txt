@@ -1,76 +1,80 @@
 User-agent: *
 
 
-Allow: /en/blog/
+Allow: /blog/
 
-Allow: /en/tags/cloud/
+Allow: /
 
-Allow: /en/tags/docker/
+Allow: /tags/cloud/
 
-Allow: /en/tags/nextcloud/
+Allow: /tags/docker/
 
-Allow: /en/
+Allow: /2023/11/07/mise-en-place-de-lapplication-nextcloud-sur-un-nas-qnap/
 
-Allow: /en/tags/qnap/
+Allow: /tags/nextcloud/
 
-Allow: /en/2023/11/07/setting-up-nextcloud-application-on-a-qnap-nas/
+Allow: /tags/qnap/
 
-Allow: /en/tags/
+Allow: /tags/
 
-Allow: /en/tags/azure/
+Allow: /tags/azure/
 
-Allow: /en/2023/07/24/azure-microsoft-fabric-preview/
+Allow: /2023/07/24/azure-microsoft-fabric-preview/
 
-Allow: /en/tags/microsoft-fabric/
+Allow: /tags/microsoft-fabric/
 
-Allow: /en/tags/databricks/
+Allow: /tags/databricks/
 
-Allow: /en/2023/06/12/databricks-unity-catalog-first-step-part-5-delta-live-tables/
+Allow: /2023/06/12/databricks-unity-catalog-d%C3%A9couverte-partie-5-delta-live-tables/
 
-Allow: /en/tags/unity-catalog/
+Allow: /tags/unity-catalog/
 
-Allow: /en/2023/05/21/databricks-unity-catalog-first-step-part-4-delta-sharing/
+Allow: /2023/05/21/databricks-unity-catalog-d%C3%A9couverte-partie-4-delta-sharing/
 
-Allow: /en/2023/05/12/databricks-unity-catalog-first-step-part-3-data-lineage/
+Allow: /2023/05/12/databricks-unity-catalog-d%C3%A9couverte-partie-3-data-lineage/
 
-Allow: /en/2023/05/10/databricks-unity-catalog-first-step-part-2-data-and-rights-management/
+Allow: /2023/05/10/databricks-unity-catalog-d%C3%A9couverte-partie-2-gestion-des-donn%C3%A9es/
 
-Allow: /en/2023/05/04/databricks-unity-catalog-first-step-part-1-set-up/
+Allow: /2023/05/04/databricks-unity-catalog-d%C3%A9couverte-partie-1-mise-en-place/
 
-Allow: /en/tags/linux/
+Allow: /tags/linux/
 
-Allow: /en/tags/macos/
+Allow: /tags/macos/
 
-Allow: /en/tags/wsl/
+Allow: /tags/wsl/
 
-Allow: /en/tags/zsh/
+Allow: /tags/zsh/
 
-Allow: /en/2023/05/01/zsh-oh-my-zsh-with-powerlevel10k/
+Allow: /2023/05/01/zsh-oh-my-zsh-avec-powerlevel10k/
 
-Allow: /en/tags/git/
+Allow: /tags/git/
 
-Allow: /en/2023/03/27/git-operations-branch-focus/
+Allow: /2023/03/27/git-op%C3%A9rations-focus-branches/
 
-Allow: /en/tags/opensuse/
+Allow: /tags/hugo/
 
-Allow: /en/tags/tips/
+Allow: /2022/05/29/mise-en-place-dun-site-avec-hugo-et-github-actions/
 
-Allow: /en/2020/04/20/tips-for-opensuse-tumbleweed/
+Allow: /tags/web/
 
-Allow: /en/2019/10/20/installing-nextcloud-on-a-synology-nas/
+Allow: /tags/astuces/
 
-Allow: /en/2019/06/24/git-operations/
+Allow: /2020/04/20/astuces-pour-opensuse-tumbleweed/
 
-Allow: /en/tags/hugo/
+Allow: /tags/opensuse/
 
-Allow: /en/2019/04/28/setting-up-a-website-with-hugo-github-and-travis/
+Allow: /2019/10/20/mise-en-place-de-nextcloud-sur-un-nas-synology/
 
-Allow: /en/tags/web/
+Allow: /tags/synology/
 
-Allow: /en/2019/04/25/create-a-website-with-hugo/
+Allow: /2019/06/24/git-op%C3%A9rations/
 
-Allow: /en/archives/
+Allow: /2019/04/28/mise-en-place-dun-site-avec-hugo-github-et-travis/
 
-Allow: /en/2019/02/05/install-of-opensuse-tumbleweed/
+Allow: /2019/04/25/cr%C3%A9ation-dun-site-avec-hugo/
+
+Allow: /archives/
+
+Allow: /2019/02/05/installation-de-opensuse-tumbleweed/
 
 
