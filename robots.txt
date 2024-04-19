@@ -3,7 +3,9 @@ User-agent: *
 
 Allow: /blog/
 
-Allow: /2024/02/21/mise-en-place-dun-acc%C3%A8s-vpn-avec-un-nas-synology/
+Allow: /tags/dns/
+
+Allow: /2024/04/19/mise-a-jour-des-dns-gandi.net-et-proxy-invers%C3%A9-avec-un-nas-synology/
 
 Allow: /tags/nas/
 
@@ -12,6 +14,8 @@ Allow: /
 Allow: /tags/synology/
 
 Allow: /tags/
+
+Allow: /2024/02/21/mise-en-place-dun-acc%C3%A8s-vpn-avec-un-nas-synology/
 
 Allow: /tags/vpn/
 
