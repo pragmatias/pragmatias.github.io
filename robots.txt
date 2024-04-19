@@ -5,7 +5,7 @@ Allow: /blog/
 
 Allow: /tags/dns/
 
-Allow: /2024/04/19/mise-a-jour-des-dns-gandi.net-et-proxy-invers%C3%A9-avec-un-nas-synology/
+Allow: /2024/04/19/mise-a-jour-des-dns-de-gandi.net-et-utilisation-dun-proxy-invers%C3%A9-avec-un-nas-synology/
 
 Allow: /tags/nas/
 
