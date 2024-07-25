@@ -3,17 +3,27 @@ User-agent: *
 
 Allow: /blog/
 
+Allow: /tags/llms/
+
+Allow: /2024/07/24/llms-utilisation-de-ollama-avec-podman-et-vs-code/
+
+Allow: /tags/ollama/
+
+Allow: /tags/podman/
+
+Allow: /
+
+Allow: /tags/
+
+Allow: /tags/vs-code/
+
 Allow: /tags/dns/
 
 Allow: /2024/04/19/mise-a-jour-des-dns-de-gandi.net-et-utilisation-dun-proxy-invers%C3%A9-avec-un-nas-synology/
 
 Allow: /tags/nas/
 
-Allow: /
-
 Allow: /tags/synology/
-
-Allow: /tags/
 
 Allow: /2024/02/21/mise-en-place-dun-acc%C3%A8s-vpn-avec-un-nas-synology/
 
