@@ -3,6 +3,22 @@ User-agent: *
 
 Allow: /en/blog/
 
+Allow: /en/
+
+Allow: /en/tags/spark/
+
+Allow: /en/2026/03/17/spark-v4.x-features-variant-data-type/
+
+Allow: /en/tags/
+
+Allow: /en/2026/03/13/spark-v4.x-features-sql-scripts-session-and-ansi-compliance/
+
+Allow: /en/2026/03/10/spark-v4.x-features-sql-collation-support/
+
+Allow: /en/2026/03/06/spark-v4.x-features-spark-connect/
+
+Allow: /en/2026/02/27/spark-v4.x-introduction/
+
 Allow: /en/tags/llms/
 
 Allow: /en/2024/07/24/llms-using-ollama-with-podman-and-vs-code/
@@ -10,10 +26,6 @@ Allow: /en/2024/07/24/llms-using-ollama-with-podman-and-vs-code/
 Allow: /en/tags/ollama/
 
 Allow: /en/tags/podman/
-
-Allow: /en/
-
-Allow: /en/tags/
 
 Allow: /en/tags/vs-code/
 
