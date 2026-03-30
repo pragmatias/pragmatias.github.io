@@ -7,9 +7,11 @@ Allow: /en/
 
 Allow: /en/tags/spark/
 
-Allow: /en/2026/03/23/spark-v4.x-introduction/
+Allow: /en/2026/03/30/spark-v4.x-features-spark-connect/
 
 Allow: /en/tags/
+
+Allow: /en/2026/03/23/spark-v4.x-introduction/
 
 Allow: /en/tags/llms/
 
