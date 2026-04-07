@@ -7,9 +7,11 @@ Allow: /en/
 
 Allow: /en/tags/spark/
 
-Allow: /en/2026/04/02/spark-v4.x-features-sql-collation-support/
+Allow: /en/2026/04/07/spark-v4.x-features-sql-scripts-session-and-ansi-compliance/
 
 Allow: /en/tags/
+
+Allow: /en/2026/04/02/spark-v4.x-features-sql-collation-support/
 
 Allow: /en/2026/03/30/spark-v4.x-features-spark-connect/
 
