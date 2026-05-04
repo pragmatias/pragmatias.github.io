@@ -11,8 +11,6 @@ Allow: /en/2026/05/01/spark-v4.x-features-variant-data-type/
 
 Allow: /en/tags/
 
-Allow: /en/2026/04/27/spark-v4.x-features-spark-declarative-pipelines/
-
 Allow: /en/2026/04/07/spark-v4.x-features-sql-scripts-session-and-ansi-compliance/
 
 Allow: /en/2026/04/02/spark-v4.x-features-sql-collation-support/
